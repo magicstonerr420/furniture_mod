@@ -1,0 +1,38 @@
+//bridge-file-version: #11
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:orange_gaming_chair"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~",
+			"~~~",
+			"#!#"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:wool",
+				"data": 1
+			},
+			"#": {
+				"item": "minecraft:iron_ingot",
+				"data": 0
+			},
+			"!": {
+				"item": "minecraft:stick",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:orange_gaming_chair",
+				"data": 0,
+				"count": 1
+			}
+		]
+	}
+}

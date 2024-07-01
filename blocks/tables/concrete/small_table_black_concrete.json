@@ -1,0 +1,51 @@
+//bridge-file-version: #13
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dbc:small_table_black_concrete"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.smalltable_dbc",
+			"minecraft:destroy_time": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "black_kitchen_counter",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:ticking": {
+				"looping": true,
+				"range": [
+					0,
+					0
+				],
+				"on_tick": {
+					"event": "detect_blocks",
+					"target": "self"
+				}
+			},
+			"minecraft:on_placed": {
+				"event": "summon_help",
+				"target": "self"
+			}
+		},
+		"events": {
+			"detect_blocks": {
+				"run_command": {
+					"command": [
+						"function detections/tables"
+					]
+				}
+			},
+			"summon_help": {
+				"run_command": {
+					"command": [
+						"summon dbc:help_to_detect ~ ~ ~"
+					]
+				}
+			}
+		}
+	}
+}

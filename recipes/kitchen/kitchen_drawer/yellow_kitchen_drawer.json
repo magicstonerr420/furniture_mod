@@ -1,0 +1,38 @@
+//bridge-file-version: #19
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:yellow_kitchen_drawer"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~",
+			"#!#",
+			"###"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:concrete",
+				"data": 4
+			},
+			"#": {
+				"item": "minecraft:concrete",
+				"data": 0
+			},
+			"!": {
+				"item": "minecraft:chest",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:yellow_kitchen_drawer",
+				"data": 0,
+				"count": 4
+			}
+		]
+	}
+}

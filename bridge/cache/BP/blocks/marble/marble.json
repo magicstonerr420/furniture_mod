@@ -1,0 +1,537 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\blocks\\marble\\marble.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "808e4829_4adb_47bf_92d8_33b054c0b445",
+	"file_version": 45,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "dbc:marble"
+						},
+						"components": {
+							"minecraft:destroy_time": 0.5,
+							"minecraft:map_color": "#DBDBDB",
+							"tag:stone": {}
+						},
+						"events": {
+							"dbc:block": {
+								"randomize": [
+									{
+										"weight": 50,
+										"set_block_at_pos": {
+											"block_type": {
+												"name": "wool",
+												"states": {
+													"color": "blue"
+												}
+											},
+											"block_offset": [
+												0,
+												1,
+												0
+											]
+										}
+									},
+									{
+										"weight": 50,
+										"set_block_at_pos": {
+											"block_type": {
+												"name": "dbc:small_fountain",
+												"states": {
+													"dbc:water": 1
+												}
+											},
+											"block_offset": [
+												0,
+												1,
+												0
+											]
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:marble"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.5,
+								"minecraft:map_color": "#DBDBDB",
+								"tag:stone": {}
+							},
+							"events": {
+								"dbc:block": {
+									"randomize": [
+										{
+											"weight": 50,
+											"set_block_at_pos": {
+												"block_type": {
+													"name": "wool",
+													"states": {
+														"color": "blue"
+													}
+												},
+												"block_offset": [
+													0,
+													1,
+													0
+												]
+											}
+										},
+										{
+											"weight": 50,
+											"set_block_at_pos": {
+												"block_type": {
+													"name": "dbc:small_fountain",
+													"states": {
+														"dbc:water": 1
+													}
+												},
+												"block_offset": [
+													0,
+													1,
+													0
+												]
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:marble"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:marble"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.5,
+								"minecraft:map_color": "#DBDBDB",
+								"tag:stone": {}
+							},
+							"events": {
+								"dbc:block": {
+									"randomize": [
+										{
+											"weight": 50,
+											"set_block_at_pos": {
+												"block_type": {
+													"name": "wool",
+													"states": {
+														"color": "blue"
+													}
+												},
+												"block_offset": [
+													0,
+													1,
+													0
+												]
+											}
+										},
+										{
+											"weight": 50,
+											"set_block_at_pos": {
+												"block_type": {
+													"name": "dbc:small_fountain",
+													"states": {
+														"dbc:water": 1
+													}
+												},
+												"block_offset": [
+													0,
+													1,
+													0
+												]
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 0.5,
+							"minecraft:map_color": "#DBDBDB",
+							"tag:stone": {}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:marble"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.5,
+								"minecraft:map_color": "#DBDBDB",
+								"tag:stone": {}
+							},
+							"events": {
+								"dbc:block": {
+									"randomize": [
+										{
+											"weight": 50,
+											"set_block_at_pos": {
+												"block_type": {
+													"name": "wool",
+													"states": {
+														"color": "blue"
+													}
+												},
+												"block_offset": [
+													0,
+													1,
+													0
+												]
+											}
+										},
+										{
+											"weight": 50,
+											"set_block_at_pos": {
+												"block_type": {
+													"name": "dbc:small_fountain",
+													"states": {
+														"dbc:water": 1
+													}
+												},
+												"block_offset": [
+													0,
+													1,
+													0
+												]
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"dbc:block": {
+										"randomize": [
+											{
+												"weight": 50,
+												"set_block_at_pos": {
+													"block_type": {
+														"name": "wool",
+														"states": {
+															"color": "blue"
+														}
+													},
+													"block_offset": [
+														0,
+														1,
+														0
+													]
+												}
+											},
+											{
+												"weight": 50,
+												"set_block_at_pos": {
+													"block_type": {
+														"name": "dbc:small_fountain",
+														"states": {
+															"dbc:water": 1
+														}
+													},
+													"block_offset": [
+														0,
+														1,
+														0
+													]
+												}
+											}
+										]
+									}
+								},
+								"key": "dbc:block",
+								"children": [
+									{
+										"open": {
+											"randomize": [
+												{
+													"weight": 50,
+													"set_block_at_pos": {
+														"block_type": {
+															"name": "wool",
+															"states": {
+																"color": "blue"
+															}
+														},
+														"block_offset": [
+															0,
+															1,
+															0
+														]
+													}
+												},
+												{
+													"weight": 50,
+													"set_block_at_pos": {
+														"block_type": {
+															"name": "dbc:small_fountain",
+															"states": {
+																"dbc:water": 1
+															}
+														},
+														"block_offset": [
+															0,
+															1,
+															0
+														]
+													}
+												}
+											]
+										},
+										"key": "randomize",
+										"children": [
+											{
+												"open": [
+													{
+														"weight": 50,
+														"set_block_at_pos": {
+															"block_type": {
+																"name": "wool",
+																"states": {
+																	"color": "blue"
+																}
+															},
+															"block_offset": [
+																0,
+																1,
+																0
+															]
+														}
+													},
+													{
+														"weight": 50,
+														"set_block_at_pos": {
+															"block_type": {
+																"name": "dbc:small_fountain",
+																"states": {
+																	"dbc:water": 1
+																}
+															},
+															"block_offset": [
+																0,
+																1,
+																0
+															]
+														}
+													}
+												],
+												"children": [
+													{
+														"data": "50",
+														"key": "weight"
+													},
+													{
+														"key": "set_block_at_pos",
+														"children": [
+															{
+																"open": {
+																	"block_type": {
+																		"name": "wool",
+																		"states": {
+																			"color": "blue"
+																		}
+																	},
+																	"block_offset": [
+																		0,
+																		1,
+																		0
+																	]
+																},
+																"key": "block_type",
+																"children": [
+																	{
+																		"data": "wool",
+																		"key": "name"
+																	},
+																	{
+																		"open": {
+																			"name": "wool",
+																			"states": {
+																				"color": "blue"
+																			}
+																		},
+																		"key": "states",
+																		"is_minified": true,
+																		"children": {
+																			"color": "blue"
+																		}
+																	}
+																]
+															},
+															{
+																"open": {
+																	"block_type": {
+																		"name": "wool",
+																		"states": {
+																			"color": "blue"
+																		}
+																	},
+																	"block_offset": [
+																		0,
+																		1,
+																		0
+																	]
+																},
+																"key": "block_offset",
+																"is_minified": true,
+																"children": [
+																	0,
+																	1,
+																	0
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"weight": 50,
+														"set_block_at_pos": {
+															"block_type": {
+																"name": "wool",
+																"states": {
+																	"color": "blue"
+																}
+															},
+															"block_offset": [
+																0,
+																1,
+																0
+															]
+														}
+													},
+													{
+														"weight": 50,
+														"set_block_at_pos": {
+															"block_type": {
+																"name": "dbc:small_fountain",
+																"states": {
+																	"dbc:water": 1
+																}
+															},
+															"block_offset": [
+																0,
+																1,
+																0
+															]
+														}
+													}
+												],
+												"children": [
+													{
+														"data": "50",
+														"key": "weight"
+													},
+													{
+														"open": {
+															"weight": 50,
+															"set_block_at_pos": {
+																"block_type": {
+																	"name": "dbc:small_fountain",
+																	"states": {
+																		"dbc:water": 1
+																	}
+																},
+																"block_offset": [
+																	0,
+																	1,
+																	0
+																]
+															}
+														},
+														"key": "set_block_at_pos",
+														"children": [
+															{
+																"open": {
+																	"block_type": {
+																		"name": "dbc:small_fountain",
+																		"states": {
+																			"dbc:water": 1
+																		}
+																	},
+																	"block_offset": [
+																		0,
+																		1,
+																		0
+																	]
+																},
+																"key": "block_type",
+																"children": [
+																	{
+																		"open": {
+																			"name": "dbc:small_fountain",
+																			"states": {
+																				"dbc:water": 1
+																			}
+																		},
+																		"data": "dbc:small_fountain",
+																		"key": "name"
+																	},
+																	{
+																		"open": {
+																			"name": "dbc:small_fountain",
+																			"states": {
+																				"dbc:water": 1
+																			}
+																		},
+																		"key": "states",
+																		"is_minified": true,
+																		"children": {
+																			"dbc:water": 1
+																		}
+																	}
+																]
+															},
+															{
+																"key": "block_offset",
+																"is_minified": true,
+																"children": [
+																	0,
+																	1,
+																	0
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

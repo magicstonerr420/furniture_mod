@@ -1,0 +1,28 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:log_oak_slab"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:log",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:log_oak_slab",
+				"data": 0,
+				"count": 6
+			}
+		]
+	}
+}

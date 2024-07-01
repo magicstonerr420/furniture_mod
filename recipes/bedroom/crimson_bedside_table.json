@@ -1,0 +1,35 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:crimson_bedside_table"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~",
+			"#!#",
+			"~~~"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:crimson_stem"
+			},
+			"#": {
+				"item": "minecraft:crimson_planks"
+			},
+			"!": {
+				"item": "minecraft:chest"
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:crimson_bedside_table",
+				"data": 0,
+				"count": 2
+			}
+		]
+	}
+}

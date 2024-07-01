@@ -1,0 +1,113 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\recipes\\tables\\crimson_table.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "7472719e_636e_41b4_851f_ae89727f8db5",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "dbc:crimson_table"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"###",
+							" # "
+						],
+						"key": {
+							"#": {
+								"item": "minecraft:crimson_planks"
+							}
+						},
+						"result": [
+							{
+								"item": "dbc:small_table_crimson",
+								"data": 0,
+								"count": 4
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:crimson_table"
+						}
+					},
+					{
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"###",
+							" # "
+						]
+					},
+					{
+						"key": "key",
+						"is_minified": true,
+						"children": {
+							"#": {
+								"item": "minecraft:crimson_planks"
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:crimson_table"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:crimson_planks"
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:small_table_crimson",
+									"data": 0,
+									"count": 4
+								}
+							]
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": [
+							{
+								"item": "dbc:small_table_crimson",
+								"data": 0,
+								"count": 4
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

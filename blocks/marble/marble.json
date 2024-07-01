@@ -1,0 +1,52 @@
+//bridge-file-version: #45
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dbc:marble"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:map_color": "#DBDBDB",
+			"tag:stone": {}
+		},
+		"events": {
+			"dbc:block": {
+				"randomize": [
+					{
+						"weight": 50,
+						"set_block_at_pos": {
+							"block_type": {
+								"name": "wool",
+								"states": {
+									"color": "blue"
+								}
+							},
+							"block_offset": [
+								0,
+								1,
+								0
+							]
+						}
+					},
+					{
+						"weight": 50,
+						"set_block_at_pos": {
+							"block_type": {
+								"name": "dbc:small_fountain",
+								"states": {
+									"dbc:water": 1
+								}
+							},
+							"block_offset": [
+								0,
+								1,
+								0
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

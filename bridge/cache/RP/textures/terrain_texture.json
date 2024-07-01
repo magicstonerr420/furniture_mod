@@ -1,0 +1,2240 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\DecoBEcraft §6[RP]\\textures\\terrain_texture.json",
+	"file_type": "terrain_texture",
+	"format_version": 1,
+	"file_uuid": "26ae6538_95cf_4673_b2ea_e4023096bd3e",
+	"file_version": 101,
+	"cache_content": {
+		"children": [
+			{
+				"data": "decobecraftRP",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.terrain",
+				"key": "texture_name"
+			},
+			{
+				"data": "8",
+				"key": "padding"
+			},
+			{
+				"data": "4",
+				"key": "num_mip_levels"
+			},
+			{
+				"open": {
+					"resource_pack_name": "decobecraftRP",
+					"texture_name": "atlas.terrain",
+					"padding": 8,
+					"num_mip_levels": 4,
+					"texture_data": {
+						"birch_planks": {
+							"textures": [
+								"textures/blocks/planks_birch"
+							]
+						},
+						"spruce_planks": {
+							"textures": [
+								"textures/blocks/planks_spruce"
+							]
+						},
+						"big_oak_planks": {
+							"textures": [
+								"textures/blocks/planks_big_oak"
+							]
+						},
+						"jungle_planks": {
+							"textures": [
+								"textures/blocks/planks_jungle"
+							]
+						},
+						"acacia_planks": {
+							"textures": [
+								"textures/blocks/planks_acacia"
+							]
+						},
+						"crimson_planks": {
+							"textures": [
+								"textures/blocks/crimson_planks"
+							]
+						},
+						"black_wool": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_black"
+							]
+						},
+						"blue_wool": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_blue"
+							]
+						},
+						"brown_wool": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_brown"
+							]
+						},
+						"cyan_wool": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_cyan"
+							]
+						},
+						"gray_wool": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_gray"
+							]
+						},
+						"green_wool": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_green"
+							]
+						},
+						"light_blue_wool": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_light_blue"
+							]
+						},
+						"lime_wool": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_lime"
+							]
+						},
+						"magenta_wool": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_magenta"
+							]
+						},
+						"orange_wool": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_orange"
+							]
+						},
+						"pink_wool": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_pink"
+							]
+						},
+						"purple_wool": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_purple"
+							]
+						},
+						"red_wool": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_red"
+							]
+						},
+						"silver_wool": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_silver"
+							]
+						},
+						"yellow_wool": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_yellow"
+							]
+						},
+						"modern_stair": {
+							"textures": [
+								"textures/blocks/modern_stair"
+							]
+						},
+						"log_oak": {
+							"textures": [
+								"textures/blocks/log_oak"
+							]
+						},
+						"log_spruce": {
+							"textures": [
+								"textures/blocks/log_spruce"
+							]
+						},
+						"log_birch": {
+							"textures": [
+								"textures/blocks/log_birch"
+							]
+						},
+						"log_jungle": {
+							"textures": [
+								"textures/blocks/log_jungle"
+							]
+						},
+						"log_acacia": {
+							"textures": [
+								"textures/blocks/log_acacia"
+							]
+						},
+						"log_dark_oak": {
+							"textures": [
+								"textures/blocks/log_big_oak"
+							]
+						},
+						"light": {
+							"textures": [
+								"textures/blocks/light"
+							]
+						},
+						"oven": {
+							"textures": [
+								"textures/blocks/kitchen/oven"
+							]
+						},
+						"fridge": {
+							"textures": [
+								"textures/blocks/kitchen/fridge"
+							]
+						},
+						"toaster": {
+							"textures": [
+								"textures/blocks/kitchen/toaster_nopan"
+							]
+						},
+						"toaster_pan": {
+							"textures": [
+								"textures/blocks/kitchen/toaster"
+							]
+						},
+						"white_wool": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_white"
+							]
+						},
+						"bs_white": {
+							"textures": [
+								"textures/blocks/kitchen/bar_stool/bs_white"
+							]
+						},
+						"bs_black": {
+							"textures": [
+								"textures/blocks/kitchen/bar_stool/bs_black"
+							]
+						},
+						"bs_blue": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_blue"
+								}
+							]
+						},
+						"bs_brown": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_brown"
+								}
+							]
+						},
+						"bs_cyan": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_cyan"
+								}
+							]
+						},
+						"bs_gray": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_gray"
+								}
+							]
+						},
+						"bs_green": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_green"
+								}
+							]
+						},
+						"bs_light_blue": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_light_blue"
+								}
+							]
+						},
+						"bs_lime": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_lime"
+								}
+							]
+						},
+						"bs_magenta": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_magenta"
+								}
+							]
+						},
+						"bs_orange": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_orange"
+								}
+							]
+						},
+						"bs_pink": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_pink"
+								}
+							]
+						},
+						"bs_purple": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_purple"
+								}
+							]
+						},
+						"bs_red": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_red"
+								}
+							]
+						},
+						"bs_silver": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_silver"
+								}
+							]
+						},
+						"bs_yellow": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_yellow"
+								}
+							]
+						},
+						"coffe_machine": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/coffe_machine"
+								}
+							]
+						},
+						"marble": {
+							"textures": [
+								"textures/blocks/marble"
+							]
+						},
+						"marblebrick": {
+							"textures": [
+								"textures/blocks/marblebrick"
+							]
+						},
+						"smoothmarble": {
+							"textures": [
+								"textures/blocks/smooth_marble"
+							]
+						},
+						"smoothmarblebricks": {
+							"textures": [
+								"textures/blocks/smooth_marblebricks"
+							]
+						},
+						"chiseled_marble": {
+							"textures": [
+								{
+									"path": "textures/blocks/chiseled_marble"
+								}
+							]
+						},
+						"oak_tvf": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tvf/oak_tvf"
+								}
+							]
+						},
+						"spruce_tvf": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tvf/spruce_tvf"
+								}
+							]
+						},
+						"birch_tvf": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tvf/birch_tvf"
+								}
+							]
+						},
+						"jungle_tvf": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tvf/jungle_tvf"
+								}
+							]
+						},
+						"acacia_tvf": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tvf/acacia_tvf"
+								}
+							]
+						},
+						"bk_tvf": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tvf/bk_tvf"
+								}
+							]
+						},
+						"crimson_tvf": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tvf/crimson_tvf"
+								}
+							]
+						},
+						"warped_tvf": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tvf/warped_tvf"
+								}
+							]
+						},
+						"tv_desing0": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tv/tv_design0"
+								}
+							]
+						},
+						"tv_desingn1": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tv/tv_design1"
+								}
+							]
+						},
+						"tv_design2": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tv/tv_design2"
+								}
+							]
+						},
+						"tv_design3": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tv/tv_design3"
+								}
+							]
+						},
+						"tv_design4": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tv/tv_design4"
+								}
+							]
+						},
+						"shower": {
+							"textures": [
+								{
+									"path": "textures/blocks/bathroom/shower"
+								}
+							]
+						},
+						"black_kitchen_counter": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_counters/black_kitchen_counter"
+							]
+						},
+						"blue_kitchen_counter": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_counters/blue_kitchen_counter"
+							]
+						},
+						"brown_kitchen_counter": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_counters/brown_kitchen_counter"
+							]
+						},
+						"cyan_kitchen_counter": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_counters/cyan_kitchen_counter"
+							]
+						},
+						"gray_kitchen_counter": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_counters/gray_kitchen_counter"
+							]
+						},
+						"green_kitchen_counter": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_counters/green_kitchen_counter"
+							]
+						},
+						"light_blue_kitchen_counter": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_counters/light_blue_kitchen_counter"
+							]
+						},
+						"lime_kitchen_counter": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_counters/lime_kitchen_counter"
+							]
+						},
+						"magenta_kitchen_counter": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_counters/magenta_kitchen_counter"
+							]
+						},
+						"orange_kitchen_counter": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_counters/orange_kitchen_counter"
+							]
+						},
+						"pink_kitchen_counter": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_counters/pink_kitchen_counter"
+							]
+						},
+						"purple_kitchen_counter": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_counters/purple_kitchen_counter"
+							]
+						},
+						"red_kitchen_counter": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_counters/red_kitchen_counter"
+							]
+						},
+						"silver_kitchen_counter": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_counters/silver_kitchen_counter"
+							]
+						},
+						"white_kitchen_counter": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_counters/white_kitchen_counter"
+							]
+						},
+						"yellow_kitchen_counter": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_counters/yellow_kitchen_counter"
+							]
+						},
+						"white_kitchen_sink": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_sinks/white_kitchen_sink"
+							]
+						},
+						"black_kitchen_sink": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_sinks/black_kitchen_sink"
+							]
+						},
+						"blue_kitchen_sink": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_sinks/blue_kitchen_sink"
+							]
+						},
+						"brown_kitchen_sink": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_sinks/brown_kitchen_sink"
+							]
+						},
+						"cyan_kitchen_sink": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_sinks/cyan_kitchen_sink"
+							]
+						},
+						"gray_kitchen_sink": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_sinks/gray_kitchen_sink"
+							]
+						},
+						"green_kitchen_sink": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_sinks/green_kitchen_sink"
+							]
+						},
+						"light_blue_kitchen_sink": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_sinks/light_blue_kitchen_sink"
+							]
+						},
+						"lime_kitchen_sink": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_sinks/lime_kitchen_sink"
+							]
+						},
+						"magenta_kitchen_sink": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_sinks/magenta_kitchen_sink"
+							]
+						},
+						"orange_kitchen_sink": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_sinks/orange_kitchen_sink"
+							]
+						},
+						"pink_kitchen_sink": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_sinks/pink_kitchen_sink"
+							]
+						},
+						"purple_kitchen_sink": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_sinks/purple_kitchen_sink"
+							]
+						},
+						"red_kitchen_sink": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_sinks/red_kitchen_sink"
+							]
+						},
+						"silver_kitchen_sink": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_sinks/silver_kitchen_sink"
+							]
+						},
+						"yellow_kitchen_sink": {
+							"textures": [
+								"textures/blocks/kitchen/kitchen_sinks/yellow_kitchen_sink"
+							]
+						},
+						"white_lamp": {
+							"textures": [
+								"textures/blocks/bedroom/lamp/white_lamp"
+							]
+						},
+						"black_lamp": {
+							"textures": [
+								"textures/blocks/bedroom/lamp/black_lamp"
+							]
+						},
+						"blue_lamp": {
+							"textures": [
+								"textures/blocks/bedroom/lamp/blue_lamp"
+							]
+						},
+						"brown_lamp": {
+							"textures": [
+								"textures/blocks/bedroom/lamp/brown_lamp"
+							]
+						},
+						"cyan_lamp": {
+							"textures": [
+								"textures/blocks/bedroom/lamp/cyan_lamp"
+							]
+						},
+						"gray_lamp": {
+							"textures": [
+								"textures/blocks/bedroom/lamp/gray_lamp"
+							]
+						},
+						"green_lamp": {
+							"textures": [
+								"textures/blocks/bedroom/lamp/green_lamp"
+							]
+						},
+						"light_blue_lamp": {
+							"textures": [
+								"textures/blocks/bedroom/lamp/light_blue_lamp"
+							]
+						},
+						"lime_lamp": {
+							"textures": [
+								"textures/blocks/bedroom/lamp/lime_lamp"
+							]
+						},
+						"magenta_lamp": {
+							"textures": [
+								"textures/blocks/bedroom/lamp/magenta_lamp"
+							]
+						},
+						"orange_lamp": {
+							"textures": [
+								"textures/blocks/bedroom/lamp/orange_lamp"
+							]
+						},
+						"pink_lamp": {
+							"textures": [
+								"textures/blocks/bedroom/lamp/pink_lamp"
+							]
+						},
+						"purple_lamp": {
+							"textures": [
+								"textures/blocks/bedroom/lamp/purple_lamp"
+							]
+						},
+						"red_lamp": {
+							"textures": [
+								"textures/blocks/bedroom/lamp/red_lamp"
+							]
+						},
+						"silver_lamp": {
+							"textures": [
+								"textures/blocks/bedroom/lamp/silver_lamp"
+							]
+						},
+						"yellow_lamp": {
+							"textures": [
+								"textures/blocks/bedroom/lamp/yellow_lamp"
+							]
+						},
+						"mirror": {
+							"textures": [
+								"textures/blocks/bathroom/mirror"
+							]
+						},
+						"steal": {
+							"textures": [
+								"textures/blocks/steal"
+							]
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"key": "birch_planks",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/planks_birch"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/planks_birch"
+								]
+							}
+						]
+					},
+					{
+						"key": "spruce_planks",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/planks_spruce"
+							]
+						}
+					},
+					{
+						"key": "big_oak_planks",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/planks_big_oak"
+							]
+						}
+					},
+					{
+						"key": "jungle_planks",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/planks_jungle"
+							]
+						}
+					},
+					{
+						"key": "acacia_planks",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/planks_acacia"
+							]
+						}
+					},
+					{
+						"key": "crimson_planks",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/crimson_planks"
+							]
+						}
+					},
+					{
+						"key": "black_wool",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/wool/wool_colored_black"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/wool/wool_colored_black"
+								]
+							}
+						]
+					},
+					{
+						"key": "blue_wool",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_blue"
+							]
+						}
+					},
+					{
+						"key": "brown_wool",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_brown"
+							]
+						}
+					},
+					{
+						"key": "cyan_wool",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_cyan"
+							]
+						}
+					},
+					{
+						"key": "gray_wool",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_gray"
+							]
+						}
+					},
+					{
+						"key": "green_wool",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_green"
+							]
+						}
+					},
+					{
+						"key": "light_blue_wool",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_light_blue"
+							]
+						}
+					},
+					{
+						"key": "lime_wool",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_lime"
+							]
+						}
+					},
+					{
+						"key": "magenta_wool",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_magenta"
+							]
+						}
+					},
+					{
+						"key": "orange_wool",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_orange"
+							]
+						}
+					},
+					{
+						"key": "pink_wool",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_pink"
+							]
+						}
+					},
+					{
+						"key": "purple_wool",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_purple"
+							]
+						}
+					},
+					{
+						"key": "red_wool",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_red"
+							]
+						}
+					},
+					{
+						"key": "silver_wool",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_silver"
+							]
+						}
+					},
+					{
+						"key": "yellow_wool",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_yellow"
+							]
+						}
+					},
+					{
+						"key": "modern_stair",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/modern_stair"
+							]
+						}
+					},
+					{
+						"key": "log_oak",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/log_oak"
+							]
+						}
+					},
+					{
+						"key": "log_spruce",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/log_spruce"
+							]
+						}
+					},
+					{
+						"key": "log_birch",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/log_birch"
+							]
+						}
+					},
+					{
+						"key": "log_jungle",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/log_jungle"
+							]
+						}
+					},
+					{
+						"key": "log_acacia",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/log_acacia"
+							]
+						}
+					},
+					{
+						"key": "log_dark_oak",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/log_big_oak"
+							]
+						}
+					},
+					{
+						"key": "light",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/light"
+							]
+						}
+					},
+					{
+						"key": "oven",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/kitchen/oven"
+							]
+						}
+					},
+					{
+						"key": "fridge",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/kitchen/fridge"
+							]
+						}
+					},
+					{
+						"key": "toaster",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/kitchen/toaster_nopan"
+							]
+						}
+					},
+					{
+						"key": "toaster_pan",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/kitchen/toaster"
+							]
+						}
+					},
+					{
+						"key": "white_wool",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/wool/wool_colored_white"
+							]
+						}
+					},
+					{
+						"key": "bs_white",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/bar_stool/bs_white"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/bar_stool/bs_white"
+								]
+							}
+						]
+					},
+					{
+						"key": "bs_black",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/kitchen/bar_stool/bs_black"
+							]
+						}
+					},
+					{
+						"key": "bs_blue",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_blue"
+								}
+							]
+						}
+					},
+					{
+						"key": "bs_brown",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_brown"
+								}
+							]
+						}
+					},
+					{
+						"key": "bs_cyan",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_cyan"
+								}
+							]
+						}
+					},
+					{
+						"key": "bs_gray",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_gray"
+								}
+							]
+						}
+					},
+					{
+						"key": "bs_green",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_green"
+								}
+							]
+						}
+					},
+					{
+						"key": "bs_light_blue",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_light_blue"
+								}
+							]
+						}
+					},
+					{
+						"key": "bs_lime",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_lime"
+								}
+							]
+						}
+					},
+					{
+						"key": "bs_magenta",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_magenta"
+								}
+							]
+						}
+					},
+					{
+						"key": "bs_orange",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_orange"
+								}
+							]
+						}
+					},
+					{
+						"key": "bs_pink",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_pink"
+								}
+							]
+						}
+					},
+					{
+						"key": "bs_purple",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_purple"
+								}
+							]
+						}
+					},
+					{
+						"key": "bs_red",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_red"
+								}
+							]
+						}
+					},
+					{
+						"key": "bs_silver",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_silver"
+								}
+							]
+						}
+					},
+					{
+						"key": "bs_yellow",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/bar_stool/bs_yellow"
+								}
+							]
+						}
+					},
+					{
+						"key": "coffe_machine",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/kitchen/coffe_machine"
+								}
+							]
+						}
+					},
+					{
+						"key": "marble",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/marble"
+							]
+						}
+					},
+					{
+						"key": "marblebrick",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/marblebrick"
+							]
+						}
+					},
+					{
+						"key": "smoothmarble",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/smooth_marble"
+							]
+						}
+					},
+					{
+						"key": "smoothmarblebricks",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/smooth_marblebricks"
+							]
+						}
+					},
+					{
+						"key": "chiseled_marble",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/chiseled_marble"
+								}
+							]
+						}
+					},
+					{
+						"key": "oak_tvf",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tvf/oak_tvf"
+								}
+							]
+						}
+					},
+					{
+						"key": "spruce_tvf",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tvf/spruce_tvf"
+								}
+							]
+						}
+					},
+					{
+						"key": "birch_tvf",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tvf/birch_tvf"
+								}
+							]
+						}
+					},
+					{
+						"key": "jungle_tvf",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tvf/jungle_tvf"
+								}
+							]
+						}
+					},
+					{
+						"key": "acacia_tvf",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tvf/acacia_tvf"
+								}
+							]
+						}
+					},
+					{
+						"key": "bk_tvf",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tvf/bk_tvf"
+								}
+							]
+						}
+					},
+					{
+						"key": "crimson_tvf",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tvf/crimson_tvf"
+								}
+							]
+						}
+					},
+					{
+						"key": "warped_tvf",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tvf/warped_tvf"
+								}
+							]
+						}
+					},
+					{
+						"key": "tv_desing0",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tv/tv_design0"
+								}
+							]
+						}
+					},
+					{
+						"key": "tv_desingn1",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tv/tv_design1"
+								}
+							]
+						}
+					},
+					{
+						"key": "tv_design2",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tv/tv_design2"
+								}
+							]
+						}
+					},
+					{
+						"key": "tv_design3",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tv/tv_design3"
+								}
+							]
+						}
+					},
+					{
+						"key": "tv_design4",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/living/tv/tv_design4"
+								}
+							]
+						}
+					},
+					{
+						"key": "shower",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								{
+									"path": "textures/blocks/bathroom/shower"
+								}
+							]
+						}
+					},
+					{
+						"key": "black_kitchen_counter",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_counters/black_kitchen_counter"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_counters/black_kitchen_counter"
+								]
+							}
+						]
+					},
+					{
+						"key": "blue_kitchen_counter",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_counters/blue_kitchen_counter"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_counters/blue_kitchen_counter"
+								]
+							}
+						]
+					},
+					{
+						"key": "brown_kitchen_counter",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_counters/brown_kitchen_counter"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_counters/brown_kitchen_counter"
+								]
+							}
+						]
+					},
+					{
+						"key": "cyan_kitchen_counter",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_counters/cyan_kitchen_counter"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_counters/cyan_kitchen_counter"
+								]
+							}
+						]
+					},
+					{
+						"key": "gray_kitchen_counter",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_counters/gray_kitchen_counter"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_counters/gray_kitchen_counter"
+								]
+							}
+						]
+					},
+					{
+						"key": "green_kitchen_counter",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_counters/green_kitchen_counter"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_counters/green_kitchen_counter"
+								]
+							}
+						]
+					},
+					{
+						"key": "light_blue_kitchen_counter",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_counters/light_blue_kitchen_counter"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_counters/light_blue_kitchen_counter"
+								]
+							}
+						]
+					},
+					{
+						"key": "lime_kitchen_counter",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_counters/lime_kitchen_counter"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_counters/lime_kitchen_counter"
+								]
+							}
+						]
+					},
+					{
+						"key": "magenta_kitchen_counter",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_counters/magenta_kitchen_counter"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_counters/magenta_kitchen_counter"
+								]
+							}
+						]
+					},
+					{
+						"key": "orange_kitchen_counter",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_counters/orange_kitchen_counter"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_counters/orange_kitchen_counter"
+								]
+							}
+						]
+					},
+					{
+						"key": "pink_kitchen_counter",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_counters/pink_kitchen_counter"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_counters/pink_kitchen_counter"
+								]
+							}
+						]
+					},
+					{
+						"key": "purple_kitchen_counter",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_counters/purple_kitchen_counter"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_counters/purple_kitchen_counter"
+								]
+							}
+						]
+					},
+					{
+						"key": "red_kitchen_counter",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_counters/red_kitchen_counter"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_counters/red_kitchen_counter"
+								]
+							}
+						]
+					},
+					{
+						"key": "silver_kitchen_counter",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_counters/silver_kitchen_counter"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_counters/silver_kitchen_counter"
+								]
+							}
+						]
+					},
+					{
+						"key": "white_kitchen_counter",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_counters/white_kitchen_counter"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_counters/white_kitchen_counter"
+								]
+							}
+						]
+					},
+					{
+						"key": "yellow_kitchen_counter",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_counters/yellow_kitchen_counter"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_counters/yellow_kitchen_counter"
+								]
+							}
+						]
+					},
+					{
+						"key": "white_kitchen_sink",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_sinks/white_kitchen_sink"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_sinks/white_kitchen_sink"
+								]
+							}
+						]
+					},
+					{
+						"key": "black_kitchen_sink",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_sinks/black_kitchen_sink"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_sinks/black_kitchen_sink"
+								]
+							}
+						]
+					},
+					{
+						"key": "blue_kitchen_sink",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_sinks/blue_kitchen_sink"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_sinks/blue_kitchen_sink"
+								]
+							}
+						]
+					},
+					{
+						"key": "brown_kitchen_sink",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_sinks/brown_kitchen_sink"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_sinks/brown_kitchen_sink"
+								]
+							}
+						]
+					},
+					{
+						"key": "cyan_kitchen_sink",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_sinks/cyan_kitchen_sink"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_sinks/cyan_kitchen_sink"
+								]
+							}
+						]
+					},
+					{
+						"key": "gray_kitchen_sink",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_sinks/gray_kitchen_sink"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_sinks/gray_kitchen_sink"
+								]
+							}
+						]
+					},
+					{
+						"key": "green_kitchen_sink",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_sinks/green_kitchen_sink"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_sinks/green_kitchen_sink"
+								]
+							}
+						]
+					},
+					{
+						"key": "light_blue_kitchen_sink",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_sinks/light_blue_kitchen_sink"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_sinks/light_blue_kitchen_sink"
+								]
+							}
+						]
+					},
+					{
+						"key": "lime_kitchen_sink",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_sinks/lime_kitchen_sink"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_sinks/lime_kitchen_sink"
+								]
+							}
+						]
+					},
+					{
+						"key": "magenta_kitchen_sink",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_sinks/magenta_kitchen_sink"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_sinks/magenta_kitchen_sink"
+								]
+							}
+						]
+					},
+					{
+						"key": "orange_kitchen_sink",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_sinks/orange_kitchen_sink"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_sinks/orange_kitchen_sink"
+								]
+							}
+						]
+					},
+					{
+						"key": "pink_kitchen_sink",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_sinks/pink_kitchen_sink"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_sinks/pink_kitchen_sink"
+								]
+							}
+						]
+					},
+					{
+						"key": "purple_kitchen_sink",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_sinks/purple_kitchen_sink"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_sinks/purple_kitchen_sink"
+								]
+							}
+						]
+					},
+					{
+						"key": "red_kitchen_sink",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_sinks/red_kitchen_sink"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_sinks/red_kitchen_sink"
+								]
+							}
+						]
+					},
+					{
+						"key": "silver_kitchen_sink",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_sinks/silver_kitchen_sink"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_sinks/silver_kitchen_sink"
+								]
+							}
+						]
+					},
+					{
+						"key": "yellow_kitchen_sink",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/kitchen/kitchen_sinks/yellow_kitchen_sink"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/kitchen/kitchen_sinks/yellow_kitchen_sink"
+								]
+							}
+						]
+					},
+					{
+						"key": "white_lamp",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/bedroom/lamp/white_lamp"
+							]
+						}
+					},
+					{
+						"key": "black_lamp",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/bedroom/lamp/black_lamp"
+							]
+						}
+					},
+					{
+						"key": "blue_lamp",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/bedroom/lamp/blue_lamp"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/bedroom/lamp/blue_lamp"
+								]
+							}
+						]
+					},
+					{
+						"key": "brown_lamp",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/bedroom/lamp/brown_lamp"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/bedroom/lamp/brown_lamp"
+								]
+							}
+						]
+					},
+					{
+						"key": "cyan_lamp",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/bedroom/lamp/cyan_lamp"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/bedroom/lamp/cyan_lamp"
+								]
+							}
+						]
+					},
+					{
+						"key": "gray_lamp",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/bedroom/lamp/gray_lamp"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/bedroom/lamp/gray_lamp"
+								]
+							}
+						]
+					},
+					{
+						"key": "green_lamp",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/bedroom/lamp/green_lamp"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/bedroom/lamp/green_lamp"
+								]
+							}
+						]
+					},
+					{
+						"key": "light_blue_lamp",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/bedroom/lamp/light_blue_lamp"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/bedroom/lamp/light_blue_lamp"
+								]
+							}
+						]
+					},
+					{
+						"key": "lime_lamp",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/bedroom/lamp/lime_lamp"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/bedroom/lamp/lime_lamp"
+								]
+							}
+						]
+					},
+					{
+						"key": "magenta_lamp",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/bedroom/lamp/magenta_lamp"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/bedroom/lamp/magenta_lamp"
+								]
+							}
+						]
+					},
+					{
+						"key": "orange_lamp",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/bedroom/lamp/orange_lamp"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/bedroom/lamp/orange_lamp"
+								]
+							}
+						]
+					},
+					{
+						"key": "pink_lamp",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/bedroom/lamp/pink_lamp"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/bedroom/lamp/pink_lamp"
+								]
+							}
+						]
+					},
+					{
+						"key": "purple_lamp",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/bedroom/lamp/purple_lamp"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/bedroom/lamp/purple_lamp"
+								]
+							}
+						]
+					},
+					{
+						"key": "red_lamp",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/bedroom/lamp/red_lamp"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/bedroom/lamp/red_lamp"
+								]
+							}
+						]
+					},
+					{
+						"key": "silver_lamp",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/bedroom/lamp/silver_lamp"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/bedroom/lamp/silver_lamp"
+								]
+							}
+						]
+					},
+					{
+						"key": "yellow_lamp",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/bedroom/lamp/yellow_lamp"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/bedroom/lamp/yellow_lamp"
+								]
+							}
+						]
+					},
+					{
+						"key": "mirror",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/bathroom/mirror"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/bathroom/mirror"
+								]
+							}
+						]
+					},
+					{
+						"key": "steal",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/blocks/steal"
+							]
+						}
+					}
+				]
+			}
+		]
+	}
+}

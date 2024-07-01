@@ -1,0 +1,2725 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\entities\\help_to_detect.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "f0bf5d51_a444_4afd_8dea_8d82de92755c",
+	"file_version": 47,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "dbc:help_to_detect",
+							"is_summonable": true,
+							"is_spawnable": false,
+							"is_experimental": false
+						},
+						"component_groups": {
+							"dbc:collision": {
+								"minecraft:environment_sensor": {
+									"triggers": {
+										"filters": {
+											"test": "distance_to_nearest_player",
+											"operator": ">",
+											"value": 2
+										},
+										"event": "dbc:set",
+										"target": "self"
+									}
+								}
+							},
+							"dbc:f": {
+								"minecraft:instant_despawn": {}
+							}
+						},
+						"components": {
+							"minecraft:collision_box": {
+								"width": 0,
+								"height": 0
+							},
+							"minecraft:pushable": {
+								"is_pushable": false,
+								"is_pushable_by_piston": false
+							},
+							"minecraft:physics": {
+								"has_collision": false,
+								"has_gravity": false
+							},
+							"minecraft:damage_sensor": {
+								"triggers": [
+									{
+										"cause": "all",
+										"deals_damage": false
+									}
+								]
+							},
+							"minecraft:health": {
+								"value": 1,
+								"max": 1
+							},
+							"minecraft:inside_block_notifier": {
+								"block_list": [
+									{
+										"block": {
+											"name": "minecraft:air"
+										},
+										"entered_block_event": {
+											"event": "dbc:f",
+											"target": "self"
+										}
+									},
+									{
+										"block": {
+											"name": "dbc:top_table_acacia"
+										},
+										"entered_block_event": {
+											"event": "dbc:f",
+											"target": "self"
+										}
+									},
+									{
+										"block": {
+											"name": "dbc:top_table_acacia"
+										},
+										"entered_block_event": {
+											"event": "dbc:f",
+											"target": "self"
+										}
+									},
+									{
+										"block": {
+											"name": "dbc:top_table_oak"
+										},
+										"entered_block_event": {
+											"event": "dbc:f",
+											"target": "self"
+										}
+									},
+									{
+										"block": {
+											"name": "dbc:top_table_spruce"
+										},
+										"entered_block_event": {
+											"event": "dbc:f",
+											"target": "self"
+										}
+									},
+									{
+										"block": {
+											"name": "dbc:top_table_birch"
+										},
+										"entered_block_event": {
+											"event": "dbc:f",
+											"target": "self"
+										}
+									},
+									{
+										"block": {
+											"name": "dbc:top_table_jungle"
+										},
+										"entered_block_event": {
+											"event": "dbc:f",
+											"target": "self"
+										}
+									},
+									{
+										"block": {
+											"name": "dbc:top_table_dark_oak"
+										},
+										"entered_block_event": {
+											"event": "dbc:f",
+											"target": "self"
+										}
+									},
+									{
+										"block": {
+											"name": "dbc:top_table_warped"
+										},
+										"entered_block_event": {
+											"event": "dbc:f",
+											"target": "self"
+										}
+									},
+									{
+										"block": {
+											"name": "dbc:top_table_crimson"
+										},
+										"entered_block_event": {
+											"event": "dbc:f",
+											"target": "self"
+										}
+									},
+									{
+										"block": {
+											"name": "dbc:top_table_concrete"
+										},
+										"entered_block_event": {
+											"event": "dbc:f",
+											"target": "self"
+										}
+									},
+									{
+										"block": {
+											"name": "dbc:north_collision"
+										},
+										"entered_block_event": {
+											"event": "dbc:change",
+											"target": "self"
+										}
+									},
+									{
+										"block": {
+											"name": "dbc:south_collision"
+										},
+										"entered_block_event": {
+											"event": "dbc:change",
+											"target": "self"
+										}
+									},
+									{
+										"block": {
+											"name": "dbc:west_collision"
+										},
+										"entered_block_event": {
+											"event": "dbc:change",
+											"target": "self"
+										}
+									},
+									{
+										"block": {
+											"name": "dbc:east_collision"
+										},
+										"entered_block_event": {
+											"event": "dbc:change",
+											"target": "self"
+										}
+									}
+								]
+							},
+							"minecraft:custom_hit_test": {
+								"hitboxes": [
+									{
+										"width": -1,
+										"height": -1,
+										"pivot": [
+											0,
+											0,
+											0
+										]
+									}
+								]
+							}
+						},
+						"events": {
+							"dbc:change": {
+								"add": {
+									"component_groups": [
+										"dbc:collision"
+									]
+								}
+							},
+							"dbc:set": {
+								"run_command": {
+									"command": [
+										"setblock ~ ~ ~ air"
+									]
+								}
+							},
+							"dbc:f": {
+								"add": {
+									"component_groups": [
+										"dbc:f"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:help_to_detect",
+								"is_summonable": true,
+								"is_spawnable": false,
+								"is_experimental": false
+							},
+							"component_groups": {
+								"dbc:collision": {
+									"minecraft:environment_sensor": {
+										"triggers": {
+											"filters": {
+												"test": "distance_to_nearest_player",
+												"operator": ">",
+												"value": 2
+											},
+											"event": "dbc:set",
+											"target": "self"
+										}
+									}
+								},
+								"dbc:f": {
+									"minecraft:instant_despawn": {}
+								}
+							},
+							"components": {
+								"minecraft:collision_box": {
+									"width": 0,
+									"height": 0
+								},
+								"minecraft:pushable": {
+									"is_pushable": false,
+									"is_pushable_by_piston": false
+								},
+								"minecraft:physics": {
+									"has_collision": false,
+									"has_gravity": false
+								},
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"cause": "all",
+											"deals_damage": false
+										}
+									]
+								},
+								"minecraft:health": {
+									"value": 1,
+									"max": 1
+								},
+								"minecraft:inside_block_notifier": {
+									"block_list": [
+										{
+											"block": {
+												"name": "minecraft:air"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_acacia"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_acacia"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_oak"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_spruce"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_birch"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_jungle"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_dark_oak"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_warped"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_crimson"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_concrete"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:north_collision"
+											},
+											"entered_block_event": {
+												"event": "dbc:change",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:south_collision"
+											},
+											"entered_block_event": {
+												"event": "dbc:change",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:west_collision"
+											},
+											"entered_block_event": {
+												"event": "dbc:change",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:east_collision"
+											},
+											"entered_block_event": {
+												"event": "dbc:change",
+												"target": "self"
+											}
+										}
+									]
+								},
+								"minecraft:custom_hit_test": {
+									"hitboxes": [
+										{
+											"width": -1,
+											"height": -1,
+											"pivot": [
+												0,
+												0,
+												0
+											]
+										}
+									]
+								}
+							},
+							"events": {
+								"dbc:change": {
+									"add": {
+										"component_groups": [
+											"dbc:collision"
+										]
+									}
+								},
+								"dbc:set": {
+									"run_command": {
+										"command": [
+											"setblock ~ ~ ~ air"
+										]
+									}
+								},
+								"dbc:f": {
+									"add": {
+										"component_groups": [
+											"dbc:f"
+										]
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:help_to_detect",
+							"is_summonable": true,
+							"is_spawnable": false,
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:help_to_detect",
+								"is_summonable": true,
+								"is_spawnable": false,
+								"is_experimental": false
+							},
+							"component_groups": {
+								"dbc:collision": {
+									"minecraft:environment_sensor": {
+										"triggers": {
+											"filters": {
+												"test": "distance_to_nearest_player",
+												"operator": ">",
+												"value": 2
+											},
+											"event": "dbc:set",
+											"target": "self"
+										}
+									}
+								},
+								"dbc:f": {
+									"minecraft:instant_despawn": {}
+								}
+							},
+							"components": {
+								"minecraft:collision_box": {
+									"width": 0,
+									"height": 0
+								},
+								"minecraft:pushable": {
+									"is_pushable": false,
+									"is_pushable_by_piston": false
+								},
+								"minecraft:physics": {
+									"has_collision": false,
+									"has_gravity": false
+								},
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"cause": "all",
+											"deals_damage": false
+										}
+									]
+								},
+								"minecraft:health": {
+									"value": 1,
+									"max": 1
+								},
+								"minecraft:inside_block_notifier": {
+									"block_list": [
+										{
+											"block": {
+												"name": "minecraft:air"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_acacia"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_acacia"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_oak"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_spruce"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_birch"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_jungle"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_dark_oak"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_warped"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_crimson"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_concrete"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:north_collision"
+											},
+											"entered_block_event": {
+												"event": "dbc:change",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:south_collision"
+											},
+											"entered_block_event": {
+												"event": "dbc:change",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:west_collision"
+											},
+											"entered_block_event": {
+												"event": "dbc:change",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:east_collision"
+											},
+											"entered_block_event": {
+												"event": "dbc:change",
+												"target": "self"
+											}
+										}
+									]
+								},
+								"minecraft:custom_hit_test": {
+									"hitboxes": [
+										{
+											"width": -1,
+											"height": -1,
+											"pivot": [
+												0,
+												0,
+												0
+											]
+										}
+									]
+								}
+							},
+							"events": {
+								"dbc:change": {
+									"add": {
+										"component_groups": [
+											"dbc:collision"
+										]
+									}
+								},
+								"dbc:set": {
+									"run_command": {
+										"command": [
+											"setblock ~ ~ ~ air"
+										]
+									}
+								},
+								"dbc:f": {
+									"add": {
+										"component_groups": [
+											"dbc:f"
+										]
+									}
+								}
+							}
+						},
+						"key": "component_groups",
+						"children": [
+							{
+								"open": {
+									"dbc:collision": {
+										"minecraft:environment_sensor": {
+											"triggers": {
+												"filters": {
+													"test": "distance_to_nearest_player",
+													"operator": ">",
+													"value": 2
+												},
+												"event": "dbc:set",
+												"target": "self"
+											}
+										}
+									},
+									"dbc:f": {
+										"minecraft:instant_despawn": {}
+									}
+								},
+								"key": "dbc:collision",
+								"children": [
+									{
+										"open": {
+											"minecraft:environment_sensor": {
+												"triggers": {
+													"filters": {
+														"test": "distance_to_nearest_player",
+														"operator": ">",
+														"value": 2
+													},
+													"event": "dbc:set",
+													"target": "self"
+												}
+											}
+										},
+										"key": "minecraft:environment_sensor",
+										"children": [
+											{
+												"open": {
+													"triggers": {
+														"filters": {
+															"test": "distance_to_nearest_player",
+															"operator": ">",
+															"value": 2
+														},
+														"event": "dbc:set",
+														"target": "self"
+													}
+												},
+												"key": "triggers",
+												"children": [
+													{
+														"open": {
+															"filters": {
+																"test": "distance_to_nearest_player",
+																"operator": ">",
+																"value": 2
+															},
+															"event": "dbc:set",
+															"target": "self"
+														},
+														"key": "filters",
+														"is_minified": true,
+														"children": {
+															"test": "distance_to_nearest_player",
+															"operator": ">",
+															"value": 2
+														}
+													},
+													{
+														"data": "dbc:set",
+														"key": "event"
+													},
+													{
+														"data": "self",
+														"key": "target"
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "dbc:f",
+								"is_minified": true,
+								"children": {
+									"minecraft:instant_despawn": {}
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:help_to_detect",
+								"is_summonable": true,
+								"is_spawnable": false,
+								"is_experimental": false
+							},
+							"component_groups": {
+								"dbc:collision": {
+									"minecraft:environment_sensor": {
+										"triggers": {
+											"filters": {
+												"test": "distance_to_nearest_player",
+												"operator": ">",
+												"value": 2
+											},
+											"event": "dbc:set",
+											"target": "self"
+										}
+									}
+								},
+								"dbc:f": {
+									"minecraft:instant_despawn": {}
+								}
+							},
+							"components": {
+								"minecraft:collision_box": {
+									"width": 0,
+									"height": 0
+								},
+								"minecraft:pushable": {
+									"is_pushable": false,
+									"is_pushable_by_piston": false
+								},
+								"minecraft:physics": {
+									"has_collision": false,
+									"has_gravity": false
+								},
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"cause": "all",
+											"deals_damage": false
+										}
+									]
+								},
+								"minecraft:health": {
+									"value": 1,
+									"max": 1
+								},
+								"minecraft:inside_block_notifier": {
+									"block_list": [
+										{
+											"block": {
+												"name": "minecraft:air"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_acacia"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_acacia"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_oak"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_spruce"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_birch"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_jungle"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_dark_oak"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_warped"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_crimson"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_concrete"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:north_collision"
+											},
+											"entered_block_event": {
+												"event": "dbc:change",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:south_collision"
+											},
+											"entered_block_event": {
+												"event": "dbc:change",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:west_collision"
+											},
+											"entered_block_event": {
+												"event": "dbc:change",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:east_collision"
+											},
+											"entered_block_event": {
+												"event": "dbc:change",
+												"target": "self"
+											}
+										}
+									]
+								},
+								"minecraft:custom_hit_test": {
+									"hitboxes": [
+										{
+											"width": -1,
+											"height": -1,
+											"pivot": [
+												0,
+												0,
+												0
+											]
+										}
+									]
+								}
+							},
+							"events": {
+								"dbc:change": {
+									"add": {
+										"component_groups": [
+											"dbc:collision"
+										]
+									}
+								},
+								"dbc:set": {
+									"run_command": {
+										"command": [
+											"setblock ~ ~ ~ air"
+										]
+									}
+								},
+								"dbc:f": {
+									"add": {
+										"component_groups": [
+											"dbc:f"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:collision_box",
+								"is_minified": true,
+								"children": {
+									"width": 0,
+									"height": 0
+								}
+							},
+							{
+								"key": "minecraft:pushable",
+								"is_minified": true,
+								"children": {
+									"is_pushable": false,
+									"is_pushable_by_piston": false
+								}
+							},
+							{
+								"key": "minecraft:physics",
+								"is_minified": true,
+								"children": {
+									"has_collision": false,
+									"has_gravity": false
+								}
+							},
+							{
+								"key": "minecraft:damage_sensor",
+								"is_minified": true,
+								"children": {
+									"triggers": [
+										{
+											"cause": "all",
+											"deals_damage": false
+										}
+									]
+								}
+							},
+							{
+								"key": "minecraft:health",
+								"is_minified": true,
+								"children": {
+									"value": 1,
+									"max": 1
+								}
+							},
+							{
+								"open": {
+									"minecraft:collision_box": {
+										"width": 0,
+										"height": 0
+									},
+									"minecraft:pushable": {
+										"is_pushable": false,
+										"is_pushable_by_piston": false
+									},
+									"minecraft:physics": {
+										"has_collision": false,
+										"has_gravity": false
+									},
+									"minecraft:damage_sensor": {
+										"triggers": [
+											{
+												"cause": "all",
+												"deals_damage": false
+											}
+										]
+									},
+									"minecraft:health": {
+										"value": 1,
+										"max": 1
+									},
+									"minecraft:inside_block_notifier": {
+										"block_list": [
+											{
+												"block": {
+													"name": "minecraft:air"
+												},
+												"entered_block_event": {
+													"event": "dbc:f",
+													"target": "self"
+												}
+											},
+											{
+												"block": {
+													"name": "dbc:top_table_acacia"
+												},
+												"entered_block_event": {
+													"event": "dbc:f",
+													"target": "self"
+												}
+											},
+											{
+												"block": {
+													"name": "dbc:top_table_acacia"
+												},
+												"entered_block_event": {
+													"event": "dbc:f",
+													"target": "self"
+												}
+											},
+											{
+												"block": {
+													"name": "dbc:top_table_oak"
+												},
+												"entered_block_event": {
+													"event": "dbc:f",
+													"target": "self"
+												}
+											},
+											{
+												"block": {
+													"name": "dbc:top_table_spruce"
+												},
+												"entered_block_event": {
+													"event": "dbc:f",
+													"target": "self"
+												}
+											},
+											{
+												"block": {
+													"name": "dbc:top_table_birch"
+												},
+												"entered_block_event": {
+													"event": "dbc:f",
+													"target": "self"
+												}
+											},
+											{
+												"block": {
+													"name": "dbc:top_table_jungle"
+												},
+												"entered_block_event": {
+													"event": "dbc:f",
+													"target": "self"
+												}
+											},
+											{
+												"block": {
+													"name": "dbc:top_table_dark_oak"
+												},
+												"entered_block_event": {
+													"event": "dbc:f",
+													"target": "self"
+												}
+											},
+											{
+												"block": {
+													"name": "dbc:top_table_warped"
+												},
+												"entered_block_event": {
+													"event": "dbc:f",
+													"target": "self"
+												}
+											},
+											{
+												"block": {
+													"name": "dbc:top_table_crimson"
+												},
+												"entered_block_event": {
+													"event": "dbc:f",
+													"target": "self"
+												}
+											},
+											{
+												"block": {
+													"name": "dbc:top_table_concrete"
+												},
+												"entered_block_event": {
+													"event": "dbc:f",
+													"target": "self"
+												}
+											},
+											{
+												"block": {
+													"name": "dbc:north_collision"
+												},
+												"entered_block_event": {
+													"event": "dbc:change",
+													"target": "self"
+												}
+											},
+											{
+												"block": {
+													"name": "dbc:south_collision"
+												},
+												"entered_block_event": {
+													"event": "dbc:change",
+													"target": "self"
+												}
+											},
+											{
+												"block": {
+													"name": "dbc:west_collision"
+												},
+												"entered_block_event": {
+													"event": "dbc:change",
+													"target": "self"
+												}
+											},
+											{
+												"block": {
+													"name": "dbc:east_collision"
+												},
+												"entered_block_event": {
+													"event": "dbc:change",
+													"target": "self"
+												}
+											}
+										]
+									},
+									"minecraft:custom_hit_test": {
+										"hitboxes": [
+											{
+												"width": -1,
+												"height": -1,
+												"pivot": [
+													0,
+													0,
+													0
+												]
+											}
+										]
+									}
+								},
+								"key": "minecraft:inside_block_notifier",
+								"children": [
+									{
+										"open": {
+											"block_list": [
+												{
+													"block": {
+														"name": "minecraft:air"
+													},
+													"entered_block_event": {
+														"event": "dbc:f",
+														"target": "self"
+													}
+												},
+												{
+													"block": {
+														"name": "dbc:top_table_acacia"
+													},
+													"entered_block_event": {
+														"event": "dbc:f",
+														"target": "self"
+													}
+												},
+												{
+													"block": {
+														"name": "dbc:top_table_acacia"
+													},
+													"entered_block_event": {
+														"event": "dbc:f",
+														"target": "self"
+													}
+												},
+												{
+													"block": {
+														"name": "dbc:top_table_oak"
+													},
+													"entered_block_event": {
+														"event": "dbc:f",
+														"target": "self"
+													}
+												},
+												{
+													"block": {
+														"name": "dbc:top_table_spruce"
+													},
+													"entered_block_event": {
+														"event": "dbc:f",
+														"target": "self"
+													}
+												},
+												{
+													"block": {
+														"name": "dbc:top_table_birch"
+													},
+													"entered_block_event": {
+														"event": "dbc:f",
+														"target": "self"
+													}
+												},
+												{
+													"block": {
+														"name": "dbc:top_table_jungle"
+													},
+													"entered_block_event": {
+														"event": "dbc:f",
+														"target": "self"
+													}
+												},
+												{
+													"block": {
+														"name": "dbc:top_table_dark_oak"
+													},
+													"entered_block_event": {
+														"event": "dbc:f",
+														"target": "self"
+													}
+												},
+												{
+													"block": {
+														"name": "dbc:top_table_warped"
+													},
+													"entered_block_event": {
+														"event": "dbc:f",
+														"target": "self"
+													}
+												},
+												{
+													"block": {
+														"name": "dbc:top_table_crimson"
+													},
+													"entered_block_event": {
+														"event": "dbc:f",
+														"target": "self"
+													}
+												},
+												{
+													"block": {
+														"name": "dbc:top_table_concrete"
+													},
+													"entered_block_event": {
+														"event": "dbc:f",
+														"target": "self"
+													}
+												},
+												{
+													"block": {
+														"name": "dbc:north_collision"
+													},
+													"entered_block_event": {
+														"event": "dbc:change",
+														"target": "self"
+													}
+												},
+												{
+													"block": {
+														"name": "dbc:south_collision"
+													},
+													"entered_block_event": {
+														"event": "dbc:change",
+														"target": "self"
+													}
+												},
+												{
+													"block": {
+														"name": "dbc:west_collision"
+													},
+													"entered_block_event": {
+														"event": "dbc:change",
+														"target": "self"
+													}
+												},
+												{
+													"block": {
+														"name": "dbc:east_collision"
+													},
+													"entered_block_event": {
+														"event": "dbc:change",
+														"target": "self"
+													}
+												}
+											]
+										},
+										"key": "block_list",
+										"children": [
+											{
+												"children": [
+													{
+														"open": {
+															"block": {
+																"name": "minecraft:air"
+															},
+															"entered_block_event": {
+																"event": "dbc:f",
+																"target": "self"
+															}
+														},
+														"key": "block",
+														"is_minified": true,
+														"children": {
+															"name": "minecraft:air"
+														}
+													},
+													{
+														"open": {
+															"block": {
+																"name": "minecraft:air"
+															},
+															"entered_block_event": {
+																"event": "dbc:f",
+																"target": "self"
+															}
+														},
+														"key": "entered_block_event",
+														"is_minified": true,
+														"children": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													}
+												]
+											},
+											{
+												"children": [
+													{
+														"open": {
+															"block": {
+																"name": "dbc:top_table_acacia"
+															},
+															"entered_block_event": {
+																"event": "dbc:f",
+																"target": "self"
+															}
+														},
+														"key": "block",
+														"is_minified": true,
+														"children": {
+															"name": "dbc:top_table_acacia"
+														}
+													},
+													{
+														"open": {
+															"block": {
+																"name": "dbc:top_table_acacia"
+															},
+															"entered_block_event": {
+																"event": "dbc:f",
+																"target": "self"
+															}
+														},
+														"key": "entered_block_event",
+														"is_minified": true,
+														"children": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													}
+												]
+											},
+											{
+												"children": [
+													{
+														"open": {
+															"block": {
+																"name": "dbc:top_table_acacia"
+															},
+															"entered_block_event": {
+																"event": "dbc:f",
+																"target": "self"
+															}
+														},
+														"key": "block",
+														"is_minified": true,
+														"children": {
+															"name": "dbc:top_table_acacia"
+														}
+													},
+													{
+														"key": "entered_block_event",
+														"is_minified": true,
+														"children": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													}
+												]
+											},
+											{
+												"children": [
+													{
+														"open": {
+															"block": {
+																"name": "dbc:top_table_oak"
+															},
+															"entered_block_event": {
+																"event": "dbc:f",
+																"target": "self"
+															}
+														},
+														"key": "block",
+														"is_minified": true,
+														"children": {
+															"name": "dbc:top_table_oak"
+														}
+													},
+													{
+														"key": "entered_block_event",
+														"is_minified": true,
+														"children": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													}
+												]
+											},
+											{
+												"children": [
+													{
+														"open": {
+															"block": {
+																"name": "dbc:top_table_spruce"
+															},
+															"entered_block_event": {
+																"event": "dbc:f",
+																"target": "self"
+															}
+														},
+														"key": "block",
+														"is_minified": true,
+														"children": {
+															"name": "dbc:top_table_spruce"
+														}
+													},
+													{
+														"key": "entered_block_event",
+														"is_minified": true,
+														"children": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													}
+												]
+											},
+											{
+												"children": [
+													{
+														"open": {
+															"block": {
+																"name": "dbc:top_table_birch"
+															},
+															"entered_block_event": {
+																"event": "dbc:f",
+																"target": "self"
+															}
+														},
+														"key": "block",
+														"is_minified": true,
+														"children": {
+															"name": "dbc:top_table_birch"
+														}
+													},
+													{
+														"key": "entered_block_event",
+														"is_minified": true,
+														"children": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													}
+												]
+											},
+											{
+												"children": [
+													{
+														"open": {
+															"block": {
+																"name": "dbc:top_table_jungle"
+															},
+															"entered_block_event": {
+																"event": "dbc:f",
+																"target": "self"
+															}
+														},
+														"key": "block",
+														"is_minified": true,
+														"children": {
+															"name": "dbc:top_table_jungle"
+														}
+													},
+													{
+														"key": "entered_block_event",
+														"is_minified": true,
+														"children": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													}
+												]
+											},
+											{
+												"children": [
+													{
+														"open": {
+															"block": {
+																"name": "dbc:top_table_dark_oak"
+															},
+															"entered_block_event": {
+																"event": "dbc:f",
+																"target": "self"
+															}
+														},
+														"key": "block",
+														"is_minified": true,
+														"children": {
+															"name": "dbc:top_table_dark_oak"
+														}
+													},
+													{
+														"key": "entered_block_event",
+														"is_minified": true,
+														"children": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													}
+												]
+											},
+											{
+												"children": [
+													{
+														"open": {
+															"block": {
+																"name": "dbc:top_table_warped"
+															},
+															"entered_block_event": {
+																"event": "dbc:f",
+																"target": "self"
+															}
+														},
+														"key": "block",
+														"is_minified": true,
+														"children": {
+															"name": "dbc:top_table_warped"
+														}
+													},
+													{
+														"key": "entered_block_event",
+														"is_minified": true,
+														"children": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													}
+												]
+											},
+											{
+												"children": [
+													{
+														"open": {
+															"block": {
+																"name": "dbc:top_table_crimson"
+															},
+															"entered_block_event": {
+																"event": "dbc:f",
+																"target": "self"
+															}
+														},
+														"key": "block",
+														"is_minified": true,
+														"children": {
+															"name": "dbc:top_table_crimson"
+														}
+													},
+													{
+														"key": "entered_block_event",
+														"is_minified": true,
+														"children": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													}
+												]
+											},
+											{
+												"children": [
+													{
+														"open": {
+															"block": {
+																"name": "dbc:top_table_concrete"
+															},
+															"entered_block_event": {
+																"event": "dbc:f",
+																"target": "self"
+															}
+														},
+														"key": "block",
+														"is_minified": true,
+														"children": {
+															"name": "dbc:top_table_concrete"
+														}
+													},
+													{
+														"open": {
+															"block": {
+																"name": "dbc:top_table_concrete"
+															},
+															"entered_block_event": {
+																"event": "dbc:f",
+																"target": "self"
+															}
+														},
+														"key": "entered_block_event",
+														"is_minified": true,
+														"children": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"block": {
+															"name": "minecraft:air"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_acacia"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_acacia"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_oak"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_spruce"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_birch"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_jungle"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_dark_oak"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_warped"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_crimson"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_concrete"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:north_collision"
+														},
+														"entered_block_event": {
+															"event": "dbc:change",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:south_collision"
+														},
+														"entered_block_event": {
+															"event": "dbc:change",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:west_collision"
+														},
+														"entered_block_event": {
+															"event": "dbc:change",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:east_collision"
+														},
+														"entered_block_event": {
+															"event": "dbc:change",
+															"target": "self"
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"block": {
+																"name": "dbc:north_collision"
+															},
+															"entered_block_event": {
+																"event": "dbc:change",
+																"target": "self"
+															}
+														},
+														"key": "block",
+														"is_minified": true,
+														"children": {
+															"name": "dbc:north_collision"
+														}
+													},
+													{
+														"key": "entered_block_event",
+														"is_minified": true,
+														"children": {
+															"event": "dbc:change",
+															"target": "self"
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"block": {
+															"name": "minecraft:air"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_acacia"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_acacia"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_oak"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_spruce"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_birch"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_jungle"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_dark_oak"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_warped"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_crimson"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_concrete"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:north_collision"
+														},
+														"entered_block_event": {
+															"event": "dbc:change",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:south_collision"
+														},
+														"entered_block_event": {
+															"event": "dbc:change",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:west_collision"
+														},
+														"entered_block_event": {
+															"event": "dbc:change",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:east_collision"
+														},
+														"entered_block_event": {
+															"event": "dbc:change",
+															"target": "self"
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"block": {
+																"name": "dbc:south_collision"
+															},
+															"entered_block_event": {
+																"event": "dbc:change",
+																"target": "self"
+															}
+														},
+														"key": "block",
+														"is_minified": true,
+														"children": {
+															"name": "dbc:south_collision"
+														}
+													},
+													{
+														"key": "entered_block_event",
+														"is_minified": true,
+														"children": {
+															"event": "dbc:change",
+															"target": "self"
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"block": {
+															"name": "minecraft:air"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_acacia"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_acacia"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_oak"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_spruce"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_birch"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_jungle"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_dark_oak"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_warped"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_crimson"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_concrete"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:north_collision"
+														},
+														"entered_block_event": {
+															"event": "dbc:change",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:south_collision"
+														},
+														"entered_block_event": {
+															"event": "dbc:change",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:west_collision"
+														},
+														"entered_block_event": {
+															"event": "dbc:change",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:east_collision"
+														},
+														"entered_block_event": {
+															"event": "dbc:change",
+															"target": "self"
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"block": {
+																"name": "dbc:west_collision"
+															},
+															"entered_block_event": {
+																"event": "dbc:change",
+																"target": "self"
+															}
+														},
+														"key": "block",
+														"is_minified": true,
+														"children": {
+															"name": "dbc:west_collision"
+														}
+													},
+													{
+														"key": "entered_block_event",
+														"is_minified": true,
+														"children": {
+															"event": "dbc:change",
+															"target": "self"
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"block": {
+															"name": "minecraft:air"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_acacia"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_acacia"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_oak"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_spruce"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_birch"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_jungle"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_dark_oak"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_warped"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_crimson"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:top_table_concrete"
+														},
+														"entered_block_event": {
+															"event": "dbc:f",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:north_collision"
+														},
+														"entered_block_event": {
+															"event": "dbc:change",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:south_collision"
+														},
+														"entered_block_event": {
+															"event": "dbc:change",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:west_collision"
+														},
+														"entered_block_event": {
+															"event": "dbc:change",
+															"target": "self"
+														}
+													},
+													{
+														"block": {
+															"name": "dbc:east_collision"
+														},
+														"entered_block_event": {
+															"event": "dbc:change",
+															"target": "self"
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"block": {
+																"name": "dbc:east_collision"
+															},
+															"entered_block_event": {
+																"event": "dbc:change",
+																"target": "self"
+															}
+														},
+														"key": "block",
+														"is_minified": true,
+														"children": {
+															"name": "dbc:east_collision"
+														}
+													},
+													{
+														"key": "entered_block_event",
+														"is_minified": true,
+														"children": {
+															"event": "dbc:change",
+															"target": "self"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "minecraft:custom_hit_test",
+								"is_minified": true,
+								"children": {
+									"hitboxes": [
+										{
+											"width": -1,
+											"height": -1,
+											"pivot": [
+												0,
+												0,
+												0
+											]
+										}
+									]
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:help_to_detect",
+								"is_summonable": true,
+								"is_spawnable": false,
+								"is_experimental": false
+							},
+							"component_groups": {
+								"dbc:collision": {
+									"minecraft:environment_sensor": {
+										"triggers": {
+											"filters": {
+												"test": "distance_to_nearest_player",
+												"operator": ">",
+												"value": 2
+											},
+											"event": "dbc:set",
+											"target": "self"
+										}
+									}
+								},
+								"dbc:f": {
+									"minecraft:instant_despawn": {}
+								}
+							},
+							"components": {
+								"minecraft:collision_box": {
+									"width": 0,
+									"height": 0
+								},
+								"minecraft:pushable": {
+									"is_pushable": false,
+									"is_pushable_by_piston": false
+								},
+								"minecraft:physics": {
+									"has_collision": false,
+									"has_gravity": false
+								},
+								"minecraft:damage_sensor": {
+									"triggers": [
+										{
+											"cause": "all",
+											"deals_damage": false
+										}
+									]
+								},
+								"minecraft:health": {
+									"value": 1,
+									"max": 1
+								},
+								"minecraft:inside_block_notifier": {
+									"block_list": [
+										{
+											"block": {
+												"name": "minecraft:air"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_acacia"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_acacia"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_oak"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_spruce"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_birch"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_jungle"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_dark_oak"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_warped"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_crimson"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:top_table_concrete"
+											},
+											"entered_block_event": {
+												"event": "dbc:f",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:north_collision"
+											},
+											"entered_block_event": {
+												"event": "dbc:change",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:south_collision"
+											},
+											"entered_block_event": {
+												"event": "dbc:change",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:west_collision"
+											},
+											"entered_block_event": {
+												"event": "dbc:change",
+												"target": "self"
+											}
+										},
+										{
+											"block": {
+												"name": "dbc:east_collision"
+											},
+											"entered_block_event": {
+												"event": "dbc:change",
+												"target": "self"
+											}
+										}
+									]
+								},
+								"minecraft:custom_hit_test": {
+									"hitboxes": [
+										{
+											"width": -1,
+											"height": -1,
+											"pivot": [
+												0,
+												0,
+												0
+											]
+										}
+									]
+								}
+							},
+							"events": {
+								"dbc:change": {
+									"add": {
+										"component_groups": [
+											"dbc:collision"
+										]
+									}
+								},
+								"dbc:set": {
+									"run_command": {
+										"command": [
+											"setblock ~ ~ ~ air"
+										]
+									}
+								},
+								"dbc:f": {
+									"add": {
+										"component_groups": [
+											"dbc:f"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"key": "dbc:change",
+								"children": [
+									{
+										"open": {
+											"add": {
+												"component_groups": [
+													"dbc:collision"
+												]
+											}
+										},
+										"key": "add",
+										"children": [
+											{
+												"open": {
+													"component_groups": [
+														"dbc:collision"
+													]
+												},
+												"key": "component_groups",
+												"is_minified": true,
+												"children": [
+													"dbc:collision"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "dbc:set",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"setblock ~ ~ ~ air"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"setblock ~ ~ ~ air"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"setblock ~ ~ ~ air"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "dbc:f",
+								"is_minified": true,
+								"children": {
+									"add": {
+										"component_groups": [
+											"dbc:f"
+										]
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,1629 @@
+{
+	"BP/bridge/config.json": {
+		"data": {}
+	},
+	"BP/entities/sit.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/birch_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/big_oak_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/acacia_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/spruce_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/jungle_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/crimson_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/warped_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/bathroom/toilet.json": {
+		"data": {}
+	},
+	"BP/recipes/bridges/oak_bridge.json": {
+		"data": {}
+	},
+	"BP/recipes/bridges/oak_bridge_start.json": {
+		"data": {}
+	},
+	"BP/recipes/bridges/acacia_bridge.json": {
+		"data": {}
+	},
+	"BP/recipes/bridges/acacia_bridge_start.json": {
+		"data": {}
+	},
+	"BP/recipes/bridges/birch_bridge.json": {
+		"data": {}
+	},
+	"BP/recipes/bridges/birch_bridge_start.json": {
+		"data": {}
+	},
+	"BP/recipes/bridges/jungle_bridge.json": {
+		"data": {}
+	},
+	"BP/recipes/bridges/jungle_bridge_start.json": {
+		"data": {}
+	},
+	"BP/blocks/bridges/oak_bridge.json": {
+		"data": {}
+	},
+	"BP/blocks/bridges/oak_bridge_start.json": {
+		"data": {}
+	},
+	"BP/recipes/bridges/spruce_bridge_start.json": {
+		"data": {}
+	},
+	"BP/recipes/bridges/spruce_bridge.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/oak_bridge_start.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/oak_bridge.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/birch_bridge_start.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/birch_bridge.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/acacia_bridge_start.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/acacia_bridge.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/jungle_bridge.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/jungle_bridge_start.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/dark_oak_bridge.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/dark_oak_bridge_start.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/crimson_bridge_start.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/crimson_bridge.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/warped_bridge_start.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/warped_bridge.json": {
+		"data": {}
+	},
+	"BP/recipes/bathroom/toilet.json": {
+		"data": {}
+	},
+	"BP/recipes/bathroom/shower.json": {
+		"data": {}
+	},
+	"BP/recipes/bathroom/shower_head.json": {
+		"data": {}
+	},
+	"BP/recipes/bathroom/bathroom_sink.json": {
+		"data": {}
+	},
+	"BP/recipes/bathroom/bathroom_cabinet.json": {
+		"data": {}
+	},
+	"BP/recipes/outdoor/stonepath.json": {
+		"data": {}
+	},
+	"BP/recipes/outdoor/small_fountain.json": {
+		"data": {}
+	},
+	"BP/recipes/outdoor/diving_board.json": {
+		"data": {}
+	},
+	"BP/blocks/bathroom/shower_head.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bridge/custom_item_behavior.json": {
+		"data": {
+			"19520eb0_3300_4c96_a15f_8f91a7bf9c62": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"df01cd65_e208_422b_ada4_ac0b874d887e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"48ea060a_60d4_4148_b73c_42da8f667afc": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/items/brush.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/bathroom/toilet.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/bathroom/bathroom_cabinet.json": {
+		"data": {}
+	},
+	"BP/blocks/bathroom/bathroom_cabinet.json": {
+		"data": {}
+	},
+	"BP/entities/container.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/bathroom/bathroom_sink.json": {
+		"data": {}
+	},
+	"BP/blocks/bathroom/bathroom_sink.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/bathroom/shower.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/bathroom/shower_head.json": {
+		"data": {}
+	},
+	"BP/blocks/bathroom/shower.json": {
+		"data": {}
+	},
+	"BP/blocks/couch/norma/couch.json": {
+		"data": {}
+	},
+	"BP/blocks/couch/inter/couch_inter.json": {
+		"data": {}
+	},
+	"BP/blocks/couch/left/couch_left.json": {
+		"data": {}
+	},
+	"BP/blocks/couch/right/couch_right.json": {
+		"data": {}
+	},
+	"BP/blocks/couch/middle/couch_middle.json": {
+		"data": {}
+	},
+	"BP/items/coffe_cup.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/bar_stools/bar_stool_black.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/bar_stools/bar_stool.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/bar_stools/bar_stool_blue.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/bar_stools/bar_stool_brown.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/bar_stools/bar_stool_cyan.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/bar_stools/bar_stool_gray.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/bar_stools/bar_stool_green.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/bar_stools/bar_stool_light_blue.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/bar_stools/bar_stool_lime.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/bar_stools/bar_stool_magenta.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/bar_stools/bar_stool_orange.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/bar_stools/bar_stool_pink.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/bar_stools/bar_stool_purple.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/bar_stools/bar_stool_red.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/bar_stools/bar_stool_silver.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/bar_stools/bar_stool_yellow.json": {
+		"data": {}
+	},
+	"RP/textures/terrain_texture.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_counters/kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_drawer/kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_drawer/black_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_drawer/blue_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_drawer/brown_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_drawer/cyan_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_drawer/gray_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_drawer/green_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_drawer/light_blue_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_drawer/lime_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_drawer/magenta_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_drawer/orange_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_drawer/pink_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_drawer/purple_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_drawer/red_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_drawer/silver_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_drawer/yellow_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/stone_chair.json": {
+		"data": {}
+	},
+	"RP/blocks.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/concrete/top_table_concrete.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/concrete/small_table_concrete.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/warped/top_table_warped.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/warped/small_table_warped.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/spruce/top_table_spruce.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/spruce/small_table_spruce.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/oak/top_table_oak.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/oak/small_table_oak.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/jungle/small_table_jungle.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/jungle/top_table_jungle.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/crimson/top_table_crimson.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/crimson/small_table_crimson.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/acacia/top_table_acacia.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/acacia/small_table_acacia.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/big_oak/top_table_big_oak.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/big_oak/small_table_big_oak.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/birch/top_table_birch.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/birch/small_table_birch.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/concrete/concrete_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/concrete/black_concrete_chair.json": {
+		"data": {}
+	},
+	"RP/textures/item_texture.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/concrete/blue_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/concrete/brown_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/concrete/cyan_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/concrete/gray_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/concrete/green_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/concrete/light_blue_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/concrete/lime_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/concrete/magenta_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/concrete/orange_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/concrete/pink_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/concrete/purple_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/concrete/red_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/concrete/silver_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/concrete/yellow_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_sinks/kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_sinks/black_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_sinks/blue_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_sinks/brown_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_sinks/cyan_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_sinks/gray_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_sinks/green_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_sinks/light_blue_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_sinks/lime_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_sinks/magenta_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_sinks/orange_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_sinks/pink_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_sinks/purple_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_sinks/red_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_sinks/silver_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_sinks/yellow_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/entities/help_to_detect.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/stone/small_table_stone.json": {
+		"data": {}
+	},
+	"BP/recipes/tables/spruce_table.json": {
+		"data": {}
+	},
+	"BP/recipes/tables/warped_table.json": {
+		"data": {}
+	},
+	"BP/recipes/tables/oak_table.json": {
+		"data": {}
+	},
+	"BP/recipes/tables/jungle_table.json": {
+		"data": {}
+	},
+	"BP/recipes/tables/crimson_table.json": {
+		"data": {}
+	},
+	"BP/recipes/tables/concrete_table.json": {
+		"data": {}
+	},
+	"BP/recipes/tables/birch_table.json": {
+		"data": {}
+	},
+	"BP/recipes/tables/big_oak_table.json": {
+		"data": {}
+	},
+	"BP/recipes/tables/acacia_table.json": {
+		"data": {}
+	},
+	"BP/blocks/living/concrete/tv_furniture.json": {
+		"data": {}
+	},
+	"BP/blocks/living/concrete/black_tv_furniture.json": {
+		"data": {}
+	},
+	"BP/blocks/living/concrete/blue_tv_furniture.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_cabinets/kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_cabinets/black_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_cabinets/blue_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_cabinets/brown_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_cabinets/cyan_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_cabinets/gray_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/fridge.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/coffe_machine.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_cabinets/green_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_cabinets/light_blue_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_cabinets/lime_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_cabinets/magenta_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_cabinets/orange_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_cabinets/pink_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_cabinets/purple_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_cabinets/red_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_cabinets/silver_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_cabinets/yellow_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/blocks/living/concrete/brown_tv_furniture.json": {
+		"data": {}
+	},
+	"BP/blocks/living/concrete/cyan_tv_furniture.json": {
+		"data": {}
+	},
+	"BP/blocks/living/concrete/gray_tv_furniture.json": {
+		"data": {}
+	},
+	"BP/blocks/living/concrete/green_tv_furniture.json": {
+		"data": {}
+	},
+	"BP/blocks/living/concrete/light_blue_tv_furniture.json": {
+		"data": {}
+	},
+	"BP/blocks/living/concrete/lime_tv_furniture.json": {
+		"data": {}
+	},
+	"BP/blocks/living/concrete/magenta_tv_furniture.json": {
+		"data": {}
+	},
+	"BP/blocks/living/concrete/orange_tv_furniture.json": {
+		"data": {}
+	},
+	"BP/blocks/living/concrete/pink_tv_furniture.json": {
+		"data": {}
+	},
+	"BP/blocks/living/concrete/purple_tv_furniture.json": {
+		"data": {}
+	},
+	"BP/blocks/living/concrete/red_tv_furniture.json": {
+		"data": {}
+	},
+	"BP/blocks/living/concrete/silver_tv_furniture.json": {
+		"data": {}
+	},
+	"BP/blocks/living/concrete/yellow_tv_furniture.json": {
+		"data": {}
+	},
+	"BP/blocks/bridges/acacia_bridge.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/lamps/white_lamp.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/lamps/black_lamp.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/lamps/blue_lamp.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/lamps/brown_lamp.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/lamps/cyan_lamp.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/lamps/gray_lamp.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/lamps/green_lamp.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/lamps/light_blue_lamp.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/lamps/lime_lamp.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/lamps/magenta_lamp.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/lamps/orange_lamp.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/lamps/pink_lamp.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/lamps/purple_lamp.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/lamps/red_lamp.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/lamps/silver_lamp.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/lamps/yellow_lamp.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/oak_bedside_table.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/birch_bedside_table.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/spruce_bedside_table.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/jungle_bedside_table.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/acacia_bedside_table.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/dark_oak_bedside_table.json": {
+		"data": {}
+	},
+	"BP/entities/player.json": {
+		"data": {}
+	},
+	"BP/items/cup.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/crimson_bedside_table.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/warped_bedside_table.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/tables/oak_table.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/tables/spruce_table.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/tables/birch_table.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/tables/acacia_table.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/tables/jungle_table.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/tables/dark_oak_table.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/tables/crimson_table.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/tables/warped_table.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/tables/concrete_table.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/tables/stone_table.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/stone/top_table_stone.json": {
+		"data": {}
+	},
+	"BP/blocks/outdoor/diving_board.json": {
+		"data": {}
+	},
+	"BP/blocks/outdoor/small_fountain.json": {
+		"data": {}
+	},
+	"BP/blocks/stairs/oak_stairs.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/cup.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/gaming_chairs/gaming_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/gaming_chairs/black_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/gaming_chairs/blue_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/gaming_chairs/brown_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/gaming_chairs/cyan_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/gaming_chairs/gray_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/gaming_chairs/green_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/gaming_chairs/light_blue_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/gaming_chairs/lime_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/gaming_chairs/magenta_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/gaming_chairs/orange_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/gaming_chairs/pink_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/gaming_chairs/purple_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/gaming_chairs/red_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/gaming_chairs/silver_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/bedroom/gaming_chairs/yellow_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/bathroom/mirror.json": {
+		"data": {}
+	},
+	"BP/blocks/marble/marble.json": {
+		"data": {}
+	},
+	"BP/blocks/marble/marble_bricks.json": {
+		"data": {}
+	},
+	"BP/blocks/marble/marble_slab.json": {
+		"data": {}
+	},
+	"BP/blocks/marble/smooth_marble.json": {
+		"data": {}
+	},
+	"BP/blocks/marble/smooth_marblebricks.json": {
+		"data": {}
+	},
+	"BP/blocks/marble/test_collision/north_collision.json": {
+		"data": {}
+	},
+	"BP/blocks/marble/test_collision/south_collision.json": {
+		"data": {}
+	},
+	"BP/blocks/marble/test_collision/west_collision.json": {
+		"data": {}
+	},
+	"BP/blocks/marble/test_collision/east_collision.json": {
+		"data": {}
+	},
+	"BP/blocks/stairs/spruce_stairs.json": {
+		"data": {}
+	},
+	"BP/blocks/stairs/birch_stairs.json": {
+		"data": {}
+	},
+	"BP/blocks/stairs/jungle_stairs.json": {
+		"data": {}
+	},
+	"BP/blocks/stairs/acacia_stairs.json": {
+		"data": {}
+	},
+	"BP/blocks/stairs/dark_oak_stairs.json": {
+		"data": {}
+	},
+	"BP/blocks/stairs/warped_stairs.json": {
+		"data": {}
+	},
+	"BP/blocks/stairs/crimson_stairs.json": {
+		"data": {}
+	},
+	"BP/blocks/marble/marble_stairs.json": {
+		"data": {}
+	},
+	"BP/blocks/marble/smooth_marble_stairs.json": {
+		"data": {}
+	},
+	"BP/blocks/logs_deco/slabs/oak_slab.json": {
+		"data": {}
+	},
+	"BP/blocks/marble/smooth_marble_slab.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/double_slabs/oak_slab.json": {
+		"data": {}
+	},
+	"BP/blocks/logs_deco/slabs/birch_slab.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/double_slabs/birch_slab.json": {
+		"data": {}
+	},
+	"BP/blocks/logs_deco/slabs/spruce_slab.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/double_slabs/spruce_slab.json": {
+		"data": {}
+	},
+	"BP/blocks/logs_deco/slabs/jungle_slab.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/double_slabs/jungle_slab.json": {
+		"data": {}
+	},
+	"BP/blocks/logs_deco/slabs/acacia_slab.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/double_slabs/acacia_slab.json": {
+		"data": {}
+	},
+	"BP/blocks/logs_deco/slabs/dark_oak_slab.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/double_slabs/dark_oak_slab.json": {
+		"data": {}
+	},
+	"BP/blocks/logs_deco/slabs/crimson_slab.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/double_slabs/crimson_slab.json": {
+		"data": {}
+	},
+	"BP/blocks/logs_deco/slabs/warped_slab.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/double_slabs/warped_slab.json": {
+		"data": {}
+	},
+	"BP/blocks/outdoor/umbrellas/umbrella.json": {
+		"data": {}
+	},
+	"RP/animations/umbrella_item.animation.json": {
+		"data": {}
+	},
+	"BP/blocks/outdoor/umbrellas/black_umbrella.json": {
+		"data": {}
+	},
+	"RP/attachables/umbrella.json": {
+		"data": {}
+	},
+	"RP/attachables/black_umbrella.json": {
+		"data": {}
+	},
+	"BP/blocks/outdoor/umbrellas/blue_umbrella.json": {
+		"data": {}
+	},
+	"RP/attachables/blue_umbrella.json": {
+		"data": {}
+	},
+	"BP/blocks/outdoor/umbrellas/brown_umbrella.json": {
+		"data": {}
+	},
+	"RP/attachables/brown_umbrella.json": {
+		"data": {}
+	},
+	"BP/blocks/outdoor/umbrellas/cyan_umbrella.json": {
+		"data": {}
+	},
+	"RP/attachables/cyan_umbrella.json": {
+		"data": {}
+	},
+	"BP/blocks/outdoor/umbrellas/gray_umbrella.json": {
+		"data": {}
+	},
+	"RP/attachables/gray_umbrella.json": {
+		"data": {}
+	},
+	"BP/blocks/outdoor/umbrellas/green_umbrella.json": {
+		"data": {}
+	},
+	"RP/attachables/green_umbrella.json": {
+		"data": {}
+	},
+	"BP/blocks/outdoor/umbrellas/light_blue_umbrella.json": {
+		"data": {}
+	},
+	"BP/blocks/outdoor/umbrellas/lime_umbrella.json": {
+		"data": {}
+	},
+	"RP/attachables/light_blue_umbrella.json": {
+		"data": {}
+	},
+	"RP/attachables/lime_umbrella.json": {
+		"data": {}
+	},
+	"BP/blocks/outdoor/umbrellas/magenta_umbrella.json": {
+		"data": {}
+	},
+	"BP/blocks/outdoor/umbrellas/orange_umbrella.json": {
+		"data": {}
+	},
+	"RP/attachables/magenta_umbrella.json": {
+		"data": {}
+	},
+	"RP/attachables/orange_umbrella.json": {
+		"data": {}
+	},
+	"BP/blocks/outdoor/umbrellas/pink_umbrella.json": {
+		"data": {}
+	},
+	"BP/blocks/outdoor/umbrellas/purple_umbrella.json": {
+		"data": {}
+	},
+	"RP/attachables/pink_umbrella.json": {
+		"data": {}
+	},
+	"RP/attachables/purple_umbrella.json": {
+		"data": {}
+	},
+	"BP/blocks/outdoor/umbrellas/red_umbrella.json": {
+		"data": {}
+	},
+	"BP/blocks/outdoor/umbrellas/silver_umbrella.json": {
+		"data": {}
+	},
+	"RP/attachables/red_umbrella.json": {
+		"data": {}
+	},
+	"RP/attachables/silver_umbrella.json": {
+		"data": {}
+	},
+	"BP/blocks/outdoor/umbrellas/yellow_umbrella.json": {
+		"data": {}
+	},
+	"RP/attachables/yellow_umbrella.json": {
+		"data": {}
+	},
+	"BP/blocks/outdoor/umbrellas/boca_umbrella.json": {
+		"data": {}
+	},
+	"RP/attachables/boca_umbrella.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/concrete/top_table_blue_concrete.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/tables/blue_concrete_table.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/concrete/small_table_blue_concrete.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/concrete/top_table_black_concrete.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/tables/black_concrete_table.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/concrete/small_table_black_concrete.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/concrete/small_table_brown_concrete.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/concrete/top_table_brown_concrete.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/tables/brown_concrete_table.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/concrete/small_table_cyan_concrete.json": {
+		"data": {}
+	},
+	"BP/blocks/tables/concrete/top_table_cyan_concrete.json": {
+		"data": {}
+	},
+	"BP/blocks/test_block.json": {
+		"data": {}
+	},
+	"BP/recipes/logs_deco/oak_slab.json": {
+		"data": {}
+	},
+	"BP/recipes/logs_deco/birch_stairs.json": {
+		"data": {}
+	},
+	"BP/recipes/logs_deco/spruce_slab.json": {
+		"data": {}
+	},
+	"BP/recipes/logs_deco/birch_slab.json": {
+		"data": {}
+	},
+	"BP/recipes/logs_deco/jungle_slab.json": {
+		"data": {}
+	},
+	"BP/recipes/logs_deco/acacia_slab.json": {
+		"data": {}
+	},
+	"BP/recipes/logs_deco/crimson_slab.json": {
+		"data": {}
+	},
+	"BP/recipes/logs_deco/dark_oak_slab.json": {
+		"data": {}
+	},
+	"BP/recipes/logs_deco/warped_slab.json": {
+		"data": {}
+	},
+	"BP/recipes/living_room/tvf/tvf.json": {
+		"data": {}
+	},
+	"BP/recipes/living_room/tvf/black_tvf.json": {
+		"data": {}
+	},
+	"BP/recipes/living_room/tvf/blue_tvf.json": {
+		"data": {}
+	},
+	"BP/recipes/living_room/tvf/brown_tvf.json": {
+		"data": {}
+	},
+	"BP/recipes/living_room/tvf/cyan_tvf.json": {
+		"data": {}
+	},
+	"BP/recipes/living_room/tvf/gray_tvf.json": {
+		"data": {}
+	},
+	"BP/recipes/living_room/tvf/green_tvf.json": {
+		"data": {}
+	},
+	"BP/recipes/living_room/tvf/lime_tvf.json": {
+		"data": {}
+	},
+	"BP/recipes/living_room/tvf/light_blue_tvf.json": {
+		"data": {}
+	},
+	"BP/recipes/living_room/tvf/magenta_tvf.json": {
+		"data": {}
+	},
+	"BP/recipes/living_room/tvf/orange_tvf.json": {
+		"data": {}
+	},
+	"BP/recipes/living_room/tvf/pink_tvf.json": {
+		"data": {}
+	},
+	"BP/recipes/living_room/tvf/purple_tvf.json": {
+		"data": {}
+	},
+	"BP/recipes/living_room/tvf/red_tvf.json": {
+		"data": {}
+	},
+	"BP/recipes/living_room/tvf/silver_tvf.json": {
+		"data": {}
+	},
+	"BP/recipes/living_room/tvf/yellow_tvf.json": {
+		"data": {}
+	},
+	"BP/recipes/chair/concrete/concrete_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/chair/concrete/black_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/chair/concrete/blue_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/chair/concrete/brown_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/chair/concrete/cyan_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/chair/concrete/gray_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/chair/concrete/green_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/chair/concrete/light_blue_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/chair/concrete/lime_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/chair/concrete/magenta_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/chair/concrete/orange_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/chair/concrete/pink_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/chair/concrete/purple_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/chair/concrete/red_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/chair/concrete/silver_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/chair/concrete/yellow_concrete_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/gaming_chairs/gaming_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/gaming_chairs/black_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/gaming_chairs/blue_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/gaming_chairs/brown_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/gaming_chairs/cyan_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/gaming_chairs/gray_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/gaming_chairs/green_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/gaming_chairs/light_blue_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/gaming_chairs/lime_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/gaming_chairs/magenta_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/gaming_chairs/orange_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/gaming_chairs/pink_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/gaming_chairs/purple_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/gaming_chairs/red_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/gaming_chairs/silver_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/gaming_chairs/yellow_gaming_chair.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/oak_bedside_table.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/spruce_bedside_table.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/birch_bedside_table.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/jungle_bedside_table.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/acacia_bedside_table.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/dark_oak_bedside_table.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/warped_bedside_table.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/crimson_bedside_table.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/lamps/white_lamp.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/lamps/ black_lamp.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/lamps/ blue_lamp.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/lamps/ brown_lamp.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/lamps/cyan_lamp.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/lamps/gray_lamp.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/lamps/green_lamp.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/lamps/light_blue_lamp.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/lamps/lime_lamp.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/lamps/orange_lamp.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/lamps/magenta_lamp.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/lamps/pink_lamp.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/lamps/purple_lamp.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/lamps/red_lamp.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/lamps/silver_lamp.json": {
+		"data": {}
+	},
+	"BP/recipes/bedroom/lamps/yellow_lamp.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/cup.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/kitchen/cup.json": {
+		"data": {}
+	},
+	"BP/recipes/outdoor/umbrellas/umbrella.json": {
+		"data": {}
+	},
+	"BP/recipes/outdoor/umbrellas/black_umbrella.json": {
+		"data": {}
+	},
+	"BP/recipes/outdoor/umbrellas/blue_umbrella.json": {
+		"data": {}
+	},
+	"BP/recipes/outdoor/umbrellas/brown_umbrella.json": {
+		"data": {}
+	},
+	"BP/recipes/outdoor/umbrellas/cyan_umbrella.json": {
+		"data": {}
+	},
+	"BP/recipes/outdoor/umbrellas/gray_umbrella.json": {
+		"data": {}
+	},
+	"BP/recipes/outdoor/umbrellas/green_umbrella.json": {
+		"data": {}
+	},
+	"BP/recipes/outdoor/umbrellas/light_blue_umbrella.json": {
+		"data": {}
+	},
+	"BP/recipes/outdoor/umbrellas/lime_umbrella.json": {
+		"data": {}
+	},
+	"BP/recipes/outdoor/umbrellas/magenta_umbrella.json": {
+		"data": {}
+	},
+	"BP/recipes/outdoor/umbrellas/orange_umbrella.json": {
+		"data": {}
+	},
+	"BP/recipes/outdoor/umbrellas/pink_umbrella.json": {
+		"data": {}
+	},
+	"BP/recipes/outdoor/umbrellas/purple_umbrella.json": {
+		"data": {}
+	},
+	"BP/recipes/outdoor/umbrellas/red_umbrella.json": {
+		"data": {}
+	},
+	"BP/recipes/outdoor/umbrellas/silver_umbrella.json": {
+		"data": {}
+	},
+	"BP/recipes/outdoor/umbrellas/yellow_umbrella.json": {
+		"data": {}
+	},
+	"BP/recipes/outdoor/umbrellas/boca_umbrella.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_sink/kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_sink/black_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_sink/blue_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_sink/brown_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_sink/cyan_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_sink/gray_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_sink/green_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_sink/light_blue_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_sink/lime_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_sink/magenta_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_sink/orange_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_sink/pink_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_sink/purple_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_sink/red_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_sink/silver_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_sink/yellow_kitchen_sink.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_cabinet/black_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_cabinet/blue_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_cabinet/brown_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_cabinet/cyan_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_cabinet/gray_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_cabinet/green_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_cabinet/light_blue_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_cabinet/lime_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_cabinet/magenta_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_cabinet/orange_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_cabinet/pink_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_cabinet/purple_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_cabinet/red_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_cabinet/silver_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_cabinet/yellow_kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_drawer/kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_cabinet/kitchen_cabinet.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_drawer/black_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_drawer/blue_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_drawer/brown_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_drawer/cyan_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_drawer/green_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_drawer/gray_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_drawer/light_blue_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_drawer/lime_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_drawer/magenta_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_drawer/orange_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_drawer/pink_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_drawer/purple_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_drawer/red_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_drawer/silver_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_drawer/yellow_kitchen_drawer.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/bar_stool/bar_stool.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/bar_stool/black_bar_stool.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/bar_stool/blue_bar_stool.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/bar_stool/brown_bar_stool.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/bar_stool/cyan_bar_stool.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/bar_stool/gray_bar_stool.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/bar_stool/green_bar_stool.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/bar_stool/light_blue_bar_stool.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/bar_stool/lime_bar_stool.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/bar_stool/magenta_bar_stool.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/bar_stool/orange_bar_stool.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/bar_stool/pink_bar_stool.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/bar_stool/purple_bar_stool.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/bar_stool/red_bar_stool.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/bar_stool/silver_bar_stool.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/bar_stool/yellow_bar_stool.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_counters/black_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_counter/black_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_counter/kitchen_counter.json": {
+		"data": {}
+	},
+	"RP/nkin'/FunkinMulti(BETA)/mods/characters/trickymask/config.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_counter/blue_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_counters/blue_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_counters/brown_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_counter/brown_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_counters/cyan_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_counter/cyan_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_counters/gray_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_counter/gray_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_counters/green_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_counter/green_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_counters/light_blue_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_counter/light_blue_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_counters/lime_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_counter/lime_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_counter/magenta_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_counters/magenta_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_counters/orange_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_counter/orange_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_counter/pink_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_counters/pink_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_counters/purple_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_counter/purple_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_counters/red_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_counter/red_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_counter/yellow_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_counters/yellow_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/kitchen_counters/silver_kitchen_counter.json": {
+		"data": {}
+	},
+	"BP/recipes/kitchen/kitchen_counter/silver_kitchen_counter.json": {
+		"data": {}
+	}
+}

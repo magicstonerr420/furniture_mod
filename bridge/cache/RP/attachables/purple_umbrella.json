@@ -1,0 +1,401 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\DecoBEcraft §6[RP]\\attachables\\purple_umbrella.json",
+	"file_type": "attachable",
+	"format_version": 1,
+	"file_uuid": "ae123ac0_e579_49f2_875d_e285696a2cff",
+	"file_version": 27,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:attachable": {
+						"description": {
+							"identifier": "dbc:purple_umbrella",
+							"materials": {
+								"default": "entity_alphatest",
+								"enchanted": "entity_alphatest_glint"
+							},
+							"textures": {
+								"default": "textures/blocks/kitchen/bar_stool/bs_purple",
+								"enchanted": "textures/misc/enchanted_item_glint"
+							},
+							"geometry": {
+								"default": "geometry.umbrella_item"
+							},
+							"animations": {
+								"default": "animation.umbrella_item.default",
+								"first_person": "animation.umbrella_item.first_person"
+							},
+							"scripts": {
+								"animate": [
+									{
+										"default": "!c.is_first_person"
+									},
+									{
+										"first_person": "c.is_first_person"
+									}
+								]
+							},
+							"render_controllers": [
+								"controller.render.item_default"
+							]
+						}
+					}
+				},
+				"key": "minecraft:attachable",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:purple_umbrella",
+								"materials": {
+									"default": "entity_alphatest",
+									"enchanted": "entity_alphatest_glint"
+								},
+								"textures": {
+									"default": "textures/blocks/kitchen/bar_stool/bs_purple",
+									"enchanted": "textures/misc/enchanted_item_glint"
+								},
+								"geometry": {
+									"default": "geometry.umbrella_item"
+								},
+								"animations": {
+									"default": "animation.umbrella_item.default",
+									"first_person": "animation.umbrella_item.first_person"
+								},
+								"scripts": {
+									"animate": [
+										{
+											"default": "!c.is_first_person"
+										},
+										{
+											"first_person": "c.is_first_person"
+										}
+									]
+								},
+								"render_controllers": [
+									"controller.render.item_default"
+								]
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "dbc:purple_umbrella",
+									"materials": {
+										"default": "entity_alphatest",
+										"enchanted": "entity_alphatest_glint"
+									},
+									"textures": {
+										"default": "textures/blocks/kitchen/bar_stool/bs_purple",
+										"enchanted": "textures/misc/enchanted_item_glint"
+									},
+									"geometry": {
+										"default": "geometry.umbrella_item"
+									},
+									"animations": {
+										"default": "animation.umbrella_item.default",
+										"first_person": "animation.umbrella_item.first_person"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"default": "!c.is_first_person"
+											},
+											{
+												"first_person": "c.is_first_person"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.item_default"
+									]
+								},
+								"data": "dbc:purple_umbrella",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "dbc:purple_umbrella",
+									"materials": {
+										"default": "entity_alphatest",
+										"enchanted": "entity_alphatest_glint"
+									},
+									"textures": {
+										"default": "textures/blocks/kitchen/bar_stool/bs_purple",
+										"enchanted": "textures/misc/enchanted_item_glint"
+									},
+									"geometry": {
+										"default": "geometry.umbrella_item"
+									},
+									"animations": {
+										"default": "animation.umbrella_item.default",
+										"first_person": "animation.umbrella_item.first_person"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"default": "!c.is_first_person"
+											},
+											{
+												"first_person": "c.is_first_person"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.item_default"
+									]
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "entity_alphatest",
+									"enchanted": "entity_alphatest_glint"
+								}
+							},
+							{
+								"open": {
+									"identifier": "dbc:purple_umbrella",
+									"materials": {
+										"default": "entity_alphatest",
+										"enchanted": "entity_alphatest_glint"
+									},
+									"textures": {
+										"default": "textures/blocks/kitchen/bar_stool/bs_purple",
+										"enchanted": "textures/misc/enchanted_item_glint"
+									},
+									"geometry": {
+										"default": "geometry.umbrella_item"
+									},
+									"animations": {
+										"default": "animation.umbrella_item.default",
+										"first_person": "animation.umbrella_item.first_person"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"default": "!c.is_first_person"
+											},
+											{
+												"first_person": "c.is_first_person"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.item_default"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/blocks/kitchen/bar_stool/bs_purple",
+									"enchanted": "textures/misc/enchanted_item_glint"
+								}
+							},
+							{
+								"open": {
+									"identifier": "dbc:purple_umbrella",
+									"materials": {
+										"default": "entity_alphatest",
+										"enchanted": "entity_alphatest_glint"
+									},
+									"textures": {
+										"default": "textures/blocks/kitchen/bar_stool/bs_purple",
+										"enchanted": "textures/misc/enchanted_item_glint"
+									},
+									"geometry": {
+										"default": "geometry.umbrella_item"
+									},
+									"animations": {
+										"default": "animation.umbrella_item.default",
+										"first_person": "animation.umbrella_item.first_person"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"default": "!c.is_first_person"
+											},
+											{
+												"first_person": "c.is_first_person"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.item_default"
+									]
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.umbrella_item"
+								}
+							},
+							{
+								"open": {
+									"identifier": "dbc:purple_umbrella",
+									"materials": {
+										"default": "entity_alphatest",
+										"enchanted": "entity_alphatest_glint"
+									},
+									"textures": {
+										"default": "textures/blocks/kitchen/bar_stool/bs_purple",
+										"enchanted": "textures/misc/enchanted_item_glint"
+									},
+									"geometry": {
+										"default": "geometry.umbrella_item"
+									},
+									"animations": {
+										"default": "animation.umbrella_item.default",
+										"first_person": "animation.umbrella_item.first_person"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"default": "!c.is_first_person"
+											},
+											{
+												"first_person": "c.is_first_person"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.item_default"
+									]
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"default": "animation.umbrella_item.default",
+									"first_person": "animation.umbrella_item.first_person"
+								}
+							},
+							{
+								"open": {
+									"identifier": "dbc:purple_umbrella",
+									"materials": {
+										"default": "entity_alphatest",
+										"enchanted": "entity_alphatest_glint"
+									},
+									"textures": {
+										"default": "textures/blocks/kitchen/bar_stool/bs_purple",
+										"enchanted": "textures/misc/enchanted_item_glint"
+									},
+									"geometry": {
+										"default": "geometry.umbrella_item"
+									},
+									"animations": {
+										"default": "animation.umbrella_item.default",
+										"first_person": "animation.umbrella_item.first_person"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"default": "!c.is_first_person"
+											},
+											{
+												"first_person": "c.is_first_person"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.item_default"
+									]
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												{
+													"default": "!c.is_first_person"
+												},
+												{
+													"first_person": "c.is_first_person"
+												}
+											]
+										},
+										"key": "animate",
+										"children": [
+											{
+												"open": [
+													{
+														"default": "!c.is_first_person"
+													},
+													{
+														"first_person": "c.is_first_person"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"default": "!c.is_first_person"
+												}
+											},
+											{
+												"open": [
+													{
+														"default": "!c.is_first_person"
+													},
+													{
+														"first_person": "c.is_first_person"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"first_person": "c.is_first_person"
+												}
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"identifier": "dbc:purple_umbrella",
+									"materials": {
+										"default": "entity_alphatest",
+										"enchanted": "entity_alphatest_glint"
+									},
+									"textures": {
+										"default": "textures/blocks/kitchen/bar_stool/bs_purple",
+										"enchanted": "textures/misc/enchanted_item_glint"
+									},
+									"geometry": {
+										"default": "geometry.umbrella_item"
+									},
+									"animations": {
+										"default": "animation.umbrella_item.default",
+										"first_person": "animation.umbrella_item.first_person"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"default": "!c.is_first_person"
+											},
+											{
+												"first_person": "c.is_first_person"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.item_default"
+									]
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.item_default"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

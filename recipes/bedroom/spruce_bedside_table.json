@@ -1,0 +1,38 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:spruce_bedside_table"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~",
+			"#!#",
+			"~~~"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:log",
+				"data": 1
+			},
+			"#": {
+				"item": "minecraft:planks",
+				"data": 1
+			},
+			"!": {
+				"item": "minecraft:chest",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:spruce_bedside_table",
+				"data": 0,
+				"count": 2
+			}
+		]
+	}
+}

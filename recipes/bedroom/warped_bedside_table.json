@@ -1,0 +1,35 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:warped_bedside_table"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~",
+			"#!#",
+			"~~~"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:warped_stem"
+			},
+			"#": {
+				"item": "minecraft:warped_planks"
+			},
+			"!": {
+				"item": "minecraft:chest"
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:warped_bedside_table",
+				"data": 0,
+				"count": 2
+			}
+		]
+	}
+}

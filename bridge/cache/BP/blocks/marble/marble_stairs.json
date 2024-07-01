@@ -1,0 +1,1047 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\blocks\\marble\\marble_stairs.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "f524f8cb_65f9_411f_a58f_c2af6d9260d7",
+	"file_version": 101,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "dbc:marble_stairs",
+							"properties": {
+								"dbc:facing": [
+									0,
+									1,
+									2,
+									3,
+									4,
+									5,
+									6
+								]
+							}
+						},
+						"components": {
+							"minecraft:destroy_time": 0.5,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "marble",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:on_player_placing": {
+								"event": "dbc:facing"
+							},
+							"minecraft:entity_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									8,
+									16
+								]
+							},
+							"tag:stairs": {},
+							"minecraft:map_color": "#DBDBDB"
+						},
+						"permutations": [
+							{
+								"condition": "query.block_property('dbc:facing') == 0",
+								"components": {
+									"minecraft:geometry": "geometry.stairs"
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 2",
+								"components": {
+									"minecraft:on_step_on": {
+										"event": "dbc:magic_north",
+										"target": "player"
+									},
+									"minecraft:geometry": "geometry.stairs"
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 3",
+								"components": {
+									"minecraft:on_step_on": {
+										"event": "dbc:magic_south",
+										"target": "player"
+									},
+									"minecraft:geometry": "geometry.stairs_south"
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 4",
+								"components": {
+									"minecraft:on_step_on": {
+										"event": "dbc:magic_west",
+										"target": "player"
+									},
+									"minecraft:geometry": "geometry.stairs_west"
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 5",
+								"components": {
+									"minecraft:on_step_on": {
+										"event": "dbc:magic_east",
+										"target": "player"
+									},
+									"minecraft:geometry": "geometry.stairs_east"
+								}
+							}
+						],
+						"events": {
+							"dbc:facing": {
+								"set_block_property": {
+									"dbc:facing": "query.cardinal_facing_2d"
+								}
+							},
+							"dbc:magic_north": {
+								"set_block_at_pos": {
+									"block_type": "dbc:north_collision",
+									"block_offset": [
+										0,
+										1,
+										0
+									]
+								}
+							},
+							"dbc:magic_south": {
+								"set_block_at_pos": {
+									"block_type": "dbc:south_collision",
+									"block_offset": [
+										0,
+										1,
+										0
+									]
+								}
+							},
+							"dbc:magic_west": {
+								"set_block_at_pos": {
+									"block_type": "dbc:west_collision",
+									"block_offset": [
+										0,
+										1,
+										0
+									]
+								}
+							},
+							"dbc:magic_east": {
+								"set_block_at_pos": {
+									"block_type": "dbc:east_collision",
+									"block_offset": [
+										0,
+										1,
+										0
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:marble_stairs",
+								"properties": {
+									"dbc:facing": [
+										0,
+										1,
+										2,
+										3,
+										4,
+										5,
+										6
+									]
+								}
+							},
+							"components": {
+								"minecraft:destroy_time": 0.5,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "marble",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:on_player_placing": {
+									"event": "dbc:facing"
+								},
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										8,
+										16
+									]
+								},
+								"tag:stairs": {},
+								"minecraft:map_color": "#DBDBDB"
+							},
+							"permutations": [
+								{
+									"condition": "query.block_property('dbc:facing') == 0",
+									"components": {
+										"minecraft:geometry": "geometry.stairs"
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 2",
+									"components": {
+										"minecraft:on_step_on": {
+											"event": "dbc:magic_north",
+											"target": "player"
+										},
+										"minecraft:geometry": "geometry.stairs"
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 3",
+									"components": {
+										"minecraft:on_step_on": {
+											"event": "dbc:magic_south",
+											"target": "player"
+										},
+										"minecraft:geometry": "geometry.stairs_south"
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 4",
+									"components": {
+										"minecraft:on_step_on": {
+											"event": "dbc:magic_west",
+											"target": "player"
+										},
+										"minecraft:geometry": "geometry.stairs_west"
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 5",
+									"components": {
+										"minecraft:on_step_on": {
+											"event": "dbc:magic_east",
+											"target": "player"
+										},
+										"minecraft:geometry": "geometry.stairs_east"
+									}
+								}
+							],
+							"events": {
+								"dbc:facing": {
+									"set_block_property": {
+										"dbc:facing": "query.cardinal_facing_2d"
+									}
+								},
+								"dbc:magic_north": {
+									"set_block_at_pos": {
+										"block_type": "dbc:north_collision",
+										"block_offset": [
+											0,
+											1,
+											0
+										]
+									}
+								},
+								"dbc:magic_south": {
+									"set_block_at_pos": {
+										"block_type": "dbc:south_collision",
+										"block_offset": [
+											0,
+											1,
+											0
+										]
+									}
+								},
+								"dbc:magic_west": {
+									"set_block_at_pos": {
+										"block_type": "dbc:west_collision",
+										"block_offset": [
+											0,
+											1,
+											0
+										]
+									}
+								},
+								"dbc:magic_east": {
+									"set_block_at_pos": {
+										"block_type": "dbc:east_collision",
+										"block_offset": [
+											0,
+											1,
+											0
+										]
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:marble_stairs",
+							"properties": {
+								"dbc:facing": [
+									0,
+									1,
+									2,
+									3,
+									4,
+									5,
+									6
+								]
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:marble_stairs",
+								"properties": {
+									"dbc:facing": [
+										0,
+										1,
+										2,
+										3,
+										4,
+										5,
+										6
+									]
+								}
+							},
+							"components": {
+								"minecraft:destroy_time": 0.5,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "marble",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:on_player_placing": {
+									"event": "dbc:facing"
+								},
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										8,
+										16
+									]
+								},
+								"tag:stairs": {},
+								"minecraft:map_color": "#DBDBDB"
+							},
+							"permutations": [
+								{
+									"condition": "query.block_property('dbc:facing') == 0",
+									"components": {
+										"minecraft:geometry": "geometry.stairs"
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 2",
+									"components": {
+										"minecraft:on_step_on": {
+											"event": "dbc:magic_north",
+											"target": "player"
+										},
+										"minecraft:geometry": "geometry.stairs"
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 3",
+									"components": {
+										"minecraft:on_step_on": {
+											"event": "dbc:magic_south",
+											"target": "player"
+										},
+										"minecraft:geometry": "geometry.stairs_south"
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 4",
+									"components": {
+										"minecraft:on_step_on": {
+											"event": "dbc:magic_west",
+											"target": "player"
+										},
+										"minecraft:geometry": "geometry.stairs_west"
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 5",
+									"components": {
+										"minecraft:on_step_on": {
+											"event": "dbc:magic_east",
+											"target": "player"
+										},
+										"minecraft:geometry": "geometry.stairs_east"
+									}
+								}
+							],
+							"events": {
+								"dbc:facing": {
+									"set_block_property": {
+										"dbc:facing": "query.cardinal_facing_2d"
+									}
+								},
+								"dbc:magic_north": {
+									"set_block_at_pos": {
+										"block_type": "dbc:north_collision",
+										"block_offset": [
+											0,
+											1,
+											0
+										]
+									}
+								},
+								"dbc:magic_south": {
+									"set_block_at_pos": {
+										"block_type": "dbc:south_collision",
+										"block_offset": [
+											0,
+											1,
+											0
+										]
+									}
+								},
+								"dbc:magic_west": {
+									"set_block_at_pos": {
+										"block_type": "dbc:west_collision",
+										"block_offset": [
+											0,
+											1,
+											0
+										]
+									}
+								},
+								"dbc:magic_east": {
+									"set_block_at_pos": {
+										"block_type": "dbc:east_collision",
+										"block_offset": [
+											0,
+											1,
+											0
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "0.5",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"data": "0",
+								"key": "minecraft:block_light_absorption"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 0.5,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "marble",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:on_player_placing": {
+										"event": "dbc:facing"
+									},
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											8,
+											16
+										]
+									},
+									"tag:stairs": {},
+									"minecraft:map_color": "#DBDBDB"
+								},
+								"key": "minecraft:material_instances",
+								"children": [
+									{
+										"open": {
+											"*": {
+												"texture": "marble",
+												"render_method": "alpha_test"
+											}
+										},
+										"key": "*",
+										"is_minified": true,
+										"children": {
+											"texture": "marble",
+											"render_method": "alpha_test"
+										}
+									}
+								]
+							},
+							{
+								"key": "minecraft:on_player_placing",
+								"is_minified": true,
+								"children": {
+									"event": "dbc:facing"
+								}
+							},
+							{
+								"key": "minecraft:entity_collision",
+								"is_minified": true,
+								"children": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										8,
+										16
+									]
+								}
+							},
+							{
+								"key": "tag:stairs",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"data": "#DBDBDB",
+								"key": "minecraft:map_color"
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:marble_stairs",
+								"properties": {
+									"dbc:facing": [
+										0,
+										1,
+										2,
+										3,
+										4,
+										5,
+										6
+									]
+								}
+							},
+							"components": {
+								"minecraft:destroy_time": 0.5,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "marble",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:on_player_placing": {
+									"event": "dbc:facing"
+								},
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										8,
+										16
+									]
+								},
+								"tag:stairs": {},
+								"minecraft:map_color": "#DBDBDB"
+							},
+							"permutations": [
+								{
+									"condition": "query.block_property('dbc:facing') == 0",
+									"components": {
+										"minecraft:geometry": "geometry.stairs"
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 2",
+									"components": {
+										"minecraft:on_step_on": {
+											"event": "dbc:magic_north",
+											"target": "player"
+										},
+										"minecraft:geometry": "geometry.stairs"
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 3",
+									"components": {
+										"minecraft:on_step_on": {
+											"event": "dbc:magic_south",
+											"target": "player"
+										},
+										"minecraft:geometry": "geometry.stairs_south"
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 4",
+									"components": {
+										"minecraft:on_step_on": {
+											"event": "dbc:magic_west",
+											"target": "player"
+										},
+										"minecraft:geometry": "geometry.stairs_west"
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 5",
+									"components": {
+										"minecraft:on_step_on": {
+											"event": "dbc:magic_east",
+											"target": "player"
+										},
+										"minecraft:geometry": "geometry.stairs_east"
+									}
+								}
+							],
+							"events": {
+								"dbc:facing": {
+									"set_block_property": {
+										"dbc:facing": "query.cardinal_facing_2d"
+									}
+								},
+								"dbc:magic_north": {
+									"set_block_at_pos": {
+										"block_type": "dbc:north_collision",
+										"block_offset": [
+											0,
+											1,
+											0
+										]
+									}
+								},
+								"dbc:magic_south": {
+									"set_block_at_pos": {
+										"block_type": "dbc:south_collision",
+										"block_offset": [
+											0,
+											1,
+											0
+										]
+									}
+								},
+								"dbc:magic_west": {
+									"set_block_at_pos": {
+										"block_type": "dbc:west_collision",
+										"block_offset": [
+											0,
+											1,
+											0
+										]
+									}
+								},
+								"dbc:magic_east": {
+									"set_block_at_pos": {
+										"block_type": "dbc:east_collision",
+										"block_offset": [
+											0,
+											1,
+											0
+										]
+									}
+								}
+							}
+						},
+						"key": "permutations",
+						"children": [
+							{
+								"children": [
+									{
+										"data": "query.block_property('dbc:facing') == 0",
+										"key": "condition"
+									},
+									{
+										"open": {
+											"condition": "query.block_property('dbc:facing') == 0",
+											"components": {
+												"minecraft:geometry": "geometry.stairs"
+											}
+										},
+										"key": "components",
+										"is_minified": true,
+										"children": {
+											"minecraft:geometry": "geometry.stairs"
+										}
+									}
+								]
+							},
+							{
+								"children": [
+									{
+										"data": "query.block_property('dbc:facing') == 2",
+										"key": "condition"
+									},
+									{
+										"open": {
+											"condition": "query.block_property('dbc:facing') == 2",
+											"components": {
+												"minecraft:on_step_on": {
+													"event": "dbc:magic_north",
+													"target": "player"
+												},
+												"minecraft:geometry": "geometry.stairs"
+											}
+										},
+										"key": "components",
+										"is_minified": true,
+										"children": {
+											"minecraft:on_step_on": {
+												"event": "dbc:magic_north",
+												"target": "player"
+											},
+											"minecraft:geometry": "geometry.stairs"
+										}
+									}
+								]
+							},
+							{
+								"children": [
+									{
+										"data": "query.block_property('dbc:facing') == 3",
+										"key": "condition"
+									},
+									{
+										"open": {
+											"condition": "query.block_property('dbc:facing') == 3",
+											"components": {
+												"minecraft:on_step_on": {
+													"event": "dbc:magic_south",
+													"target": "player"
+												},
+												"minecraft:geometry": "geometry.stairs_south"
+											}
+										},
+										"key": "components",
+										"is_minified": true,
+										"children": {
+											"minecraft:on_step_on": {
+												"event": "dbc:magic_south",
+												"target": "player"
+											},
+											"minecraft:geometry": "geometry.stairs_south"
+										}
+									}
+								]
+							},
+							{
+								"children": [
+									{
+										"data": "query.block_property('dbc:facing') == 4",
+										"key": "condition"
+									},
+									{
+										"open": {
+											"condition": "query.block_property('dbc:facing') == 4",
+											"components": {
+												"minecraft:on_step_on": {
+													"event": "dbc:magic_west",
+													"target": "player"
+												},
+												"minecraft:geometry": "geometry.stairs_west"
+											}
+										},
+										"key": "components",
+										"is_minified": true,
+										"children": {
+											"minecraft:on_step_on": {
+												"event": "dbc:magic_west",
+												"target": "player"
+											},
+											"minecraft:geometry": "geometry.stairs_west"
+										}
+									}
+								]
+							},
+							{
+								"children": [
+									{
+										"data": "query.block_property('dbc:facing') == 5",
+										"key": "condition"
+									},
+									{
+										"open": {
+											"condition": "query.block_property('dbc:facing') == 5",
+											"components": {
+												"minecraft:on_step_on": {
+													"event": "dbc:magic_east",
+													"target": "player"
+												},
+												"minecraft:geometry": "geometry.stairs_east"
+											}
+										},
+										"key": "components",
+										"is_minified": true,
+										"children": {
+											"minecraft:on_step_on": {
+												"event": "dbc:magic_east",
+												"target": "player"
+											},
+											"minecraft:geometry": "geometry.stairs_east"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:marble_stairs",
+								"properties": {
+									"dbc:facing": [
+										0,
+										1,
+										2,
+										3,
+										4,
+										5,
+										6
+									]
+								}
+							},
+							"components": {
+								"minecraft:destroy_time": 0.5,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "marble",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:on_player_placing": {
+									"event": "dbc:facing"
+								},
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										8,
+										16
+									]
+								},
+								"tag:stairs": {},
+								"minecraft:map_color": "#DBDBDB"
+							},
+							"permutations": [
+								{
+									"condition": "query.block_property('dbc:facing') == 0",
+									"components": {
+										"minecraft:geometry": "geometry.stairs"
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 2",
+									"components": {
+										"minecraft:on_step_on": {
+											"event": "dbc:magic_north",
+											"target": "player"
+										},
+										"minecraft:geometry": "geometry.stairs"
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 3",
+									"components": {
+										"minecraft:on_step_on": {
+											"event": "dbc:magic_south",
+											"target": "player"
+										},
+										"minecraft:geometry": "geometry.stairs_south"
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 4",
+									"components": {
+										"minecraft:on_step_on": {
+											"event": "dbc:magic_west",
+											"target": "player"
+										},
+										"minecraft:geometry": "geometry.stairs_west"
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 5",
+									"components": {
+										"minecraft:on_step_on": {
+											"event": "dbc:magic_east",
+											"target": "player"
+										},
+										"minecraft:geometry": "geometry.stairs_east"
+									}
+								}
+							],
+							"events": {
+								"dbc:facing": {
+									"set_block_property": {
+										"dbc:facing": "query.cardinal_facing_2d"
+									}
+								},
+								"dbc:magic_north": {
+									"set_block_at_pos": {
+										"block_type": "dbc:north_collision",
+										"block_offset": [
+											0,
+											1,
+											0
+										]
+									}
+								},
+								"dbc:magic_south": {
+									"set_block_at_pos": {
+										"block_type": "dbc:south_collision",
+										"block_offset": [
+											0,
+											1,
+											0
+										]
+									}
+								},
+								"dbc:magic_west": {
+									"set_block_at_pos": {
+										"block_type": "dbc:west_collision",
+										"block_offset": [
+											0,
+											1,
+											0
+										]
+									}
+								},
+								"dbc:magic_east": {
+									"set_block_at_pos": {
+										"block_type": "dbc:east_collision",
+										"block_offset": [
+											0,
+											1,
+											0
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"key": "dbc:facing",
+								"is_minified": true,
+								"children": {
+									"set_block_property": {
+										"dbc:facing": "query.cardinal_facing_2d"
+									}
+								}
+							},
+							{
+								"key": "dbc:magic_north",
+								"is_minified": true,
+								"children": {
+									"set_block_at_pos": {
+										"block_type": "dbc:north_collision",
+										"block_offset": [
+											0,
+											1,
+											0
+										]
+									}
+								}
+							},
+							{
+								"key": "dbc:magic_south",
+								"children": [
+									{
+										"open": {
+											"set_block_at_pos": {
+												"block_type": "dbc:south_collision",
+												"block_offset": [
+													0,
+													1,
+													0
+												]
+											}
+										},
+										"key": "set_block_at_pos",
+										"is_minified": true,
+										"children": {
+											"block_type": "dbc:south_collision",
+											"block_offset": [
+												0,
+												1,
+												0
+											]
+										}
+									}
+								]
+							},
+							{
+								"key": "dbc:magic_west",
+								"is_minified": true,
+								"children": {
+									"set_block_at_pos": {
+										"block_type": "dbc:west_collision",
+										"block_offset": [
+											0,
+											1,
+											0
+										]
+									}
+								}
+							},
+							{
+								"key": "dbc:magic_east",
+								"is_minified": true,
+								"children": {
+									"set_block_at_pos": {
+										"block_type": "dbc:east_collision",
+										"block_offset": [
+											0,
+											1,
+											0
+										]
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

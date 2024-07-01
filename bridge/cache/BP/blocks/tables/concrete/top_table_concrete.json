@@ -1,0 +1,193 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\blocks\\tables\\concrete\\top_table_concrete.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "d7929f8e_8a03_4c02_8c9f_d24f29cda452",
+	"file_version": 20,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "dbc:top_table_concrete"
+						},
+						"components": {
+							"minecraft:geometry": "geometry.table_top_dbc",
+							"minecraft:destroy_time": 0.5,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "white_kitchen_counter",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-8,
+									13,
+									-8
+								],
+								"size": [
+									16,
+									3,
+									16
+								]
+							},
+							"minecraft:entity_collision": {
+								"origin": [
+									-8,
+									13,
+									-8
+								],
+								"size": [
+									16,
+									3,
+									16
+								]
+							},
+							"minecraft:loot": "loot_tables/blocks/tables/concrete_table.json"
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:top_table_concrete"
+							},
+							"components": {
+								"minecraft:geometry": "geometry.table_top_dbc",
+								"minecraft:destroy_time": 0.5,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "white_kitchen_counter",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										13,
+										-8
+									],
+									"size": [
+										16,
+										3,
+										16
+									]
+								},
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										13,
+										-8
+									],
+									"size": [
+										16,
+										3,
+										16
+									]
+								},
+								"minecraft:loot": "loot_tables/blocks/tables/concrete_table.json"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:top_table_concrete"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:top_table_concrete"
+							},
+							"components": {
+								"minecraft:geometry": "geometry.table_top_dbc",
+								"minecraft:destroy_time": 0.5,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "white_kitchen_counter",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										13,
+										-8
+									],
+									"size": [
+										16,
+										3,
+										16
+									]
+								},
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										13,
+										-8
+									],
+									"size": [
+										16,
+										3,
+										16
+									]
+								},
+								"minecraft:loot": "loot_tables/blocks/tables/concrete_table.json"
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:geometry": "geometry.table_top_dbc",
+							"minecraft:destroy_time": 0.5,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "white_kitchen_counter",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-8,
+									13,
+									-8
+								],
+								"size": [
+									16,
+									3,
+									16
+								]
+							},
+							"minecraft:entity_collision": {
+								"origin": [
+									-8,
+									13,
+									-8
+								],
+								"size": [
+									16,
+									3,
+									16
+								]
+							},
+							"minecraft:loot": "loot_tables/blocks/tables/concrete_table.json"
+						}
+					}
+				]
+			}
+		]
+	}
+}

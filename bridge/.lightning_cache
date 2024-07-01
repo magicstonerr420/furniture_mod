@@ -1,0 +1,4917 @@
+{
+	"function": {
+		"BP/functions/bridges.mcfunction": {
+			"custom_commands": []
+		},
+		"BP/functions/outdoor.mcfunction": {
+			"custom_commands": []
+		},
+		"BP/functions/bathroom.mcfunction": {
+			"custom_commands": []
+		},
+		"a4106e64_68c5_4a93_8f77_2b0170196607": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"0281d8f5_6307_4f9c_aeee_655343d9f36b": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"cbfaa7e9_66cb_40f1_9cc9_060f6bdcab9b": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"4679733f_2aa4_4769_99e8_96476412712d": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"2c029936_7065_49b5_a1f3_a61478770f8a": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"3f13f163_dd5c_490c_884c_4c1d7ab34416": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"31fd2bb1_4ff0_4210_818b_a0bfdb04c84e": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"92a6eda2_3d7c_4c80_9b0a_969a5b84a536": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"6bc497f8_3140_4f8e_880e_2e505c5b5e58": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"0e25612f_d418_46e6_a95d_5858982b886a": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"9d441f12_cb39_4d6b_b401_3f32eba774da": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"2ca6ae4c_35d3_4d77_bafd_72a80f2b8f97": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"5621c724_6a66_49cc_abe6_a274982646c5": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"933d4ab5_d134_4e72_8c14_c460a8695b6e": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"b78d5c16_32c0_4380_a665_8d9c6528c3d9": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"395d235f_e544_456d_8b79_554870744ec0": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"fec101c1_eac5_4194_ad11_952249adbde1": {},
+		"808e4829_4adb_47bf_92d8_33b054c0b445": {},
+		"2333c959_ca60_42ae_b28f_c92cad955afc": {},
+		"05757dcf_fab8_43fb_8b49_08c29136057c": {},
+		"56ab584e_9b8d_42fa_809d_fb83798de72a": {},
+		"af4774ce_0aaf_40ba_99c8_a8689da6f003": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"e0e0fc75_06df_4942_9912_dc4d5a38f0d3": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"6e820fa6_260e_4edb_8adc_3e33da019d30": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"f5e663c1_1468_48ad_9936_3d1ae1bb8fae": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"5a491616_a27a_42b6_864a_d461dfa8a032": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"ab856582_e5e0_4b3b_bbd0_853f36c4a0c5": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"d114cc2e_6044_4a92_ba77_be626d264224": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"aa2a262f_3b4e_4ea7_adf9_12d6589165d0": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"bc9d3805_35a9_49b3_9caf_ce1918252d3b": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"c9bcdedc_bc98_4c55_b00e_e9857f692f6d": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"a6a52fbb_6197_4ec8_a51c_8369a450de31": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"19be6faf_fbf0_4cd4_997b_31c0e66be192": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"7efe5145_8422_45ba_9a04_9c03db1f3bd4": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"62f14946_8c29_45fe_be1d_32f1c4a1a2d2": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"15e26012_7587_4378_a25a_8960e3db406c": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"92bebe50_444b_4582_ab9a_1f1a4253ecfd": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"BP/functions/kitchen.mcfunction": {
+			"custom_commands": []
+		},
+		"0f7e03fb_cee4_450f_9fb1_2801e430f7a5": {},
+		"c809da3a_6319_46d5_8298_306b3486802a": {},
+		"ed28fac1_977a_4b70_adfd_1a0c5614a421": {},
+		"c32df7c0_b07b_481b_9b6e_2956d02b5eca": {},
+		"0ef3b2a0_4a28_4ec5_9f34_61a2ebb1fded": {},
+		"a4944562_f330_4ad3_911a_768855236284": {},
+		"357eb470_8a76_4017_adac_3a33171ccb57": {},
+		"9555adab_9491_4856_bd31_bc6f31f323e7": {},
+		"4c69dac9_0210_4452_a728_34ccab592bd7": {},
+		"45175a71_cf47_4284_9350_5c3f04d0c264": {},
+		"ec05227f_6aeb_4d65_825d_4699af73e60a": {},
+		"42669eba_732b_42fb_bccb_83b3956c12fe": {},
+		"f5647ace_33fc_4e6a_b11d_c76ef4f11bb6": {},
+		"c122cfd4_545b_4e39_b86a_984460fcc19a": {},
+		"e1780046_bb81_4225_8671_a7d7d004f5ce": {},
+		"4f665155_76bb_419f_812a_1ecfbeec6e3f": {},
+		"3cdc15bc_a107_4141_bdfe_726b7d61b5f1": {},
+		"9dbb5049_1f71_4de1_825d_9552d813d61d": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"53ba2e4a_03a3_4a36_9be7_52acc2a53ff7": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"eb5fce77_ad51_475b_9e66_e50c64cd8d09": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"67580f2e_3ee2_4de8_b147_15f21a9925c8": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"cf93318e_a3ca_49e0_927b_a25e191a8153": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"aec38a40_722c_49b3_974b_18c6be7a31d0": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"90a1a1e8_6ac7_44ff_98a0_e02cfd61b4af": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"b1c9ce8c_5f90_4e48_adfd_41ec5afdc38d": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"34484b2d_8b1f_4b96_abc3_d3827296c08e": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"0c57be0d_c2a9_4743_8106_bbc3390fcba0": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"74900366_9b12_4261_976c_a0a271debc38": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"5a348cde_e81d_4132_96d6_8ba1d17be81b": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"8fe6e388_d36d_4d14_96e5_0ec2aa2a137c": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"fc61ae50_6d28_4637_88bd_d30ff52d1d2e": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"69b862aa_7585_4cf6_8078_a3aa0d93e006": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"3eac68a5_f8d5_4030_86c4_fcdb9e98c014": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"eb5a7a0d_457a_44fa_8274_2f581f3e2e48": {},
+		"42f1b773_2c89_4b0f_a8c6_f672d12349dc": {},
+		"4a5a5f04_f3a2_41f5_9586_114b9bad67ef": {},
+		"193bb87f_1ff5_4060_a0a1_dd5300e777d9": {},
+		"83a279cc_4958_4719_862e_67d4dd84d714": {},
+		"7218a102_59a3_49da_b778_bb08c20d9f17": {},
+		"9729e806_81c1_4d36_9b66_5b0e27141cbf": {},
+		"f7abf5d0_9127_48fb_935e_083765b311c8": {},
+		"90a43810_3b15_456c_8886_438afdb1570f": {},
+		"976fabd7_073b_4a5c_8e94_ed56ee198d79": {},
+		"7bbc986f_4b31_4439_98df_c6e5bc337b7c": {},
+		"a58f1768_378f_439d_87c8_0f31ddf82dad": {},
+		"d2877648_06d8_41d4_8875_5aa58243c4e0": {},
+		"cc57ee56_6572_4a9c_be07_b26be8b3b203": {},
+		"f76c3317_f6a5_4741_8930_1e6eae32b14b": {},
+		"07ac854c_b943_4d6b_8ae3_2fdb52303f74": {},
+		"b8585cf4_c037_4e19_aeda_1585bed16d69": {},
+		"96e03848_ef31_4309_9e48_8216e0d70c13": {},
+		"BP/functions/detections/tables.mcfunction": {
+			"custom_commands": []
+		},
+		"7a43385e_f164_42c2_8db3_71b52dd4da23": {},
+		"34fd809b_b5a8_4b3a_8804_a9d81949c7b1": {},
+		"f5f55c4f_f658_4a11_835f_410f38873532": {},
+		"9a37e4eb_73ba_4ae9_9dd5_db145243f04d": {},
+		"1845762c_caed_41d9_a594_de566a492306": {},
+		"363cb7f7_8b91_4eca_b37e_c882ca201a09": {},
+		"6df41080_0338_4211_b918_8965e853b1e2": {},
+		"c7268ac8_c72c_4d00_9315_0d03f27cd891": {},
+		"9c84bd4a_5465_4ace_aa0c_2aca8bf39b16": {},
+		"26fb7870_97ea_4a22_bebc_edb6e54eacf5": {},
+		"8f80007c_7b2e_46de_ae1c_422e21b76021": {},
+		"9ae963fb_d08e_4a5e_ac1a_bedac775af23": {},
+		"80c1553e_fcca_41ab_95aa_c40ba7a2ae5f": {},
+		"21041751_917c_4fad_9e03_dba4b06a16bd": {},
+		"e05d0ae7_795a_4aa0_8de9_b5a2457cd094": {},
+		"b0a6ea52_cc09_4421_bd0d_f06346462686": {},
+		"71df4863_bd54_443f_ad6c_e70592f3c714": {},
+		"b32df46e_4160_4c46_bf4d_22800ff1c708": {},
+		"55ae0759_17b8_477c_b09d_4d8122d832cf": {},
+		"ddbcb880_626d_4400_a38d_818edf9e6a1d": {},
+		"e7fc85cf_3746_4b38_8b8d_9b3485f9504f": {},
+		"a2be4e5e_bb21_4372_9b13_eb1b3d44f97c": {},
+		"9d76144d_407e_40eb_a0c7_54cee81855be": {},
+		"75afa05a_8a62_4f3c_a572_989a7da79149": {},
+		"4d3b9ec7_9e66_4b15_81d5_654a3355b406": {},
+		"6d799243_07e7_4275_8e99_38943c3377ab": {},
+		"5fe87ebe_6033_476d_a5af_1afa3291b0e3": {},
+		"1cf66b56_f921_44f4_a7e9_4504a1316c1f": {},
+		"e51b3c17_eaf1_4f21_964d_d26ae4ca64c1": {},
+		"1d051e3e_8074_465f_a909_39ff23b5af7a": {},
+		"8137f4f6_97f6_45fa_b451_9777076f6204": {},
+		"8638e2dc_4f7c_4a74_aeb6_7b44de37ea5c": {},
+		"8ff8399b_cb65_4206_9d4f_7ed8ecb4a949": {},
+		"5cb525ab_3e12_4aa9_a010_d126bcc0bbd4": {},
+		"97aba41a_7b3c_4c39_a0a6_a776cc4164c9": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"af90d3e6_5cb0_41eb_a747_0bbb6666ef0c": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"522fb0c5_3a79_4ca9_92a6_02cb7f78614e": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"7c89586c_50cd_47c0_a665_1d7c284a0087": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"610cfb3a_3fdd_44f2_ba5f_2cc46914df54": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"d7c8d46d_88be_4bfb_aca1_c07ccd409636": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"7a47d558_bc6e_4dea_945a_17b2f47c4916": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"7255e79d_ce3f_42f1_9a31_c79cb49df06e": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"88862b1d_36f1_4d0c_aa26_3596942c608c": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"1d7cbbf4_ea61_4cc0_a1f6_d97eb737875e": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"26c3b84d_1be7_4853_98f5_7698abbca9cd": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"92d9431b_2708_4fb2_947b_67ccc70c12a7": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"1aedaaa6_5246_43fa_88a9_10efd24c8de6": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"5badcffa_8509_436e_9791_8bc2f4e81dd3": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"e4347329_0b09_43a7_bf6c_d6210798602a": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"8b49f513_d88f_44c5_85b3_7a4c068fe894": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"5014a6ae_df75_4fb5_a37f_050807d9b51e": {},
+		"f0bf5d51_a444_4afd_8dea_8d82de92755c": {},
+		"a17cdfb2_b31c_40e2_bc7e_35d2a736f00b": {},
+		"bc127d38_c713_4adb_96d1_9ffe12d30cfb": {},
+		"ab739c76_7bf5_4b9e_8477_f09ec4953b5b": {},
+		"45a1c47f_44c1_4dae_b36e_50af68d0866d": {},
+		"5a558623_951f_44d8_a3f0_f396989bea08": {},
+		"943cd3f3_43d5_4f74_882e_40b3b9c0a30c": {},
+		"42fd188c_d50b_4dac_8889_9433f73a28f3": {},
+		"c9ff1771_21ca_4be7_8702_6c4c3a105c27": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"a8ace3c7_e6c8_410e_8cbe_a03e940044a8": {},
+		"818355f2_f881_4503_a11f_f2aad9f4cdc3": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"BP/functions/log_deco.mcfunction": {
+			"custom_commands": []
+		},
+		"BP/functions/marble.mcfunction": {
+			"custom_commands": []
+		},
+		"BP/functions/chairs.mcfunction": {
+			"custom_commands": []
+		},
+		"BP/functions/table.mcfunction": {
+			"custom_commands": []
+		},
+		"BP/functions/living_room.mcfunction": {
+			"custom_commands": []
+		},
+		"BP/functions/bedroom.mcfunction": {
+			"custom_commands": []
+		}
+	},
+	"entity": {
+		"BP/entities/sit.json": {
+			"events": [
+				"dbc:f"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"dbc:sit"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/container.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"dbc:kill"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"dbc:container"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/entities/help_to_detect.json": {
+			"events": [
+				"dbc:change",
+				"dbc:set",
+				"dbc:f"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"dbc:help_to_detect"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/player.json": {
+			"events": [
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"minecraft:remove_raid_trigger"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [],
+			"families": [
+				"player"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"block": {
+		"BP/blocks/chairs/chair.json": {
+			"identifiers": [
+				"dbc:chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/birch_chair.json": {
+			"identifiers": [
+				"dbc:birch_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/big_oak_chair.json": {
+			"identifiers": [
+				"dbc:dark_oak_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/acacia_chair.json": {
+			"identifiers": [
+				"dbc:test_block"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/spruce_chair.json": {
+			"identifiers": [
+				"dbc:spruce_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/jungle_chair.json": {
+			"identifiers": [
+				"dbc:jungle_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/crimson_chair.json": {
+			"identifiers": [
+				"dbc:crimson_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/warped_chair.json": {
+			"identifiers": [
+				"dbc:warped_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/bathroom/toilet.json": {
+			"identifiers": [
+				"dbc:toilet"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/bridges/oak_bridge.json": {
+			"identifiers": [
+				"dbc:oak_bridge"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bridges/oak_bridge_start.json": {
+			"identifiers": [
+				"dbc:oak_bridge_start"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bathroom/shower_head.json": {
+			"identifiers": [
+				"dbc:mirror"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bathroom/bathroom_cabinet.json": {
+			"identifiers": [
+				"dbc:bathroom_cabinet"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/bathroom/bathroom_sink.json": {
+			"identifiers": [
+				"dbc:bathroom_sink"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:fill",
+				"dbc:quit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/bathroom/shower.json": {
+			"identifiers": [
+				"dbc:shower"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:open",
+				"dbc:close"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/couch/norma/couch.json": {
+			"identifiers": [
+				"dbc:sofa"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:event",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/couch/inter/couch_inter.json": {
+			"identifiers": [
+				"dbc:sofa_inter"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:event",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/couch/left/couch_left.json": {
+			"identifiers": [
+				"dbc:sofa_left"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:event",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/couch/right/couch_right.json": {
+			"identifiers": [
+				"dbc:sofa_right"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:event",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/couch/middle/couch_middle.json": {
+			"identifiers": [
+				"dbc:sofa_middle"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:event",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/bar_stools/bar_stool_black.json": {
+			"identifiers": [
+				"dbc:bar_stool"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/bar_stools/bar_stool.json": {
+			"identifiers": [
+				"dbc:bar_stool"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/bar_stools/bar_stool_blue.json": {
+			"identifiers": [
+				"dbc:bar_stool"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/bar_stools/bar_stool_brown.json": {
+			"identifiers": [
+				"dbc:bar_stool"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/bar_stools/bar_stool_cyan.json": {
+			"identifiers": [
+				"dbc:bar_stool"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/bar_stools/bar_stool_gray.json": {
+			"identifiers": [
+				"dbc:bar_stool"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/bar_stools/bar_stool_green.json": {
+			"identifiers": [
+				"dbc:bar_stool"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/bar_stools/bar_stool_light_blue.json": {
+			"identifiers": [
+				"dbc:bar_stool"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/bar_stools/bar_stool_lime.json": {
+			"identifiers": [
+				"dbc:bar_stool"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/bar_stools/bar_stool_magenta.json": {
+			"identifiers": [
+				"dbc:bar_stool"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/bar_stools/bar_stool_orange.json": {
+			"identifiers": [
+				"dbc:bar_stool"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/bar_stools/bar_stool_pink.json": {
+			"identifiers": [
+				"dbc:bar_stool"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/bar_stools/bar_stool_purple.json": {
+			"identifiers": [
+				"dbc:bar_stool"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/bar_stools/bar_stool_red.json": {
+			"identifiers": [
+				"dbc:bar_stool"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/bar_stools/bar_stool_silver.json": {
+			"identifiers": [
+				"dbc:bar_stool"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/bar_stools/bar_stool_yellow.json": {
+			"identifiers": [
+				"dbc:bar_stool"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_counters/kitchen_counter.json": {
+			"identifiers": [
+				"dbc:black_kitchen_counter"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/kitchen/kitchen_drawer/kitchen_drawer.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_drawer"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_drawer/black_kitchen_drawer.json": {
+			"identifiers": [
+				"dbc:warped_bedside_table"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_drawer/blue_kitchen_drawer.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_drawer"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_drawer/brown_kitchen_drawer.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_drawer"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_drawer/cyan_kitchen_drawer.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_drawer"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_drawer/gray_kitchen_drawer.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_drawer"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_drawer/green_kitchen_drawer.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_drawer"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_drawer/light_blue_kitchen_drawer.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_drawer"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_drawer/lime_kitchen_drawer.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_drawer"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_drawer/magenta_kitchen_drawer.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_drawer"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_drawer/orange_kitchen_drawer.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_drawer"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_drawer/pink_kitchen_drawer.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_drawer"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_drawer/purple_kitchen_drawer.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_drawer"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_drawer/red_kitchen_drawer.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_drawer"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_drawer/silver_kitchen_drawer.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_drawer"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_drawer/yellow_kitchen_drawer.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_drawer"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/stone_chair.json": {
+			"identifiers": [
+				"dbc:stone_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/tables/concrete/top_table_concrete.json": {
+			"identifiers": [
+				"dbc:top_table_concrete"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/tables/concrete/small_table_concrete.json": {
+			"identifiers": [
+				"dbc:small_table_concrete"
+			],
+			"events": [
+				"detect_blocks",
+				"summon_help"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tables/warped/top_table_warped.json": {
+			"identifiers": [
+				"dbc:top_table_warped"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tables/warped/small_table_warped.json": {
+			"identifiers": [
+				"dbc:small_table_warped"
+			],
+			"events": [
+				"detect_blocks",
+				"summon_help"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tables/spruce/top_table_spruce.json": {
+			"identifiers": [
+				"dbc:top_table_spruce"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tables/spruce/small_table_spruce.json": {
+			"identifiers": [
+				"dbc:small_table_spruce"
+			],
+			"events": [
+				"detect_blocks",
+				"summon_help"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tables/oak/top_table_oak.json": {
+			"identifiers": [
+				"dbc:top_table_oak"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tables/oak/small_table_oak.json": {
+			"identifiers": [
+				"dbc:small_table_oak"
+			],
+			"events": [
+				"detect_blocks",
+				"summon_help"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tables/jungle/small_table_jungle.json": {
+			"identifiers": [
+				"dbc:small_table_jungle"
+			],
+			"events": [
+				"detect_blocks",
+				"summon_help"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tables/jungle/top_table_jungle.json": {
+			"identifiers": [
+				"dbc:top_table_jungle"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tables/crimson/top_table_crimson.json": {
+			"identifiers": [
+				"dbc:top_table_crimson"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tables/crimson/small_table_crimson.json": {
+			"identifiers": [
+				"dbc:small_table_crimson"
+			],
+			"events": [
+				"detect_blocks",
+				"summon_help"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tables/acacia/top_table_acacia.json": {
+			"identifiers": [
+				"dbc:top_table_acacia"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tables/acacia/small_table_acacia.json": {
+			"identifiers": [
+				"dbc:small_table_acacia"
+			],
+			"events": [
+				"detect_blocks",
+				"summon_help"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tables/big_oak/top_table_big_oak.json": {
+			"identifiers": [
+				"dbc:top_table_dark_oak"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tables/big_oak/small_table_big_oak.json": {
+			"identifiers": [
+				"dbc:small_table_dark_oak"
+			],
+			"events": [
+				"detect_blocks",
+				"summon_help"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tables/birch/top_table_birch.json": {
+			"identifiers": [
+				"dbc:top_table_birch"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tables/birch/small_table_birch.json": {
+			"identifiers": [
+				"dbc:small_table_birch"
+			],
+			"events": [
+				"detect_blocks",
+				"summon_help"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/chairs/concrete/concrete_chair.json": {
+			"identifiers": [
+				"dbc:black_concrete_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/concrete/black_concrete_chair.json": {
+			"identifiers": [
+				"dbc:black_concrete_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/concrete/blue_concrete_chair.json": {
+			"identifiers": [
+				"dbc:silver_concrete_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/concrete/brown_concrete_chair.json": {
+			"identifiers": [
+				"dbc:silver_concrete_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/concrete/cyan_concrete_chair.json": {
+			"identifiers": [
+				"dbc:silver_concrete_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/concrete/gray_concrete_chair.json": {
+			"identifiers": [
+				"dbc:silver_concrete_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/concrete/green_concrete_chair.json": {
+			"identifiers": [
+				"dbc:silver_concrete_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/concrete/light_blue_concrete_chair.json": {
+			"identifiers": [
+				"dbc:silver_concrete_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/concrete/lime_concrete_chair.json": {
+			"identifiers": [
+				"dbc:silver_concrete_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/concrete/magenta_concrete_chair.json": {
+			"identifiers": [
+				"dbc:silver_concrete_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/concrete/orange_concrete_chair.json": {
+			"identifiers": [
+				"dbc:silver_concrete_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/concrete/pink_concrete_chair.json": {
+			"identifiers": [
+				"dbc:silver_concrete_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/concrete/purple_concrete_chair.json": {
+			"identifiers": [
+				"dbc:silver_concrete_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/concrete/red_concrete_chair.json": {
+			"identifiers": [
+				"dbc:silver_concrete_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/concrete/silver_concrete_chair.json": {
+			"identifiers": [
+				"dbc:silver_concrete_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/concrete/yellow_concrete_chair.json": {
+			"identifiers": [
+				"dbc:silver_concrete_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_sinks/kitchen_sink.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_sink"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:water",
+				"dbc:no_water"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_sinks/black_kitchen_sink.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_sink"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:water",
+				"dbc:no_water"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_sinks/blue_kitchen_sink.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_sink"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:water",
+				"dbc:no_water"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_sinks/brown_kitchen_sink.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_sink"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:water",
+				"dbc:no_water"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_sinks/cyan_kitchen_sink.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_sink"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:water",
+				"dbc:no_water"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_sinks/gray_kitchen_sink.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_sink"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:water",
+				"dbc:no_water"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_sinks/green_kitchen_sink.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_sink"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:water",
+				"dbc:no_water"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_sinks/light_blue_kitchen_sink.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_sink"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:water",
+				"dbc:no_water"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_sinks/lime_kitchen_sink.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_sink"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:water",
+				"dbc:no_water"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_sinks/magenta_kitchen_sink.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_sink"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:water",
+				"dbc:no_water"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_sinks/orange_kitchen_sink.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_sink"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:water",
+				"dbc:no_water"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_sinks/pink_kitchen_sink.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_sink"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:water",
+				"dbc:no_water"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_sinks/purple_kitchen_sink.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_sink"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:water",
+				"dbc:no_water"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_sinks/red_kitchen_sink.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_sink"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:water",
+				"dbc:no_water"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_sinks/silver_kitchen_sink.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_sink"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:water",
+				"dbc:no_water"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_sinks/yellow_kitchen_sink.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_sink"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:water",
+				"dbc:no_water"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/tables/stone/small_table_stone.json": {
+			"identifiers": [
+				"dbc:small_table_stone"
+			],
+			"events": [
+				"detect_blocks",
+				"summon_help"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/living/concrete/tv_furniture.json": {
+			"identifiers": [
+				"dbc:blue_concrete_tv_furniture"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/living/concrete/black_tv_furniture.json": {
+			"identifiers": [
+				"dbc:blue_concrete_tv_furniture"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/living/concrete/blue_tv_furniture.json": {
+			"identifiers": [
+				"dbc:blue_concrete_tv_furniture"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/kitchen/kitchen_cabinets/kitchen_cabinet.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_cabinet"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_cabinets/black_kitchen_cabinet.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_cabinet"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_cabinets/blue_kitchen_cabinet.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_cabinet"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_cabinets/brown_kitchen_cabinet.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_cabinet"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_cabinets/cyan_kitchen_cabinet.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_cabinet"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_cabinets/gray_kitchen_cabinet.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_cabinet"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/fridge.json": {
+			"identifiers": [
+				"dbc:fridge"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:block",
+				"dbc:block_remove"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/coffe_machine.json": {
+			"identifiers": [
+				"dbc:coffe_machine"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:coffe",
+				"dbc:coffe_cup",
+				"dbc:give_coffe"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/kitchen/kitchen_cabinets/green_kitchen_cabinet.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_cabinet"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_cabinets/light_blue_kitchen_cabinet.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_cabinet"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_cabinets/lime_kitchen_cabinet.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_cabinet"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_cabinets/magenta_kitchen_cabinet.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_cabinet"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_cabinets/orange_kitchen_cabinet.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_cabinet"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_cabinets/pink_kitchen_cabinet.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_cabinet"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_cabinets/purple_kitchen_cabinet.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_cabinet"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_cabinets/red_kitchen_cabinet.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_cabinet"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_cabinets/silver_kitchen_cabinet.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_cabinet"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/kitchen_cabinets/yellow_kitchen_cabinet.json": {
+			"identifiers": [
+				"dbc:yellow_kitchen_cabinet"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/living/concrete/brown_tv_furniture.json": {
+			"identifiers": [
+				"dbc:blue_concrete_tv_furniture"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/living/concrete/cyan_tv_furniture.json": {
+			"identifiers": [
+				"dbc:blue_concrete_tv_furniture"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/living/concrete/gray_tv_furniture.json": {
+			"identifiers": [
+				"dbc:blue_concrete_tv_furniture"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/living/concrete/green_tv_furniture.json": {
+			"identifiers": [
+				"dbc:blue_concrete_tv_furniture"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/living/concrete/light_blue_tv_furniture.json": {
+			"identifiers": [
+				"dbc:blue_concrete_tv_furniture"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/living/concrete/lime_tv_furniture.json": {
+			"identifiers": [
+				"dbc:blue_concrete_tv_furniture"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/living/concrete/magenta_tv_furniture.json": {
+			"identifiers": [
+				"dbc:blue_concrete_tv_furniture"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/living/concrete/orange_tv_furniture.json": {
+			"identifiers": [
+				"dbc:blue_concrete_tv_furniture"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/living/concrete/pink_tv_furniture.json": {
+			"identifiers": [
+				"dbc:blue_concrete_tv_furniture"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/living/concrete/purple_tv_furniture.json": {
+			"identifiers": [
+				"dbc:blue_concrete_tv_furniture"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/living/concrete/red_tv_furniture.json": {
+			"identifiers": [
+				"dbc:blue_concrete_tv_furniture"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/living/concrete/silver_tv_furniture.json": {
+			"identifiers": [
+				"dbc:blue_concrete_tv_furniture"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/living/concrete/yellow_tv_furniture.json": {
+			"identifiers": [
+				"dbc:blue_concrete_tv_furniture"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bridges/acacia_bridge.json": {
+			"identifiers": [
+				"dbc:modern_white_bed"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/lamps/white_lamp.json": {
+			"identifiers": [
+				"dbc:yellow_lamp"
+			],
+			"events": [
+				"dbc:toggle"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/lamps/black_lamp.json": {
+			"identifiers": [
+				"dbc:yellow_lamp"
+			],
+			"events": [
+				"dbc:toggle"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/lamps/blue_lamp.json": {
+			"identifiers": [
+				"dbc:yellow_lamp"
+			],
+			"events": [
+				"dbc:toggle"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/lamps/brown_lamp.json": {
+			"identifiers": [
+				"dbc:yellow_lamp"
+			],
+			"events": [
+				"dbc:toggle"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/lamps/cyan_lamp.json": {
+			"identifiers": [
+				"dbc:yellow_lamp"
+			],
+			"events": [
+				"dbc:toggle"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/lamps/gray_lamp.json": {
+			"identifiers": [
+				"dbc:yellow_lamp"
+			],
+			"events": [
+				"dbc:toggle"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/lamps/green_lamp.json": {
+			"identifiers": [
+				"dbc:yellow_lamp"
+			],
+			"events": [
+				"dbc:toggle"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/lamps/light_blue_lamp.json": {
+			"identifiers": [
+				"dbc:yellow_lamp"
+			],
+			"events": [
+				"dbc:toggle"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/lamps/lime_lamp.json": {
+			"identifiers": [
+				"dbc:yellow_lamp"
+			],
+			"events": [
+				"dbc:toggle"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/lamps/magenta_lamp.json": {
+			"identifiers": [
+				"dbc:yellow_lamp"
+			],
+			"events": [
+				"dbc:toggle"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/lamps/orange_lamp.json": {
+			"identifiers": [
+				"dbc:yellow_lamp"
+			],
+			"events": [
+				"dbc:toggle"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/lamps/pink_lamp.json": {
+			"identifiers": [
+				"dbc:yellow_lamp"
+			],
+			"events": [
+				"dbc:toggle"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/lamps/purple_lamp.json": {
+			"identifiers": [
+				"dbc:yellow_lamp"
+			],
+			"events": [
+				"dbc:toggle"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/lamps/red_lamp.json": {
+			"identifiers": [
+				"dbc:yellow_lamp"
+			],
+			"events": [
+				"dbc:toggle"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/lamps/silver_lamp.json": {
+			"identifiers": [
+				"dbc:yellow_lamp"
+			],
+			"events": [
+				"dbc:toggle"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/lamps/yellow_lamp.json": {
+			"identifiers": [
+				"dbc:yellow_lamp"
+			],
+			"events": [
+				"dbc:toggle"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/oak_bedside_table.json": {
+			"identifiers": [
+				"dbc:warped_bedside_table"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/bedroom/birch_bedside_table.json": {
+			"identifiers": [
+				"dbc:warped_bedside_table"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/bedroom/spruce_bedside_table.json": {
+			"identifiers": [
+				"dbc:warped_bedside_table"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/bedroom/jungle_bedside_table.json": {
+			"identifiers": [
+				"dbc:warped_bedside_table"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/bedroom/acacia_bedside_table.json": {
+			"identifiers": [
+				"dbc:warped_bedside_table"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/bedroom/dark_oak_bedside_table.json": {
+			"identifiers": [
+				"dbc:warped_bedside_table"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/bedroom/crimson_bedside_table.json": {
+			"identifiers": [
+				"dbc:warped_bedside_table"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/bedroom/warped_bedside_table.json": {
+			"identifiers": [
+				"dbc:warped_bedside_table"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:container"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/tables/stone/top_table_stone.json": {
+			"identifiers": [
+				"dbc:top_table_stone"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/outdoor/diving_board.json": {
+			"identifiers": [
+				"dbc:diving_board"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/outdoor/small_fountain.json": {
+			"identifiers": [
+				"dbc:small_fountain"
+			],
+			"events": [
+				"dbc:add",
+				"dbc:remove"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/stairs/oak_stairs.json": {
+			"identifiers": [
+				"dbc:marble_stairs"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:magic_north",
+				"dbc:magic_south",
+				"dbc:magic_west",
+				"dbc:magic_east"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/bedroom/gaming_chairs/gaming_chair.json": {
+			"identifiers": [
+				"dbc:yellow_gaming_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/gaming_chairs/black_gaming_chair.json": {
+			"identifiers": [
+				"dbc:black_gaming_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/gaming_chairs/blue_gaming_chair.json": {
+			"identifiers": [
+				"dbc:yellow_gaming_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/gaming_chairs/brown_gaming_chair.json": {
+			"identifiers": [
+				"dbc:yellow_gaming_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/gaming_chairs/cyan_gaming_chair.json": {
+			"identifiers": [
+				"dbc:yellow_gaming_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/gaming_chairs/gray_gaming_chair.json": {
+			"identifiers": [
+				"dbc:yellow_gaming_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/gaming_chairs/green_gaming_chair.json": {
+			"identifiers": [
+				"dbc:yellow_gaming_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/gaming_chairs/light_blue_gaming_chair.json": {
+			"identifiers": [
+				"dbc:yellow_gaming_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/gaming_chairs/lime_gaming_chair.json": {
+			"identifiers": [
+				"dbc:yellow_gaming_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/gaming_chairs/magenta_gaming_chair.json": {
+			"identifiers": [
+				"dbc:yellow_gaming_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/gaming_chairs/orange_gaming_chair.json": {
+			"identifiers": [
+				"dbc:yellow_gaming_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/gaming_chairs/pink_gaming_chair.json": {
+			"identifiers": [
+				"dbc:yellow_gaming_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/gaming_chairs/purple_gaming_chair.json": {
+			"identifiers": [
+				"dbc:yellow_gaming_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/gaming_chairs/red_gaming_chair.json": {
+			"identifiers": [
+				"dbc:yellow_gaming_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/gaming_chairs/silver_gaming_chair.json": {
+			"identifiers": [
+				"dbc:yellow_gaming_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bedroom/gaming_chairs/yellow_gaming_chair.json": {
+			"identifiers": [
+				"dbc:yellow_gaming_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bathroom/mirror.json": {
+			"identifiers": [
+				"dbc:mirror"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/marble/marble.json": {
+			"identifiers": [
+				"dbc:marble"
+			],
+			"events": [
+				"dbc:block"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/marble/marble_bricks.json": {
+			"identifiers": [
+				"dbc:marble_bricks"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/marble/marble_slab.json": {
+			"identifiers": [
+				"dbc:warped_stem_slab"
+			],
+			"events": [
+				"block",
+				"up"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/marble/smooth_marble.json": {
+			"identifiers": [
+				"dbc:smooth_marble"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/marble/smooth_marblebricks.json": {
+			"identifiers": [
+				"dbc:smooth_marble_bricks"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/marble/test_collision/north_collision.json": {
+			"identifiers": [
+				"dbc:north_collision"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:mad"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/marble/test_collision/south_collision.json": {
+			"identifiers": [
+				"dbc:south_collision"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:mad"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/marble/test_collision/west_collision.json": {
+			"identifiers": [
+				"dbc:west_collision"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:mad"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/marble/test_collision/east_collision.json": {
+			"identifiers": [
+				"dbc:east_collision"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:mad"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/stairs/spruce_stairs.json": {
+			"identifiers": [
+				"dbc:log_birch_stairs"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:magic_north",
+				"dbc:magic_south",
+				"dbc:magic_west",
+				"dbc:magic_east"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/stairs/birch_stairs.json": {
+			"identifiers": [
+				"dbc:log_birch_stairs"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:magic_north",
+				"dbc:magic_south",
+				"dbc:magic_west",
+				"dbc:magic_east"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/stairs/jungle_stairs.json": {
+			"identifiers": [
+				"dbc:marble_stairs"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:magic_north",
+				"dbc:magic_south",
+				"dbc:magic_west",
+				"dbc:magic_east"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/stairs/acacia_stairs.json": {
+			"identifiers": [
+				"dbc:marble_stairs"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:magic_north",
+				"dbc:magic_south",
+				"dbc:magic_west",
+				"dbc:magic_east"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/stairs/dark_oak_stairs.json": {
+			"identifiers": [
+				"dbc:marble_stairs"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:magic_north",
+				"dbc:magic_south",
+				"dbc:magic_west",
+				"dbc:magic_east"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/stairs/warped_stairs.json": {
+			"identifiers": [
+				"dbc:marble_stairs"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:magic_north",
+				"dbc:magic_south",
+				"dbc:magic_west",
+				"dbc:magic_east"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/stairs/crimson_stairs.json": {
+			"identifiers": [
+				"dbc:marble_stairs"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:magic_north",
+				"dbc:magic_south",
+				"dbc:magic_west",
+				"dbc:magic_east"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/marble/marble_stairs.json": {
+			"identifiers": [
+				"dbc:marble_stairs"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:magic_north",
+				"dbc:magic_south",
+				"dbc:magic_west",
+				"dbc:magic_east"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/marble/smooth_marble_stairs.json": {
+			"identifiers": [
+				"dbc:smooth_marble_stairs"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:magic_north",
+				"dbc:magic_south",
+				"dbc:magic_west",
+				"dbc:magic_east"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/logs_deco/slabs/oak_slab.json": {
+			"identifiers": [
+				"dbc:warped_stem_slab"
+			],
+			"events": [
+				"block",
+				"up"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/marble/smooth_marble_slab.json": {
+			"identifiers": [
+				"dbc:warped_stem_slab"
+			],
+			"events": [
+				"block",
+				"up"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/logs_deco/slabs/birch_slab.json": {
+			"identifiers": [
+				"dbc:warped_stem_slab"
+			],
+			"events": [
+				"block",
+				"up"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/logs_deco/slabs/spruce_slab.json": {
+			"identifiers": [
+				"dbc:warped_stem_slab"
+			],
+			"events": [
+				"block",
+				"up"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/logs_deco/slabs/jungle_slab.json": {
+			"identifiers": [
+				"dbc:warped_stem_slab"
+			],
+			"events": [
+				"block",
+				"up"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/logs_deco/slabs/acacia_slab.json": {
+			"identifiers": [
+				"dbc:warped_stem_slab"
+			],
+			"events": [
+				"block",
+				"up"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/logs_deco/slabs/dark_oak_slab.json": {
+			"identifiers": [
+				"dbc:warped_stem_slab"
+			],
+			"events": [
+				"block",
+				"up"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/logs_deco/slabs/crimson_slab.json": {
+			"identifiers": [
+				"dbc:warped_stem_slab"
+			],
+			"events": [
+				"block",
+				"up"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/logs_deco/slabs/warped_slab.json": {
+			"identifiers": [
+				"dbc:warped_stem_slab"
+			],
+			"events": [
+				"block",
+				"up"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/outdoor/umbrellas/umbrella.json": {
+			"identifiers": [
+				"dbc:boca_umbrella"
+			],
+			"events": [
+				"dbc:block"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/outdoor/umbrellas/black_umbrella.json": {
+			"identifiers": [
+				"dbc:boca_umbrella"
+			],
+			"events": [
+				"dbc:block"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/outdoor/umbrellas/blue_umbrella.json": {
+			"identifiers": [
+				"dbc:boca_umbrella"
+			],
+			"events": [
+				"dbc:block"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/outdoor/umbrellas/brown_umbrella.json": {
+			"identifiers": [
+				"dbc:boca_umbrella"
+			],
+			"events": [
+				"dbc:block"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/outdoor/umbrellas/cyan_umbrella.json": {
+			"identifiers": [
+				"dbc:boca_umbrella"
+			],
+			"events": [
+				"dbc:block"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/outdoor/umbrellas/gray_umbrella.json": {
+			"identifiers": [
+				"dbc:boca_umbrella"
+			],
+			"events": [
+				"dbc:block"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/outdoor/umbrellas/green_umbrella.json": {
+			"identifiers": [
+				"dbc:boca_umbrella"
+			],
+			"events": [
+				"dbc:block"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/outdoor/umbrellas/light_blue_umbrella.json": {
+			"identifiers": [
+				"dbc:boca_umbrella"
+			],
+			"events": [
+				"dbc:block"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/outdoor/umbrellas/lime_umbrella.json": {
+			"identifiers": [
+				"dbc:boca_umbrella"
+			],
+			"events": [
+				"dbc:block"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/outdoor/umbrellas/magenta_umbrella.json": {
+			"identifiers": [
+				"dbc:boca_umbrella"
+			],
+			"events": [
+				"dbc:block"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/outdoor/umbrellas/orange_umbrella.json": {
+			"identifiers": [
+				"dbc:boca_umbrella"
+			],
+			"events": [
+				"dbc:block"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/outdoor/umbrellas/pink_umbrella.json": {
+			"identifiers": [
+				"dbc:boca_umbrella"
+			],
+			"events": [
+				"dbc:block"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/outdoor/umbrellas/purple_umbrella.json": {
+			"identifiers": [
+				"dbc:boca_umbrella"
+			],
+			"events": [
+				"dbc:block"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/outdoor/umbrellas/red_umbrella.json": {
+			"identifiers": [
+				"dbc:boca_umbrella"
+			],
+			"events": [
+				"dbc:block"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/outdoor/umbrellas/silver_umbrella.json": {
+			"identifiers": [
+				"dbc:boca_umbrella"
+			],
+			"events": [
+				"dbc:block"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/outdoor/umbrellas/yellow_umbrella.json": {
+			"identifiers": [
+				"dbc:boca_umbrella"
+			],
+			"events": [
+				"dbc:block"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/outdoor/umbrellas/boca_umbrella.json": {
+			"identifiers": [
+				"dbc:boca_umbrella"
+			],
+			"events": [
+				"dbc:block"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tables/concrete/top_table_blue_concrete.json": {
+			"identifiers": [
+				"dbc:top_table_blue_concrete"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tables/concrete/small_table_blue_concrete.json": {
+			"identifiers": [
+				"dbc:small_table_blue_concrete"
+			],
+			"events": [
+				"detect_blocks",
+				"summon_help"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/tables/concrete/top_table_black_concrete.json": {
+			"identifiers": [
+				"dbc:top_table_cyan_concrete"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tables/concrete/small_table_black_concrete.json": {
+			"identifiers": [
+				"dbc:small_table_cyan_concrete"
+			],
+			"events": [
+				"detect_blocks",
+				"summon_help"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/tables/concrete/small_table_brown_concrete.json": {
+			"identifiers": [
+				"dbc:small_table_cyan_concrete"
+			],
+			"events": [
+				"detect_blocks",
+				"summon_help"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/tables/concrete/top_table_brown_concrete.json": {
+			"identifiers": [
+				"dbc:top_table_cyan_concrete"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/tables/concrete/small_table_cyan_concrete.json": {
+			"identifiers": [
+				"dbc:small_table_cyan_concrete"
+			],
+			"events": [
+				"detect_blocks",
+				"summon_help"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/tables/concrete/top_table_cyan_concrete.json": {
+			"identifiers": [
+				"dbc:top_table_cyan_concrete"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/test_block.json": {
+			"identifiers": [
+				"dbc:test_block"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/cup.json": {
+			"identifiers": [
+				"dbc:cup_block"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/kitchen/kitchen_counters/black_kitchen_counter.json": {
+			"identifiers": [
+				"dbc:blue_kitchen_counter"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/kitchen/kitchen_counters/blue_kitchen_counter.json": {
+			"identifiers": [
+				"dbc:silver_kitchen_counter"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/kitchen/kitchen_counters/brown_kitchen_counter.json": {
+			"identifiers": [
+				"dbc:silver_kitchen_counter"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/kitchen/kitchen_counters/cyan_kitchen_counter.json": {
+			"identifiers": [
+				"dbc:silver_kitchen_counter"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/kitchen/kitchen_counters/gray_kitchen_counter.json": {
+			"identifiers": [
+				"dbc:silver_kitchen_counter"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/kitchen/kitchen_counters/green_kitchen_counter.json": {
+			"identifiers": [
+				"dbc:silver_kitchen_counter"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/kitchen/kitchen_counters/light_blue_kitchen_counter.json": {
+			"identifiers": [
+				"dbc:silver_kitchen_counter"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/kitchen/kitchen_counters/lime_kitchen_counter.json": {
+			"identifiers": [
+				"dbc:silver_kitchen_counter"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/kitchen/kitchen_counters/magenta_kitchen_counter.json": {
+			"identifiers": [
+				"dbc:silver_kitchen_counter"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/kitchen/kitchen_counters/orange_kitchen_counter.json": {
+			"identifiers": [
+				"dbc:silver_kitchen_counter"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/kitchen/kitchen_counters/pink_kitchen_counter.json": {
+			"identifiers": [
+				"dbc:silver_kitchen_counter"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/kitchen/kitchen_counters/purple_kitchen_counter.json": {
+			"identifiers": [
+				"dbc:silver_kitchen_counter"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/kitchen/kitchen_counters/red_kitchen_counter.json": {
+			"identifiers": [
+				"dbc:silver_kitchen_counter"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/kitchen/kitchen_counters/yellow_kitchen_counter.json": {
+			"identifiers": [
+				"dbc:silver_kitchen_counter"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/kitchen/kitchen_counters/silver_kitchen_counter.json": {
+			"identifiers": [
+				"dbc:silver_kitchen_counter"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"recipe": {
+		"BP/recipes/bridges/oak_bridge.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridges/oak_bridge_start.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridges/acacia_bridge.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridges/acacia_bridge_start.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridges/birch_bridge.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridges/birch_bridge_start.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridges/jungle_bridge.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridges/jungle_bridge_start.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridges/spruce_bridge_start.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridges/spruce_bridge.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/oak_bridge_start.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/oak_bridge.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/birch_bridge_start.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/birch_bridge.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/acacia_bridge_start.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/acacia_bridge.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/jungle_bridge.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/jungle_bridge_start.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/dark_oak_bridge.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/dark_oak_bridge_start.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/crimson_bridge.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/crimson_bridge_start.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/warped_bridge_start.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/warped_bridge.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bathroom/toilet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bathroom/shower.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bathroom/shower_head.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bathroom/bathroom_sink.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bathroom/bathroom_cabinet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/outdoor/stonepath.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/outdoor/small_fountain.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/outdoor/diving_board.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/tables/spruce_table.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/tables/warped_table.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/tables/oak_table.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/tables/jungle_table.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/tables/crimson_table.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/tables/concrete_table.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/tables/birch_table.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/tables/big_oak_table.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/tables/acacia_table.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/cup.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/logs_deco/oak_slab.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/logs_deco/spruce_slab.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/logs_deco/birch_slab.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/logs_deco/jungle_slab.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/logs_deco/acacia_slab.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/logs_deco/crimson_slab.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/logs_deco/dark_oak_slab.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/logs_deco/warped_slab.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/living_room/tvf/tvf.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/living_room/tvf/black_tvf.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/living_room/tvf/blue_tvf.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/living_room/tvf/brown_tvf.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/living_room/tvf/cyan_tvf.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/living_room/tvf/gray_tvf.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/living_room/tvf/green_tvf.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/living_room/tvf/lime_tvf.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/living_room/tvf/light_blue_tvf.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/living_room/tvf/magenta_tvf.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/living_room/tvf/orange_tvf.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/living_room/tvf/pink_tvf.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/living_room/tvf/purple_tvf.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/living_room/tvf/red_tvf.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/living_room/tvf/silver_tvf.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/living_room/tvf/yellow_tvf.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/chair/concrete/concrete_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/chair/concrete/black_concrete_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/chair/concrete/blue_concrete_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/chair/concrete/brown_concrete_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/chair/concrete/cyan_concrete_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/chair/concrete/gray_concrete_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/chair/concrete/green_concrete_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/chair/concrete/light_blue_concrete_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/chair/concrete/lime_concrete_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/chair/concrete/magenta_concrete_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/chair/concrete/orange_concrete_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/chair/concrete/pink_concrete_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/chair/concrete/purple_concrete_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/chair/concrete/red_concrete_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/chair/concrete/silver_concrete_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/chair/concrete/yellow_concrete_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/gaming_chairs/gaming_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/gaming_chairs/black_gaming_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/gaming_chairs/blue_gaming_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/gaming_chairs/brown_gaming_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/gaming_chairs/cyan_gaming_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/gaming_chairs/gray_gaming_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/gaming_chairs/green_gaming_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/gaming_chairs/light_blue_gaming_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/gaming_chairs/lime_gaming_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/gaming_chairs/magenta_gaming_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/gaming_chairs/orange_gaming_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/gaming_chairs/pink_gaming_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/gaming_chairs/purple_gaming_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/gaming_chairs/red_gaming_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/gaming_chairs/silver_gaming_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/gaming_chairs/yellow_gaming_chair.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/oak_bedside_table.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/spruce_bedside_table.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/birch_bedside_table.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/jungle_bedside_table.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/acacia_bedside_table.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/dark_oak_bedside_table.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/warped_bedside_table.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/crimson_bedside_table.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/lamps/white_lamp.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/lamps/ black_lamp.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/lamps/ blue_lamp.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/lamps/ brown_lamp.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/lamps/cyan_lamp.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/lamps/gray_lamp.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/lamps/green_lamp.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/lamps/light_blue_lamp.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/lamps/lime_lamp.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/lamps/orange_lamp.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/lamps/magenta_lamp.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/lamps/pink_lamp.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/lamps/purple_lamp.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/lamps/red_lamp.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/lamps/silver_lamp.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bedroom/lamps/yellow_lamp.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/outdoor/umbrellas/umbrella.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/outdoor/umbrellas/black_umbrella.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/outdoor/umbrellas/blue_umbrella.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/outdoor/umbrellas/brown_umbrella.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/outdoor/umbrellas/cyan_umbrella.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/outdoor/umbrellas/gray_umbrella.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/outdoor/umbrellas/green_umbrella.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/outdoor/umbrellas/light_blue_umbrella.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/outdoor/umbrellas/lime_umbrella.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/outdoor/umbrellas/magenta_umbrella.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/outdoor/umbrellas/orange_umbrella.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/outdoor/umbrellas/pink_umbrella.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/outdoor/umbrellas/purple_umbrella.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/outdoor/umbrellas/red_umbrella.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/outdoor/umbrellas/silver_umbrella.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/outdoor/umbrellas/yellow_umbrella.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/outdoor/umbrellas/boca_umbrella.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_sink/kitchen_sink.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_sink/black_kitchen_sink.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_sink/blue_kitchen_sink.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_sink/brown_kitchen_sink.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_sink/cyan_kitchen_sink.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_sink/gray_kitchen_sink.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_sink/green_kitchen_sink.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_sink/light_blue_kitchen_sink.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_sink/lime_kitchen_sink.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_sink/magenta_kitchen_sink.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_sink/orange_kitchen_sink.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_sink/pink_kitchen_sink.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_sink/purple_kitchen_sink.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_sink/red_kitchen_sink.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_sink/silver_kitchen_sink.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_sink/yellow_kitchen_sink.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_cabinet/black_kitchen_cabinet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_cabinet/blue_kitchen_cabinet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_cabinet/brown_kitchen_cabinet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_cabinet/cyan_kitchen_cabinet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_cabinet/gray_kitchen_cabinet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_cabinet/green_kitchen_cabinet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_cabinet/light_blue_kitchen_cabinet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_cabinet/lime_kitchen_cabinet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_cabinet/magenta_kitchen_cabinet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_cabinet/orange_kitchen_cabinet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_cabinet/pink_kitchen_cabinet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_cabinet/purple_kitchen_cabinet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_cabinet/red_kitchen_cabinet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_cabinet/silver_kitchen_cabinet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_cabinet/yellow_kitchen_cabinet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_drawer/kitchen_drawer.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_cabinet/kitchen_cabinet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_drawer/black_kitchen_drawer.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_drawer/blue_kitchen_drawer.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_drawer/brown_kitchen_drawer.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_drawer/cyan_kitchen_drawer.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_drawer/green_kitchen_drawer.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_drawer/gray_kitchen_drawer.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_drawer/light_blue_kitchen_drawer.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_drawer/lime_kitchen_drawer.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_drawer/magenta_kitchen_drawer.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_drawer/orange_kitchen_drawer.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_drawer/pink_kitchen_drawer.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_drawer/purple_kitchen_drawer.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_drawer/red_kitchen_drawer.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_drawer/silver_kitchen_drawer.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_drawer/yellow_kitchen_drawer.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/bar_stool/bar_stool.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/bar_stool/black_bar_stool.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/bar_stool/blue_bar_stool.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/bar_stool/brown_bar_stool.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/bar_stool/cyan_bar_stool.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/bar_stool/gray_bar_stool.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/bar_stool/green_bar_stool.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/bar_stool/light_blue_bar_stool.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/bar_stool/lime_bar_stool.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/bar_stool/magenta_bar_stool.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/bar_stool/orange_bar_stool.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/bar_stool/pink_bar_stool.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/bar_stool/purple_bar_stool.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/bar_stool/red_bar_stool.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/bar_stool/silver_bar_stool.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/bar_stool/yellow_bar_stool.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_counter/kitchen_counter.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_counter/black_kitchen_counter.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_counter/blue_kitchen_counter.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_counter/brown_kitchen_counter.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_counter/cyan_kitchen_counter.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_counter/gray_kitchen_counter.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_counter/green_kitchen_counter.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_counter/light_blue_kitchen_counter.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_counter/lime_kitchen_counter.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_counter/magenta_kitchen_counter.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_counter/orange_kitchen_counter.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_counter/pink_kitchen_counter.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_counter/purple_kitchen_counter.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_counter/red_kitchen_counter.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_counter/yellow_kitchen_counter.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kitchen/kitchen_counter/silver_kitchen_counter.json": {
+			"tags": [
+				"crafting_table"
+			]
+		}
+	},
+	"item": {
+		"BP/items/brush.json": {
+			"identifiers": [
+				"dbc:brush"
+			],
+			"custom_commands": []
+		},
+		"BP/items/coffe_cup.json": {
+			"identifiers": [
+				"dbc:coffe_cup"
+			],
+			"custom_commands": []
+		},
+		"BP/items/cup.json": {
+			"identifiers": [
+				"dbc:cup"
+			],
+			"custom_commands": []
+		}
+	},
+	"feature": {},
+	"attachable": {
+		"RP/attachables/umbrella.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/black_umbrella.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/blue_umbrella.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/brown_umbrella.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/cyan_umbrella.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/gray_umbrella.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/green_umbrella.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/light_blue_umbrella.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/lime_umbrella.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/magenta_umbrella.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/orange_umbrella.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/pink_umbrella.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/purple_umbrella.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/red_umbrella.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/silver_umbrella.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/yellow_umbrella.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/boca_umbrella.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		}
+	},
+	"rp_animation": {
+		"RP/animations/umbrella_item.animation.json": {
+			"ids": [
+				"animation.umbrella_item.first_person",
+				"animation.umbrella_item.default"
+			]
+		}
+	},
+	"animation_controller": {
+		"BP/animation_controllers/bridge/custom_item_behavior.json": {
+			"ids": [
+				"controller.animation.help",
+				"controller.animation.help2",
+				"controller.animation.help3",
+				"controller.animation.help4"
+			],
+			"custom_commands": []
+		}
+	}
+}

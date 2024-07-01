@@ -1,0 +1,983 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\blocks\\bathroom\\bathroom_sink.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "56ab584e_9b8d_42fa_809d_fb83798de72a",
+	"file_version": 37,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"properties": {
+								"dbc:facing": [
+									0,
+									1,
+									2,
+									3,
+									4,
+									5,
+									6
+								],
+								"dbc:interact": [
+									0,
+									1
+								]
+							},
+							"identifier": "dbc:bathroom_sink"
+						},
+						"components": {
+							"minecraft:destroy_time": 0.5,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:geometry": "geometry.bsink_dbc",
+							"minecraft:on_player_placing": {
+								"event": "dbc:facing"
+							},
+							"minecraft:material_instances": {
+								"*": {
+									"render_method": "alpha_test",
+									"texture": "gray_kitchen_sink"
+								}
+							}
+						},
+						"permutations": [
+							{
+								"condition": "query.block_property('dbc:facing') == 2",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										0,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 3",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										180,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 4",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										90,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 5",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										-90,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:interact') == 0",
+								"components": {
+									"minecraft:on_interact": {
+										"event": "dbc:fill",
+										"target": "self"
+									},
+									"minecraft:geometry": "geometry.bsink_dbc"
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:interact') == 1",
+								"components": {
+									"minecraft:on_interact": {
+										"event": "dbc:quit",
+										"target": "self"
+									},
+									"minecraft:geometry": "geometry.bsink_dbc_water"
+								}
+							}
+						],
+						"events": {
+							"dbc:facing": {
+								"set_block_property": {
+									"dbc:facing": "query.cardinal_facing_2d"
+								}
+							},
+							"dbc:fill": {
+								"set_block_property": {
+									"dbc:interact": 1
+								},
+								"play_sound": {
+									"target": "other",
+									"sound": "bucket.fill_water"
+								},
+								"run_command": {
+									"command": [
+										"playsound bucket.fill_water @a ~ ~ ~"
+									]
+								}
+							},
+							"dbc:quit": {
+								"set_block_property": {
+									"dbc:interact": 0
+								},
+								"play_sound": {
+									"target": "other",
+									"sound": "bucket.empty_water"
+								},
+								"run_command": {
+									"command": [
+										"playsound bucket.empty_water @a ~ ~ ~"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"properties": {
+								"dbc:facing": [
+									0,
+									1,
+									2,
+									3,
+									4,
+									5,
+									6
+								],
+								"dbc:interact": [
+									0,
+									1
+								]
+							},
+							"identifier": "dbc:bathroom_sink"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"properties": {
+									"dbc:facing": [
+										0,
+										1,
+										2,
+										3,
+										4,
+										5,
+										6
+									],
+									"dbc:interact": [
+										0,
+										1
+									]
+								},
+								"identifier": "dbc:bathroom_sink"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.5,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:geometry": "geometry.bsink_dbc",
+								"minecraft:on_player_placing": {
+									"event": "dbc:facing"
+								},
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "alpha_test",
+										"texture": "gray_kitchen_sink"
+									}
+								}
+							},
+							"permutations": [
+								{
+									"condition": "query.block_property('dbc:facing') == 2",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 3",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											180,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 4",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											90,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 5",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											-90,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:interact') == 0",
+									"components": {
+										"minecraft:on_interact": {
+											"event": "dbc:fill",
+											"target": "self"
+										},
+										"minecraft:geometry": "geometry.bsink_dbc"
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:interact') == 1",
+									"components": {
+										"minecraft:on_interact": {
+											"event": "dbc:quit",
+											"target": "self"
+										},
+										"minecraft:geometry": "geometry.bsink_dbc_water"
+									}
+								}
+							],
+							"events": {
+								"dbc:facing": {
+									"set_block_property": {
+										"dbc:facing": "query.cardinal_facing_2d"
+									}
+								},
+								"dbc:fill": {
+									"set_block_property": {
+										"dbc:interact": 1
+									},
+									"play_sound": {
+										"target": "other",
+										"sound": "bucket.fill_water"
+									},
+									"run_command": {
+										"command": [
+											"playsound bucket.fill_water @a ~ ~ ~"
+										]
+									}
+								},
+								"dbc:quit": {
+									"set_block_property": {
+										"dbc:interact": 0
+									},
+									"play_sound": {
+										"target": "other",
+										"sound": "bucket.empty_water"
+									},
+									"run_command": {
+										"command": [
+											"playsound bucket.empty_water @a ~ ~ ~"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "0.5",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"data": "0",
+								"key": "minecraft:block_light_absorption"
+							},
+							{
+								"data": "geometry.bsink_dbc",
+								"key": "minecraft:geometry"
+							},
+							{
+								"key": "minecraft:on_player_placing",
+								"is_minified": true,
+								"children": {
+									"event": "dbc:facing"
+								}
+							},
+							{
+								"key": "minecraft:material_instances",
+								"children": [
+									{
+										"open": {
+											"*": {
+												"render_method": "alpha_test",
+												"texture": "gray_kitchen_sink"
+											}
+										},
+										"key": "*",
+										"is_minified": true,
+										"children": {
+											"render_method": "alpha_test",
+											"texture": "gray_kitchen_sink"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"properties": {
+									"dbc:facing": [
+										0,
+										1,
+										2,
+										3,
+										4,
+										5,
+										6
+									],
+									"dbc:interact": [
+										0,
+										1
+									]
+								},
+								"identifier": "dbc:bathroom_sink"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.5,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:geometry": "geometry.bsink_dbc",
+								"minecraft:on_player_placing": {
+									"event": "dbc:facing"
+								},
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "alpha_test",
+										"texture": "gray_kitchen_sink"
+									}
+								}
+							},
+							"permutations": [
+								{
+									"condition": "query.block_property('dbc:facing') == 2",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 3",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											180,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 4",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											90,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 5",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											-90,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:interact') == 0",
+									"components": {
+										"minecraft:on_interact": {
+											"event": "dbc:fill",
+											"target": "self"
+										},
+										"minecraft:geometry": "geometry.bsink_dbc"
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:interact') == 1",
+									"components": {
+										"minecraft:on_interact": {
+											"event": "dbc:quit",
+											"target": "self"
+										},
+										"minecraft:geometry": "geometry.bsink_dbc_water"
+									}
+								}
+							],
+							"events": {
+								"dbc:facing": {
+									"set_block_property": {
+										"dbc:facing": "query.cardinal_facing_2d"
+									}
+								},
+								"dbc:fill": {
+									"set_block_property": {
+										"dbc:interact": 1
+									},
+									"play_sound": {
+										"target": "other",
+										"sound": "bucket.fill_water"
+									},
+									"run_command": {
+										"command": [
+											"playsound bucket.fill_water @a ~ ~ ~"
+										]
+									}
+								},
+								"dbc:quit": {
+									"set_block_property": {
+										"dbc:interact": 0
+									},
+									"play_sound": {
+										"target": "other",
+										"sound": "bucket.empty_water"
+									},
+									"run_command": {
+										"command": [
+											"playsound bucket.empty_water @a ~ ~ ~"
+										]
+									}
+								}
+							}
+						},
+						"key": "permutations",
+						"children": [
+							{
+								"is_minified": true,
+								"children": {
+									"condition": "query.block_property('dbc:facing') == 2",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											0
+										]
+									}
+								}
+							},
+							{
+								"is_minified": true,
+								"children": {
+									"condition": "query.block_property('dbc:facing') == 3",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											180,
+											0
+										]
+									}
+								}
+							},
+							{
+								"is_minified": true,
+								"children": {
+									"condition": "query.block_property('dbc:facing') == 4",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											90,
+											0
+										]
+									}
+								}
+							},
+							{
+								"is_minified": true,
+								"children": {
+									"condition": "query.block_property('dbc:facing') == 5",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											-90,
+											0
+										]
+									}
+								}
+							},
+							{
+								"open": [
+									{
+										"condition": "query.block_property('dbc:facing') == 2",
+										"components": {
+											"minecraft:rotation": [
+												0,
+												0,
+												0
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('dbc:facing') == 3",
+										"components": {
+											"minecraft:rotation": [
+												0,
+												180,
+												0
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('dbc:facing') == 4",
+										"components": {
+											"minecraft:rotation": [
+												0,
+												90,
+												0
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('dbc:facing') == 5",
+										"components": {
+											"minecraft:rotation": [
+												0,
+												-90,
+												0
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('dbc:interact') == 0",
+										"components": {
+											"minecraft:on_interact": {
+												"event": "dbc:fill",
+												"target": "self"
+											},
+											"minecraft:geometry": "geometry.bsink_dbc"
+										}
+									},
+									{
+										"condition": "query.block_property('dbc:interact') == 1",
+										"components": {
+											"minecraft:on_interact": {
+												"event": "dbc:quit",
+												"target": "self"
+											},
+											"minecraft:geometry": "geometry.bsink_dbc_water"
+										}
+									}
+								],
+								"children": [
+									{
+										"data": "query.block_property('dbc:interact') == 0",
+										"key": "condition"
+									},
+									{
+										"open": {
+											"condition": "query.block_property('dbc:interact') == 0",
+											"components": {
+												"minecraft:on_interact": {
+													"event": "dbc:fill",
+													"target": "self"
+												},
+												"minecraft:geometry": "geometry.bsink_dbc"
+											}
+										},
+										"key": "components",
+										"is_minified": true,
+										"children": {
+											"minecraft:on_interact": {
+												"event": "dbc:fill",
+												"target": "self"
+											},
+											"minecraft:geometry": "geometry.bsink_dbc"
+										}
+									}
+								]
+							},
+							{
+								"open": [
+									{
+										"condition": "query.block_property('dbc:facing') == 2",
+										"components": {
+											"minecraft:rotation": [
+												0,
+												0,
+												0
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('dbc:facing') == 3",
+										"components": {
+											"minecraft:rotation": [
+												0,
+												180,
+												0
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('dbc:facing') == 4",
+										"components": {
+											"minecraft:rotation": [
+												0,
+												90,
+												0
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('dbc:facing') == 5",
+										"components": {
+											"minecraft:rotation": [
+												0,
+												-90,
+												0
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('dbc:interact') == 0",
+										"components": {
+											"minecraft:on_interact": {
+												"event": "dbc:fill",
+												"target": "self"
+											},
+											"minecraft:geometry": "geometry.bsink_dbc"
+										}
+									},
+									{
+										"condition": "query.block_property('dbc:interact') == 1",
+										"components": {
+											"minecraft:on_interact": {
+												"event": "dbc:quit",
+												"target": "self"
+											},
+											"minecraft:geometry": "geometry.bsink_dbc_water"
+										}
+									}
+								],
+								"children": [
+									{
+										"data": "query.block_property('dbc:interact') == 1",
+										"key": "condition"
+									},
+									{
+										"open": {
+											"condition": "query.block_property('dbc:interact') == 1",
+											"components": {
+												"minecraft:on_interact": {
+													"event": "dbc:quit",
+													"target": "self"
+												},
+												"minecraft:geometry": "geometry.bsink_dbc_water"
+											}
+										},
+										"key": "components",
+										"is_minified": true,
+										"children": {
+											"minecraft:on_interact": {
+												"event": "dbc:quit",
+												"target": "self"
+											},
+											"minecraft:geometry": "geometry.bsink_dbc_water"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"properties": {
+									"dbc:facing": [
+										0,
+										1,
+										2,
+										3,
+										4,
+										5,
+										6
+									],
+									"dbc:interact": [
+										0,
+										1
+									]
+								},
+								"identifier": "dbc:bathroom_sink"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.5,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:geometry": "geometry.bsink_dbc",
+								"minecraft:on_player_placing": {
+									"event": "dbc:facing"
+								},
+								"minecraft:material_instances": {
+									"*": {
+										"render_method": "alpha_test",
+										"texture": "gray_kitchen_sink"
+									}
+								}
+							},
+							"permutations": [
+								{
+									"condition": "query.block_property('dbc:facing') == 2",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 3",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											180,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 4",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											90,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 5",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											-90,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:interact') == 0",
+									"components": {
+										"minecraft:on_interact": {
+											"event": "dbc:fill",
+											"target": "self"
+										},
+										"minecraft:geometry": "geometry.bsink_dbc"
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:interact') == 1",
+									"components": {
+										"minecraft:on_interact": {
+											"event": "dbc:quit",
+											"target": "self"
+										},
+										"minecraft:geometry": "geometry.bsink_dbc_water"
+									}
+								}
+							],
+							"events": {
+								"dbc:facing": {
+									"set_block_property": {
+										"dbc:facing": "query.cardinal_facing_2d"
+									}
+								},
+								"dbc:fill": {
+									"set_block_property": {
+										"dbc:interact": 1
+									},
+									"play_sound": {
+										"target": "other",
+										"sound": "bucket.fill_water"
+									},
+									"run_command": {
+										"command": [
+											"playsound bucket.fill_water @a ~ ~ ~"
+										]
+									}
+								},
+								"dbc:quit": {
+									"set_block_property": {
+										"dbc:interact": 0
+									},
+									"play_sound": {
+										"target": "other",
+										"sound": "bucket.empty_water"
+									},
+									"run_command": {
+										"command": [
+											"playsound bucket.empty_water @a ~ ~ ~"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"key": "dbc:facing",
+								"is_minified": true,
+								"children": {
+									"set_block_property": {
+										"dbc:facing": "query.cardinal_facing_2d"
+									}
+								}
+							},
+							{
+								"key": "dbc:fill",
+								"is_minified": true,
+								"children": {
+									"set_block_property": {
+										"dbc:interact": 1
+									},
+									"play_sound": {
+										"target": "other",
+										"sound": "bucket.fill_water"
+									},
+									"run_command": {
+										"command": [
+											"playsound bucket.fill_water @a ~ ~ ~"
+										]
+									}
+								}
+							},
+							{
+								"open": {
+									"dbc:facing": {
+										"set_block_property": {
+											"dbc:facing": "query.cardinal_facing_2d"
+										}
+									},
+									"dbc:fill": {
+										"set_block_property": {
+											"dbc:interact": 1
+										},
+										"play_sound": {
+											"target": "other",
+											"sound": "bucket.fill_water"
+										},
+										"run_command": {
+											"command": [
+												"playsound bucket.fill_water @a ~ ~ ~"
+											]
+										}
+									},
+									"dbc:quit": {
+										"set_block_property": {
+											"dbc:interact": 0
+										},
+										"play_sound": {
+											"target": "other",
+											"sound": "bucket.empty_water"
+										},
+										"run_command": {
+											"command": [
+												"playsound bucket.empty_water @a ~ ~ ~"
+											]
+										}
+									}
+								},
+								"key": "dbc:quit",
+								"children": [
+									{
+										"key": "set_block_property",
+										"is_minified": true,
+										"children": {
+											"dbc:interact": 0
+										}
+									},
+									{
+										"open": {
+											"set_block_property": {
+												"dbc:interact": 0
+											},
+											"play_sound": {
+												"target": "other",
+												"sound": "bucket.empty_water"
+											},
+											"run_command": {
+												"command": [
+													"playsound bucket.empty_water @a ~ ~ ~"
+												]
+											}
+										},
+										"key": "play_sound",
+										"is_minified": true,
+										"children": {
+											"target": "other",
+											"sound": "bucket.empty_water"
+										}
+									},
+									{
+										"open": {
+											"set_block_property": {
+												"dbc:interact": 0
+											},
+											"play_sound": {
+												"target": "other",
+												"sound": "bucket.empty_water"
+											},
+											"run_command": {
+												"command": [
+													"playsound bucket.empty_water @a ~ ~ ~"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"playsound bucket.empty_water @a ~ ~ ~"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"playsound bucket.empty_water @a ~ ~ ~"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

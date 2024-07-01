@@ -1,0 +1,194 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\recipes\\logs_deco\\birch_slab.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "2de2f416_f990_433a_9bea_5aff5d740ff6",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "dbc:birch_slab"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"~~~"
+						],
+						"key": {
+							"~": {
+								"item": "minecraft:log",
+								"data": 2
+							}
+						},
+						"result": [
+							{
+								"item": "dbc:log_birch_slab",
+								"data": 0,
+								"count": 6
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:birch_slab"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~~~"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:log",
+									"data": 2
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:log_birch_slab",
+									"data": 0,
+									"count": 6
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:birch_slab"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:birch_slab"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~~~"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:log",
+									"data": 2
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:log_birch_slab",
+									"data": 0,
+									"count": 6
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:birch_slab"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~~~"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:log",
+									"data": 2
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:log_birch_slab",
+									"data": 0,
+									"count": 6
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"~~~"
+						]
+					},
+					{
+						"key": "key",
+						"is_minified": true,
+						"children": {
+							"~": {
+								"item": "minecraft:log",
+								"data": 2
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:birch_slab"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~~~"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:log",
+									"data": 2
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:log_birch_slab",
+									"data": 0,
+									"count": 6
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "dbc:log_birch_slab",
+										"data": 0,
+										"count": 6
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "dbc:log_birch_slab",
+									"data": 0,
+									"count": 6
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

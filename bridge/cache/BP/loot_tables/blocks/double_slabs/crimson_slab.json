@@ -1,0 +1,152 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\loot_tables\\blocks\\double_slabs\\crimson_slab.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "e5915554_11da_4b58_9969_70cb097c052b",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"name": "dbc:crimson_stem_slab",
+									"weight": 1,
+									"functions": [
+										{
+											"function": "set_count",
+											"count": 2
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "dbc:crimson_stem_slab",
+										"weight": 1,
+										"functions": [
+											{
+												"function": "set_count",
+												"count": 2
+											}
+										]
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "dbc:crimson_stem_slab",
+											"weight": 1,
+											"functions": [
+												{
+													"function": "set_count",
+													"count": 2
+												}
+											]
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "dbc:crimson_stem_slab",
+												"weight": 1,
+												"functions": [
+													{
+														"function": "set_count",
+														"count": 2
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"open": {
+													"type": "item",
+													"name": "dbc:crimson_stem_slab",
+													"weight": 1,
+													"functions": [
+														{
+															"function": "set_count",
+															"count": 2
+														}
+													]
+												},
+												"data": "dbc:crimson_stem_slab",
+												"key": "name"
+											},
+											{
+												"data": "1",
+												"key": "weight"
+											},
+											{
+												"open": {
+													"type": "item",
+													"name": "dbc:crimson_stem_slab",
+													"weight": 1,
+													"functions": [
+														{
+															"function": "set_count",
+															"count": 2
+														}
+													]
+												},
+												"key": "functions",
+												"children": [
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": 2
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"function": "set_count",
+															"count": 2
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

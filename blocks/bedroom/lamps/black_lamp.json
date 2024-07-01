@@ -1,0 +1,98 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dbc:black_lamp",
+			"properties": {
+				"dbc:toggle": [
+					0,
+					1
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "black_lamp",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:breakonpush": true,
+			"minecraft:pick_collision": {
+				"origin": [
+					-5,
+					0,
+					-5
+				],
+				"size": [
+					10,
+					16,
+					10
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-5,
+					0,
+					-5
+				],
+				"size": [
+					10,
+					16,
+					10
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('dbc:toggle') == 0",
+				"components": {
+					"minecraft:geometry": "geometry.lamp_dbc",
+					"minecraft:on_interact": {
+						"event": "dbc:toggle"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:toggle') == 1",
+				"components": {
+					"minecraft:geometry": "geometry.lamp_on_dbc",
+					"minecraft:block_light_emission": 1,
+					"minecraft:on_interact": {
+						"event": "dbc:toggle"
+					}
+				}
+			}
+		],
+		"events": {
+			"dbc:toggle": {
+				"sequence": [
+					{
+						"condition": "query.block_property('dbc:toggle') == 0",
+						"set_block_property": {
+							"dbc:toggle": 1
+						}
+					},
+					{
+						"condition": "query.block_property('dbc:toggle') == 1",
+						"set_block_property": {
+							"dbc:toggle": 0
+						}
+					}
+				]
+			}
+		}
+	}
+}

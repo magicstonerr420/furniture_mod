@@ -1,0 +1,94 @@
+//bridge-file-version: #19
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dbc:purple_umbrella",
+			"properties": {
+				"dbc:block_facing": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:geometry": "geometry.umbrella_dbc",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"side",
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "bs_purple",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:entity_collision": false,
+			"minecraft:on_player_placing": {
+				"event": "dbc:block",
+				"target": "self"
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('dbc:block_facing') == 2",
+				"components": {
+					"minecraft:geometry": "geometry.umbrella_block_dbc"
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:block_facing') == 3",
+				"components": {
+					"minecraft:geometry": "geometry.umbrella_block_dbc",
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:block_facing') == 4",
+				"components": {
+					"minecraft:geometry": "geometry.umbrella_block_dbc",
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:block_facing') == 5",
+				"components": {
+					"minecraft:geometry": "geometry.umbrella_block_dbc",
+					"minecraft:rotation": [
+						0,
+						-90,
+						0
+					]
+				}
+			}
+		],
+		"events": {
+			"dbc:block": {
+				"set_block_property": {
+					"dbc:block_facing": "query.block_face"
+				}
+			}
+		}
+	}
+}

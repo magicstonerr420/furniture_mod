@@ -1,0 +1,159 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\items\\coffe_cup.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "df01cd65_e208_422b_ada4_ac0b874d887e",
+	"file_version": 40,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "dbc:coffe_cup",
+							"category": "items"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:icon": {
+								"texture": "cup",
+								"frame": 1
+							},
+							"minecraft:food": {
+								"nutrition": 12,
+								"can_always_eat": true,
+								"saturation_modifier": "supernatural",
+								"on_consume": {
+									"event": "dbc:speed",
+									"target": "self"
+								}
+							},
+							"minecraft:use_duration": 1.6,
+							"minecraft:use_animation": "drink"
+						},
+						"events": {
+							"dbc:speed": {
+								"randomize": [
+									{
+										"weight": 50,
+										"add_mob_effect": {
+											"effect": "speed",
+											"target": "holder",
+											"duration": 20,
+											"amplifier": 2
+										}
+									},
+									{
+										"weight": 50
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:coffe_cup",
+							"category": "items"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:coffe_cup",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:icon": {
+									"texture": "cup",
+									"frame": 1
+								},
+								"minecraft:food": {
+									"nutrition": 12,
+									"can_always_eat": true,
+									"saturation_modifier": "supernatural",
+									"on_consume": {
+										"event": "dbc:speed",
+										"target": "self"
+									}
+								},
+								"minecraft:use_duration": 1.6,
+								"minecraft:use_animation": "drink"
+							},
+							"events": {
+								"dbc:speed": {
+									"randomize": [
+										{
+											"weight": 50,
+											"add_mob_effect": {
+												"effect": "speed",
+												"target": "holder",
+												"duration": 20,
+												"amplifier": 2
+											}
+										},
+										{
+											"weight": 50
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:icon": {
+								"texture": "cup",
+								"frame": 1
+							},
+							"minecraft:food": {
+								"nutrition": 12,
+								"can_always_eat": true,
+								"saturation_modifier": "supernatural",
+								"on_consume": {
+									"event": "dbc:speed",
+									"target": "self"
+								}
+							},
+							"minecraft:use_duration": 1.6,
+							"minecraft:use_animation": "drink"
+						}
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {
+							"dbc:speed": {
+								"randomize": [
+									{
+										"weight": 50,
+										"add_mob_effect": {
+											"effect": "speed",
+											"target": "holder",
+											"duration": 20,
+											"amplifier": 2
+										}
+									},
+									{
+										"weight": 50
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,33 @@
+//bridge-file-version: #15
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:orange_tvf"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~",
+			"# #"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:concrete",
+				"data": 1
+			},
+			"#": {
+				"item": "minecraft:concrete",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:orange_concrete_tv_furniture",
+				"data": 0,
+				"count": 2
+			}
+		]
+	}
+}

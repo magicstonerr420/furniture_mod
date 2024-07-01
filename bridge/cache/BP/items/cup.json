@@ -1,0 +1,101 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\items\\cup.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "48ea060a_60d4_4148_b73c_42da8f667afc",
+	"file_version": 10,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "dbc:cup",
+							"category": "items"
+						},
+						"components": {
+							"minecraft:max_stack_size": 64,
+							"minecraft:icon": {
+								"texture": "cup",
+								"frame": 0
+							},
+							"minecraft:block_placer": {
+								"block": "dbc:cup_block",
+								"use_block_description": true
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:cup",
+							"category": "items"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:cup",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 64,
+								"minecraft:icon": {
+									"texture": "cup",
+									"frame": 0
+								},
+								"minecraft:block_placer": {
+									"block": "dbc:cup_block",
+									"use_block_description": true
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "64",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "cup",
+									"frame": 0
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 64,
+									"minecraft:icon": {
+										"texture": "cup",
+										"frame": 0
+									},
+									"minecraft:block_placer": {
+										"block": "dbc:cup_block",
+										"use_block_description": true
+									}
+								},
+								"key": "minecraft:block_placer",
+								"is_minified": true,
+								"children": {
+									"block": "dbc:cup_block",
+									"use_block_description": true
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,1006 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\blocks\\marble\\smooth_marble_slab.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "79e891ef_98e4_42c5_a414_5215ba55bdc1",
+	"file_version": 71,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "dbc:smooth_marble_slab",
+							"properties": {
+								"slab:interact": [
+									0,
+									1,
+									2
+								]
+							}
+						},
+						"components": {
+							"minecraft:destroy_time": 0.5,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:map_color": "#DBDBDB",
+							"minecraft:on_player_placing": {
+								"event": "up",
+								"target": "self",
+								"condition": "query.target_x_rotation <= 0"
+							},
+							"tag:stone": {}
+						},
+						"permutations": [
+							{
+								"condition": "query.block_property('slab:interact') == 0",
+								"components": {
+									"minecraft:geometry": "geometry.slabdown_dbc",
+									"minecraft:on_interact": {
+										"event": "block",
+										"target": "self",
+										"condition": "query.get_equipped_item_name('main_hand') == 'smooth_marble_slab'"
+									},
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											8,
+											16
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											8,
+											16
+										]
+									},
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "smoothmarble",
+											"render_method": "alpha_test"
+										}
+									}
+								}
+							},
+							{
+								"condition": "query.block_property('slab:interact') == 1",
+								"components": {
+									"minecraft:geometry": "geometry.slabup_dbc",
+									"minecraft:on_interact": {
+										"event": "block",
+										"target": "self",
+										"condition": "query.get_equipped_item_name('main_hand') == 'smooth_marble_slab'"
+									},
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											8,
+											-8
+										],
+										"size": [
+											16,
+											8,
+											16
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											8,
+											-8
+										],
+										"size": [
+											16,
+											8,
+											16
+										]
+									},
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "smoothmarble",
+											"render_method": "alpha_test"
+										}
+									}
+								}
+							},
+							{
+								"condition": "query.block_property('slab:interact') == 2",
+								"components": {
+									"minecraft:unit_cube": {},
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "smoothmarble",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:loot": "loot_tables/blocks/marble/smooth_slab_double.json"
+								}
+							}
+						],
+						"events": {
+							"block": {
+								"set_block_property": {
+									"slab:interact": 2
+								},
+								"decrement_stack": {}
+							},
+							"up": {
+								"set_block_property": {
+									"slab:interact": 1
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:smooth_marble_slab",
+							"properties": {
+								"slab:interact": [
+									0,
+									1,
+									2
+								]
+							}
+						}
+					},
+					{
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 0.5,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:map_color": "#DBDBDB",
+							"minecraft:on_player_placing": {
+								"event": "up",
+								"target": "self",
+								"condition": "query.target_x_rotation <= 0"
+							},
+							"tag:stone": {}
+						}
+					},
+					{
+						"key": "permutations",
+						"children": [
+							{
+								"open": [
+									{
+										"condition": "query.block_property('slab:interact') == 0",
+										"components": {
+											"minecraft:geometry": "geometry.slabdown_dbc",
+											"minecraft:on_interact": {
+												"event": "block",
+												"target": "self",
+												"condition": "query.get_equipped_item_name('main_hand') == 'smooth_marble_slab'"
+											},
+											"minecraft:entity_collision": {
+												"origin": [
+													-8,
+													0,
+													-8
+												],
+												"size": [
+													16,
+													8,
+													16
+												]
+											},
+											"minecraft:pick_collision": {
+												"origin": [
+													-8,
+													0,
+													-8
+												],
+												"size": [
+													16,
+													8,
+													16
+												]
+											},
+											"minecraft:material_instances": {
+												"*": {
+													"texture": "smoothmarble",
+													"render_method": "alpha_test"
+												}
+											}
+										}
+									},
+									{
+										"condition": "query.block_property('slab:interact') == 1",
+										"components": {
+											"minecraft:geometry": "geometry.slabup_dbc",
+											"minecraft:on_interact": {
+												"event": "block",
+												"target": "self",
+												"condition": "query.get_equipped_item_name('main_hand') == 'smooth_marble_slab'"
+											},
+											"minecraft:entity_collision": {
+												"origin": [
+													-8,
+													8,
+													-8
+												],
+												"size": [
+													16,
+													8,
+													16
+												]
+											},
+											"minecraft:pick_collision": {
+												"origin": [
+													-8,
+													8,
+													-8
+												],
+												"size": [
+													16,
+													8,
+													16
+												]
+											},
+											"minecraft:material_instances": {
+												"*": {
+													"texture": "smoothmarble",
+													"render_method": "alpha_test"
+												}
+											}
+										}
+									},
+									{
+										"condition": "query.block_property('slab:interact') == 2",
+										"components": {
+											"minecraft:unit_cube": {},
+											"minecraft:material_instances": {
+												"*": {
+													"texture": "smoothmarble",
+													"render_method": "alpha_test"
+												}
+											},
+											"minecraft:loot": "loot_tables/blocks/marble/smooth_slab_double.json"
+										}
+									}
+								],
+								"children": [
+									{
+										"data": "query.block_property('slab:interact') == 0",
+										"key": "condition"
+									},
+									{
+										"open": {
+											"condition": "query.block_property('slab:interact') == 0",
+											"components": {
+												"minecraft:geometry": "geometry.slabdown_dbc",
+												"minecraft:on_interact": {
+													"event": "block",
+													"target": "self",
+													"condition": "query.get_equipped_item_name('main_hand') == 'smooth_marble_slab'"
+												},
+												"minecraft:entity_collision": {
+													"origin": [
+														-8,
+														0,
+														-8
+													],
+													"size": [
+														16,
+														8,
+														16
+													]
+												},
+												"minecraft:pick_collision": {
+													"origin": [
+														-8,
+														0,
+														-8
+													],
+													"size": [
+														16,
+														8,
+														16
+													]
+												},
+												"minecraft:material_instances": {
+													"*": {
+														"texture": "smoothmarble",
+														"render_method": "alpha_test"
+													}
+												}
+											}
+										},
+										"key": "components",
+										"children": [
+											{
+												"data": "geometry.slabdown_dbc",
+												"key": "minecraft:geometry"
+											},
+											{
+												"open": {
+													"minecraft:geometry": "geometry.slabdown_dbc",
+													"minecraft:on_interact": {
+														"event": "block",
+														"target": "self",
+														"condition": "query.get_equipped_item_name('main_hand') == 'smooth_marble_slab'"
+													},
+													"minecraft:entity_collision": {
+														"origin": [
+															-8,
+															0,
+															-8
+														],
+														"size": [
+															16,
+															8,
+															16
+														]
+													},
+													"minecraft:pick_collision": {
+														"origin": [
+															-8,
+															0,
+															-8
+														],
+														"size": [
+															16,
+															8,
+															16
+														]
+													},
+													"minecraft:material_instances": {
+														"*": {
+															"texture": "smoothmarble",
+															"render_method": "alpha_test"
+														}
+													}
+												},
+												"key": "minecraft:on_interact",
+												"is_minified": true,
+												"children": {
+													"event": "block",
+													"target": "self",
+													"condition": "query.get_equipped_item_name('main_hand') == 'smooth_marble_slab'"
+												}
+											},
+											{
+												"key": "minecraft:entity_collision",
+												"is_minified": true,
+												"children": {
+													"origin": [
+														-8,
+														0,
+														-8
+													],
+													"size": [
+														16,
+														8,
+														16
+													]
+												}
+											},
+											{
+												"key": "minecraft:pick_collision",
+												"is_minified": true,
+												"children": {
+													"origin": [
+														-8,
+														0,
+														-8
+													],
+													"size": [
+														16,
+														8,
+														16
+													]
+												}
+											},
+											{
+												"key": "minecraft:material_instances",
+												"is_minified": true,
+												"children": {
+													"*": {
+														"texture": "smoothmarble",
+														"render_method": "alpha_test"
+													}
+												}
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": [
+									{
+										"condition": "query.block_property('slab:interact') == 0",
+										"components": {
+											"minecraft:geometry": "geometry.slabdown_dbc",
+											"minecraft:on_interact": {
+												"event": "block",
+												"target": "self",
+												"condition": "query.get_equipped_item_name('main_hand') == 'smooth_marble_slab'"
+											},
+											"minecraft:entity_collision": {
+												"origin": [
+													-8,
+													0,
+													-8
+												],
+												"size": [
+													16,
+													8,
+													16
+												]
+											},
+											"minecraft:pick_collision": {
+												"origin": [
+													-8,
+													0,
+													-8
+												],
+												"size": [
+													16,
+													8,
+													16
+												]
+											},
+											"minecraft:material_instances": {
+												"*": {
+													"texture": "smoothmarble",
+													"render_method": "alpha_test"
+												}
+											}
+										}
+									},
+									{
+										"condition": "query.block_property('slab:interact') == 1",
+										"components": {
+											"minecraft:geometry": "geometry.slabup_dbc",
+											"minecraft:on_interact": {
+												"event": "block",
+												"target": "self",
+												"condition": "query.get_equipped_item_name('main_hand') == 'smooth_marble_slab'"
+											},
+											"minecraft:entity_collision": {
+												"origin": [
+													-8,
+													8,
+													-8
+												],
+												"size": [
+													16,
+													8,
+													16
+												]
+											},
+											"minecraft:pick_collision": {
+												"origin": [
+													-8,
+													8,
+													-8
+												],
+												"size": [
+													16,
+													8,
+													16
+												]
+											},
+											"minecraft:material_instances": {
+												"*": {
+													"texture": "smoothmarble",
+													"render_method": "alpha_test"
+												}
+											}
+										}
+									},
+									{
+										"condition": "query.block_property('slab:interact') == 2",
+										"components": {
+											"minecraft:unit_cube": {},
+											"minecraft:material_instances": {
+												"*": {
+													"texture": "smoothmarble",
+													"render_method": "alpha_test"
+												}
+											},
+											"minecraft:loot": "loot_tables/blocks/marble/smooth_slab_double.json"
+										}
+									}
+								],
+								"children": [
+									{
+										"data": "query.block_property('slab:interact') == 1",
+										"key": "condition"
+									},
+									{
+										"open": {
+											"condition": "query.block_property('slab:interact') == 1",
+											"components": {
+												"minecraft:geometry": "geometry.slabup_dbc",
+												"minecraft:on_interact": {
+													"event": "block",
+													"target": "self",
+													"condition": "query.get_equipped_item_name('main_hand') == 'smooth_marble_slab'"
+												},
+												"minecraft:entity_collision": {
+													"origin": [
+														-8,
+														8,
+														-8
+													],
+													"size": [
+														16,
+														8,
+														16
+													]
+												},
+												"minecraft:pick_collision": {
+													"origin": [
+														-8,
+														8,
+														-8
+													],
+													"size": [
+														16,
+														8,
+														16
+													]
+												},
+												"minecraft:material_instances": {
+													"*": {
+														"texture": "smoothmarble",
+														"render_method": "alpha_test"
+													}
+												}
+											}
+										},
+										"key": "components",
+										"children": [
+											{
+												"data": "geometry.slabup_dbc",
+												"key": "minecraft:geometry"
+											},
+											{
+												"open": {
+													"minecraft:geometry": "geometry.slabup_dbc",
+													"minecraft:on_interact": {
+														"event": "block",
+														"target": "self",
+														"condition": "query.get_equipped_item_name('main_hand') == 'smooth_marble_slab'"
+													},
+													"minecraft:entity_collision": {
+														"origin": [
+															-8,
+															8,
+															-8
+														],
+														"size": [
+															16,
+															8,
+															16
+														]
+													},
+													"minecraft:pick_collision": {
+														"origin": [
+															-8,
+															8,
+															-8
+														],
+														"size": [
+															16,
+															8,
+															16
+														]
+													},
+													"minecraft:material_instances": {
+														"*": {
+															"texture": "smoothmarble",
+															"render_method": "alpha_test"
+														}
+													}
+												},
+												"key": "minecraft:on_interact",
+												"is_minified": true,
+												"children": {
+													"event": "block",
+													"target": "self",
+													"condition": "query.get_equipped_item_name('main_hand') == 'smooth_marble_slab'"
+												}
+											},
+											{
+												"key": "minecraft:entity_collision",
+												"is_minified": true,
+												"children": {
+													"origin": [
+														-8,
+														8,
+														-8
+													],
+													"size": [
+														16,
+														8,
+														16
+													]
+												}
+											},
+											{
+												"key": "minecraft:pick_collision",
+												"is_minified": true,
+												"children": {
+													"origin": [
+														-8,
+														8,
+														-8
+													],
+													"size": [
+														16,
+														8,
+														16
+													]
+												}
+											},
+											{
+												"key": "minecraft:material_instances",
+												"is_minified": true,
+												"children": {
+													"*": {
+														"texture": "smoothmarble",
+														"render_method": "alpha_test"
+													}
+												}
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": [
+									{
+										"condition": "query.block_property('slab:interact') == 0",
+										"components": {
+											"minecraft:geometry": "geometry.slabdown_dbc",
+											"minecraft:on_interact": {
+												"event": "block",
+												"target": "self",
+												"condition": "query.get_equipped_item_name('main_hand') == 'smooth_marble_slab'"
+											},
+											"minecraft:entity_collision": {
+												"origin": [
+													-8,
+													0,
+													-8
+												],
+												"size": [
+													16,
+													8,
+													16
+												]
+											},
+											"minecraft:pick_collision": {
+												"origin": [
+													-8,
+													0,
+													-8
+												],
+												"size": [
+													16,
+													8,
+													16
+												]
+											},
+											"minecraft:material_instances": {
+												"*": {
+													"texture": "smoothmarble",
+													"render_method": "alpha_test"
+												}
+											}
+										}
+									},
+									{
+										"condition": "query.block_property('slab:interact') == 1",
+										"components": {
+											"minecraft:geometry": "geometry.slabup_dbc",
+											"minecraft:on_interact": {
+												"event": "block",
+												"target": "self",
+												"condition": "query.get_equipped_item_name('main_hand') == 'smooth_marble_slab'"
+											},
+											"minecraft:entity_collision": {
+												"origin": [
+													-8,
+													8,
+													-8
+												],
+												"size": [
+													16,
+													8,
+													16
+												]
+											},
+											"minecraft:pick_collision": {
+												"origin": [
+													-8,
+													8,
+													-8
+												],
+												"size": [
+													16,
+													8,
+													16
+												]
+											},
+											"minecraft:material_instances": {
+												"*": {
+													"texture": "smoothmarble",
+													"render_method": "alpha_test"
+												}
+											}
+										}
+									},
+									{
+										"condition": "query.block_property('slab:interact') == 2",
+										"components": {
+											"minecraft:unit_cube": {},
+											"minecraft:material_instances": {
+												"*": {
+													"texture": "smoothmarble",
+													"render_method": "alpha_test"
+												}
+											},
+											"minecraft:loot": "loot_tables/blocks/marble/smooth_slab_double.json"
+										}
+									}
+								],
+								"children": [
+									{
+										"data": "query.block_property('slab:interact') == 2",
+										"key": "condition"
+									},
+									{
+										"open": {
+											"condition": "query.block_property('slab:interact') == 2",
+											"components": {
+												"minecraft:unit_cube": {},
+												"minecraft:material_instances": {
+													"*": {
+														"texture": "smoothmarble",
+														"render_method": "alpha_test"
+													}
+												},
+												"minecraft:loot": "loot_tables/blocks/marble/smooth_slab_double.json"
+											}
+										},
+										"key": "components",
+										"is_minified": true,
+										"children": {
+											"minecraft:unit_cube": {},
+											"minecraft:material_instances": {
+												"*": {
+													"texture": "smoothmarble",
+													"render_method": "alpha_test"
+												}
+											},
+											"minecraft:loot": "loot_tables/blocks/marble/smooth_slab_double.json"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:smooth_marble_slab",
+								"properties": {
+									"slab:interact": [
+										0,
+										1,
+										2
+									]
+								}
+							},
+							"components": {
+								"minecraft:destroy_time": 0.5,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:map_color": "#DBDBDB",
+								"minecraft:on_player_placing": {
+									"event": "up",
+									"target": "self",
+									"condition": "query.target_x_rotation <= 0"
+								},
+								"tag:stone": {}
+							},
+							"permutations": [
+								{
+									"condition": "query.block_property('slab:interact') == 0",
+									"components": {
+										"minecraft:geometry": "geometry.slabdown_dbc",
+										"minecraft:on_interact": {
+											"event": "block",
+											"target": "self",
+											"condition": "query.get_equipped_item_name('main_hand') == 'smooth_marble_slab'"
+										},
+										"minecraft:entity_collision": {
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												8,
+												16
+											]
+										},
+										"minecraft:pick_collision": {
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												8,
+												16
+											]
+										},
+										"minecraft:material_instances": {
+											"*": {
+												"texture": "smoothmarble",
+												"render_method": "alpha_test"
+											}
+										}
+									}
+								},
+								{
+									"condition": "query.block_property('slab:interact') == 1",
+									"components": {
+										"minecraft:geometry": "geometry.slabup_dbc",
+										"minecraft:on_interact": {
+											"event": "block",
+											"target": "self",
+											"condition": "query.get_equipped_item_name('main_hand') == 'smooth_marble_slab'"
+										},
+										"minecraft:entity_collision": {
+											"origin": [
+												-8,
+												8,
+												-8
+											],
+											"size": [
+												16,
+												8,
+												16
+											]
+										},
+										"minecraft:pick_collision": {
+											"origin": [
+												-8,
+												8,
+												-8
+											],
+											"size": [
+												16,
+												8,
+												16
+											]
+										},
+										"minecraft:material_instances": {
+											"*": {
+												"texture": "smoothmarble",
+												"render_method": "alpha_test"
+											}
+										}
+									}
+								},
+								{
+									"condition": "query.block_property('slab:interact') == 2",
+									"components": {
+										"minecraft:unit_cube": {},
+										"minecraft:material_instances": {
+											"*": {
+												"texture": "smoothmarble",
+												"render_method": "alpha_test"
+											}
+										},
+										"minecraft:loot": "loot_tables/blocks/marble/smooth_slab_double.json"
+									}
+								}
+							],
+							"events": {
+								"block": {
+									"set_block_property": {
+										"slab:interact": 2
+									},
+									"decrement_stack": {}
+								},
+								"up": {
+									"set_block_property": {
+										"slab:interact": 1
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"block": {
+										"set_block_property": {
+											"slab:interact": 2
+										},
+										"decrement_stack": {}
+									},
+									"up": {
+										"set_block_property": {
+											"slab:interact": 1
+										}
+									}
+								},
+								"key": "block",
+								"children": [
+									{
+										"open": {
+											"set_block_property": {
+												"slab:interact": 2
+											},
+											"decrement_stack": {}
+										},
+										"key": "set_block_property",
+										"is_minified": true,
+										"children": {
+											"slab:interact": 2
+										}
+									},
+									{
+										"key": "decrement_stack",
+										"is_minified": true,
+										"children": {}
+									}
+								]
+							},
+							{
+								"open": {
+									"block": {
+										"set_block_property": {
+											"slab:interact": 2
+										},
+										"decrement_stack": {}
+									},
+									"up": {
+										"set_block_property": {
+											"slab:interact": 1
+										}
+									}
+								},
+								"key": "up",
+								"is_minified": true,
+								"children": {
+									"set_block_property": {
+										"slab:interact": 1
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

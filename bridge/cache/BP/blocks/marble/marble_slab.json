@@ -1,0 +1,456 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\blocks\\marble\\marble_slab.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "c164a31d_0779_4b0a_aabf_acb43152c4a4",
+	"file_version": 69,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "dbc:marble_slab",
+							"properties": {
+								"slab:interact": [
+									0,
+									1,
+									2
+								]
+							}
+						},
+						"components": {
+							"minecraft:destroy_time": 0.5,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:map_color": "#DBDBDB",
+							"minecraft:on_player_placing": {
+								"event": "up",
+								"target": "self",
+								"condition": "query.target_x_rotation <= 0"
+							},
+							"tag:stone": {}
+						},
+						"permutations": [
+							{
+								"condition": "query.block_property('slab:interact') == 0",
+								"components": {
+									"minecraft:geometry": "geometry.slabdown_dbc",
+									"minecraft:on_interact": {
+										"event": "block",
+										"target": "self",
+										"condition": "query.get_equipped_item_name('main_hand') == 'marble_slab'"
+									},
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											8,
+											16
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											8,
+											16
+										]
+									},
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "marble",
+											"render_method": "alpha_test"
+										}
+									}
+								}
+							},
+							{
+								"condition": "query.block_property('slab:interact') == 1",
+								"components": {
+									"minecraft:geometry": "geometry.slabup_dbc",
+									"minecraft:on_interact": {
+										"event": "block",
+										"target": "self",
+										"condition": "query.get_equipped_item_name('main_hand') == 'marble_slab'"
+									},
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											8,
+											-8
+										],
+										"size": [
+											16,
+											8,
+											16
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											8,
+											-8
+										],
+										"size": [
+											16,
+											8,
+											16
+										]
+									},
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "marble",
+											"render_method": "alpha_test"
+										}
+									}
+								}
+							},
+							{
+								"condition": "query.block_property('slab:interact') == 2",
+								"components": {
+									"minecraft:unit_cube": {},
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "marble",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:loot": "loot_tables/blocks/marble/slab_double.json"
+								}
+							}
+						],
+						"events": {
+							"block": {
+								"set_block_property": {
+									"slab:interact": 2
+								},
+								"decrement_stack": {}
+							},
+							"up": {
+								"set_block_property": {
+									"slab:interact": 1
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:marble_slab",
+							"properties": {
+								"slab:interact": [
+									0,
+									1,
+									2
+								]
+							}
+						}
+					},
+					{
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 0.5,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:map_color": "#DBDBDB",
+							"minecraft:on_player_placing": {
+								"event": "up",
+								"target": "self",
+								"condition": "query.target_x_rotation <= 0"
+							},
+							"tag:stone": {}
+						}
+					},
+					{
+						"key": "permutations",
+						"is_minified": true,
+						"children": [
+							{
+								"condition": "query.block_property('slab:interact') == 0",
+								"components": {
+									"minecraft:geometry": "geometry.slabdown_dbc",
+									"minecraft:on_interact": {
+										"event": "block",
+										"target": "self",
+										"condition": "query.get_equipped_item_name('main_hand') == 'marble_slab'"
+									},
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											8,
+											16
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											8,
+											16
+										]
+									},
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "marble",
+											"render_method": "alpha_test"
+										}
+									}
+								}
+							},
+							{
+								"condition": "query.block_property('slab:interact') == 1",
+								"components": {
+									"minecraft:geometry": "geometry.slabup_dbc",
+									"minecraft:on_interact": {
+										"event": "block",
+										"target": "self",
+										"condition": "query.get_equipped_item_name('main_hand') == 'marble_slab'"
+									},
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											8,
+											-8
+										],
+										"size": [
+											16,
+											8,
+											16
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											8,
+											-8
+										],
+										"size": [
+											16,
+											8,
+											16
+										]
+									},
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "marble",
+											"render_method": "alpha_test"
+										}
+									}
+								}
+							},
+							{
+								"condition": "query.block_property('slab:interact') == 2",
+								"components": {
+									"minecraft:unit_cube": {},
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "marble",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:loot": "loot_tables/blocks/marble/slab_double.json"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:marble_slab",
+								"properties": {
+									"slab:interact": [
+										0,
+										1,
+										2
+									]
+								}
+							},
+							"components": {
+								"minecraft:destroy_time": 0.5,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:map_color": "#DBDBDB",
+								"minecraft:on_player_placing": {
+									"event": "up",
+									"target": "self",
+									"condition": "query.target_x_rotation <= 0"
+								},
+								"tag:stone": {}
+							},
+							"permutations": [
+								{
+									"condition": "query.block_property('slab:interact') == 0",
+									"components": {
+										"minecraft:geometry": "geometry.slabdown_dbc",
+										"minecraft:on_interact": {
+											"event": "block",
+											"target": "self",
+											"condition": "query.get_equipped_item_name('main_hand') == 'marble_slab'"
+										},
+										"minecraft:entity_collision": {
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												8,
+												16
+											]
+										},
+										"minecraft:pick_collision": {
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												8,
+												16
+											]
+										},
+										"minecraft:material_instances": {
+											"*": {
+												"texture": "marble",
+												"render_method": "alpha_test"
+											}
+										}
+									}
+								},
+								{
+									"condition": "query.block_property('slab:interact') == 1",
+									"components": {
+										"minecraft:geometry": "geometry.slabup_dbc",
+										"minecraft:on_interact": {
+											"event": "block",
+											"target": "self",
+											"condition": "query.get_equipped_item_name('main_hand') == 'marble_slab'"
+										},
+										"minecraft:entity_collision": {
+											"origin": [
+												-8,
+												8,
+												-8
+											],
+											"size": [
+												16,
+												8,
+												16
+											]
+										},
+										"minecraft:pick_collision": {
+											"origin": [
+												-8,
+												8,
+												-8
+											],
+											"size": [
+												16,
+												8,
+												16
+											]
+										},
+										"minecraft:material_instances": {
+											"*": {
+												"texture": "marble",
+												"render_method": "alpha_test"
+											}
+										}
+									}
+								},
+								{
+									"condition": "query.block_property('slab:interact') == 2",
+									"components": {
+										"minecraft:unit_cube": {},
+										"minecraft:material_instances": {
+											"*": {
+												"texture": "marble",
+												"render_method": "alpha_test"
+											}
+										},
+										"minecraft:loot": "loot_tables/blocks/marble/slab_double.json"
+									}
+								}
+							],
+							"events": {
+								"block": {
+									"set_block_property": {
+										"slab:interact": 2
+									},
+									"decrement_stack": {}
+								},
+								"up": {
+									"set_block_property": {
+										"slab:interact": 1
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"block": {
+										"set_block_property": {
+											"slab:interact": 2
+										},
+										"decrement_stack": {}
+									},
+									"up": {
+										"set_block_property": {
+											"slab:interact": 1
+										}
+									}
+								},
+								"key": "block",
+								"is_minified": true,
+								"children": {
+									"set_block_property": {
+										"slab:interact": 2
+									},
+									"decrement_stack": {}
+								}
+							},
+							{
+								"key": "up",
+								"is_minified": true,
+								"children": {
+									"set_block_property": {
+										"slab:interact": 1
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

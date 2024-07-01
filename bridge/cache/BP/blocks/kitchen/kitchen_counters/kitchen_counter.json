@@ -1,0 +1,313 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\blocks\\kitchen\\kitchen_counters\\kitchen_counter.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "7e094d6b_4821_425f_b262_cea7d79f8919",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "dbc:kitchen_counter",
+							"properties": {
+								"dbc:facing": [
+									0,
+									1,
+									2,
+									3,
+									4,
+									5,
+									6
+								]
+							}
+						},
+						"components": {
+							"minecraft:destroy_time": 0.5,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "white_kitchen_counter",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:geometry": "geometry.kc",
+							"minecraft:on_player_placing": {
+								"event": "dbc:facing"
+							}
+						},
+						"permutations": [
+							{
+								"condition": "query.block_property('dbc:facing') == 2",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										0,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 3",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										180,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 4",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										90,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 5",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										-90,
+										0
+									]
+								}
+							}
+						],
+						"events": {
+							"dbc:facing": {
+								"set_block_property": {
+									"dbc:facing": "query.cardinal_facing_2d"
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:kitchen_counter",
+							"properties": {
+								"dbc:facing": [
+									0,
+									1,
+									2,
+									3,
+									4,
+									5,
+									6
+								]
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:kitchen_counter",
+								"properties": {
+									"dbc:facing": [
+										0,
+										1,
+										2,
+										3,
+										4,
+										5,
+										6
+									]
+								}
+							},
+							"components": {
+								"minecraft:destroy_time": 0.5,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "white_kitchen_counter",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:geometry": "geometry.kc",
+								"minecraft:on_player_placing": {
+									"event": "dbc:facing"
+								}
+							},
+							"permutations": [
+								{
+									"condition": "query.block_property('dbc:facing') == 2",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 3",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											180,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 4",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											90,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 5",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											-90,
+											0
+										]
+									}
+								}
+							],
+							"events": {
+								"dbc:facing": {
+									"set_block_property": {
+										"dbc:facing": "query.cardinal_facing_2d"
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "0.5",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"data": "0",
+								"key": "minecraft:block_light_absorption"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 0.5,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "white_kitchen_counter",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:geometry": "geometry.kc",
+									"minecraft:on_player_placing": {
+										"event": "dbc:facing"
+									}
+								},
+								"key": "minecraft:material_instances",
+								"children": [
+									{
+										"open": {
+											"*": {
+												"texture": "white_kitchen_counter",
+												"render_method": "alpha_test"
+											}
+										},
+										"key": "*",
+										"is_minified": true,
+										"children": {
+											"texture": "white_kitchen_counter",
+											"render_method": "alpha_test"
+										}
+									}
+								]
+							},
+							{
+								"data": "geometry.kc",
+								"key": "minecraft:geometry"
+							},
+							{
+								"key": "minecraft:on_player_placing",
+								"is_minified": true,
+								"children": {
+									"event": "dbc:facing"
+								}
+							}
+						]
+					},
+					{
+						"key": "permutations",
+						"is_minified": true,
+						"children": [
+							{
+								"condition": "query.block_property('dbc:facing') == 2",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										0,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 3",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										180,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 4",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										90,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 5",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										-90,
+										0
+									]
+								}
+							}
+						]
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {
+							"dbc:facing": {
+								"set_block_property": {
+									"dbc:facing": "query.cardinal_facing_2d"
+								}
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

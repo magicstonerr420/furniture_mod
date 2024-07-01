@@ -1,0 +1,116 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\recipes\\tables\\big_oak_table.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "36f5ce3b_ef77_4586_bdec_6720548f4b9e",
+	"file_version": 11,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "dbc:dark_oak_table"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"###",
+							" # "
+						],
+						"key": {
+							"#": {
+								"item": "minecraft:planks",
+								"data": 5
+							}
+						},
+						"result": [
+							{
+								"item": "dbc:small_table_dark_oak",
+								"data": 0,
+								"count": 4
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:dark_oak_table"
+						}
+					},
+					{
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"###",
+							" # "
+						]
+					},
+					{
+						"key": "key",
+						"is_minified": true,
+						"children": {
+							"#": {
+								"item": "minecraft:planks",
+								"data": 5
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:dark_oak_table"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:planks",
+									"data": 5
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:small_table_dark_oak",
+									"data": 0,
+									"count": 4
+								}
+							]
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": [
+							{
+								"item": "dbc:small_table_dark_oak",
+								"data": 0,
+								"count": 4
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

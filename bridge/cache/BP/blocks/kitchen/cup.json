@@ -1,0 +1,193 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\blocks\\kitchen\\cup.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "92f62991_3486_4d89_9113_9701088f34e4",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "dbc:cup_block"
+						},
+						"components": {
+							"minecraft:destroy_time": 0.5,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:loot": "loot_tables/blocks/kitchen/cup.json",
+							"minecraft:geometry": "geometry.cup_dbc",
+							"minecraft:entity_collision": {
+								"origin": [
+									-3,
+									0,
+									-3
+								],
+								"size": [
+									6,
+									6,
+									6
+								]
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-3,
+									0,
+									-3
+								],
+								"size": [
+									6,
+									6,
+									6
+								]
+							},
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "cup_empty",
+									"render_method": "alpha_test"
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:cup_block"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.5,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:loot": "loot_tables/blocks/kitchen/cup.json",
+								"minecraft:geometry": "geometry.cup_dbc",
+								"minecraft:entity_collision": {
+									"origin": [
+										-3,
+										0,
+										-3
+									],
+									"size": [
+										6,
+										6,
+										6
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-3,
+										0,
+										-3
+									],
+									"size": [
+										6,
+										6,
+										6
+									]
+								},
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "cup_empty",
+										"render_method": "alpha_test"
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:cup_block"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:cup_block"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.5,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:loot": "loot_tables/blocks/kitchen/cup.json",
+								"minecraft:geometry": "geometry.cup_dbc",
+								"minecraft:entity_collision": {
+									"origin": [
+										-3,
+										0,
+										-3
+									],
+									"size": [
+										6,
+										6,
+										6
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-3,
+										0,
+										-3
+									],
+									"size": [
+										6,
+										6,
+										6
+									]
+								},
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "cup_empty",
+										"render_method": "alpha_test"
+									}
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 0.5,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:loot": "loot_tables/blocks/kitchen/cup.json",
+							"minecraft:geometry": "geometry.cup_dbc",
+							"minecraft:entity_collision": {
+								"origin": [
+									-3,
+									0,
+									-3
+								],
+								"size": [
+									6,
+									6,
+									6
+								]
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-3,
+									0,
+									-3
+								],
+								"size": [
+									6,
+									6,
+									6
+								]
+							},
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "cup_empty",
+									"render_method": "alpha_test"
+								}
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

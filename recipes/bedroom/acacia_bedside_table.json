@@ -1,0 +1,38 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:acacia_bedside_table"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~",
+			"#!#",
+			"~~~"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:log2",
+				"data": 0
+			},
+			"#": {
+				"item": "minecraft:planks",
+				"data": 4
+			},
+			"!": {
+				"item": "minecraft:chest",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:acacia_bedside_table",
+				"data": 0,
+				"count": 2
+			}
+		]
+	}
+}

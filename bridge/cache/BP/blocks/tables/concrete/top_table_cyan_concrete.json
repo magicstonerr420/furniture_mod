@@ -1,0 +1,297 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\blocks\\tables\\concrete\\top_table_cyan_concrete.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "cb0dd287_2b72_445d_ab04_792efd4c48ac",
+	"file_version": 24,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "dbc:top_table_cyan_concrete"
+						},
+						"components": {
+							"minecraft:geometry": "geometry.table_top_dbc",
+							"minecraft:destroy_time": 0.5,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "cyan_kitchen_counter",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-8,
+									13,
+									-8
+								],
+								"size": [
+									16,
+									3,
+									16
+								]
+							},
+							"minecraft:entity_collision": {
+								"origin": [
+									-8,
+									13,
+									-8
+								],
+								"size": [
+									16,
+									3,
+									16
+								]
+							},
+							"minecraft:loot": "loot_tables/blocks/tables/cyan_concrete_table.json"
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:top_table_cyan_concrete"
+							},
+							"components": {
+								"minecraft:geometry": "geometry.table_top_dbc",
+								"minecraft:destroy_time": 0.5,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "cyan_kitchen_counter",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										13,
+										-8
+									],
+									"size": [
+										16,
+										3,
+										16
+									]
+								},
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										13,
+										-8
+									],
+									"size": [
+										16,
+										3,
+										16
+									]
+								},
+								"minecraft:loot": "loot_tables/blocks/tables/cyan_concrete_table.json"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:top_table_cyan_concrete"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:top_table_cyan_concrete"
+							},
+							"components": {
+								"minecraft:geometry": "geometry.table_top_dbc",
+								"minecraft:destroy_time": 0.5,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "cyan_kitchen_counter",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										13,
+										-8
+									],
+									"size": [
+										16,
+										3,
+										16
+									]
+								},
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										13,
+										-8
+									],
+									"size": [
+										16,
+										3,
+										16
+									]
+								},
+								"minecraft:loot": "loot_tables/blocks/tables/cyan_concrete_table.json"
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "geometry.table_top_dbc",
+								"key": "minecraft:geometry"
+							},
+							{
+								"data": "0.5",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"data": "0",
+								"key": "minecraft:block_light_absorption"
+							},
+							{
+								"open": {
+									"minecraft:geometry": "geometry.table_top_dbc",
+									"minecraft:destroy_time": 0.5,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "cyan_kitchen_counter",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											13,
+											-8
+										],
+										"size": [
+											16,
+											3,
+											16
+										]
+									},
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											13,
+											-8
+										],
+										"size": [
+											16,
+											3,
+											16
+										]
+									},
+									"minecraft:loot": "loot_tables/blocks/tables/cyan_concrete_table.json"
+								},
+								"key": "minecraft:material_instances",
+								"children": [
+									{
+										"open": {
+											"*": {
+												"texture": "cyan_kitchen_counter",
+												"render_method": "alpha_test"
+											}
+										},
+										"key": "*",
+										"is_minified": true,
+										"children": {
+											"texture": "cyan_kitchen_counter",
+											"render_method": "alpha_test"
+										}
+									}
+								]
+							},
+							{
+								"key": "minecraft:pick_collision",
+								"is_minified": true,
+								"children": {
+									"origin": [
+										-8,
+										13,
+										-8
+									],
+									"size": [
+										16,
+										3,
+										16
+									]
+								}
+							},
+							{
+								"key": "minecraft:entity_collision",
+								"is_minified": true,
+								"children": {
+									"origin": [
+										-8,
+										13,
+										-8
+									],
+									"size": [
+										16,
+										3,
+										16
+									]
+								}
+							},
+							{
+								"open": {
+									"minecraft:geometry": "geometry.table_top_dbc",
+									"minecraft:destroy_time": 0.5,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "cyan_kitchen_counter",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											13,
+											-8
+										],
+										"size": [
+											16,
+											3,
+											16
+										]
+									},
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											13,
+											-8
+										],
+										"size": [
+											16,
+											3,
+											16
+										]
+									},
+									"minecraft:loot": "loot_tables/blocks/tables/cyan_concrete_table.json"
+								},
+								"data": "loot_tables/blocks/tables/cyan_concrete_table.json",
+								"key": "minecraft:loot"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

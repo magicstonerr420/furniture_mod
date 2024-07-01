@@ -1,0 +1,341 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\recipes\\bedroom\\dark_oak_bedside_table.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "3b2af4e6_af60_4f08_a43e_5d24bcb7ed8e",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "dbc:dark_oak_bedside_table"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"~~~",
+							"#!#",
+							"~~~"
+						],
+						"key": {
+							"~": {
+								"item": "minecraft:log2",
+								"data": 1
+							},
+							"#": {
+								"item": "minecraft:planks",
+								"data": 5
+							},
+							"!": {
+								"item": "minecraft:chest",
+								"data": 0
+							}
+						},
+						"result": [
+							{
+								"item": "dbc:dark_oak_bedside_table",
+								"data": 0,
+								"count": 2
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:dark_oak_bedside_table"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~~~",
+								"#!#",
+								"~~~"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:log2",
+									"data": 1
+								},
+								"#": {
+									"item": "minecraft:planks",
+									"data": 5
+								},
+								"!": {
+									"item": "minecraft:chest",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:dark_oak_bedside_table",
+									"data": 0,
+									"count": 2
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:dark_oak_bedside_table"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:dark_oak_bedside_table"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~~~",
+								"#!#",
+								"~~~"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:log2",
+									"data": 1
+								},
+								"#": {
+									"item": "minecraft:planks",
+									"data": 5
+								},
+								"!": {
+									"item": "minecraft:chest",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:dark_oak_bedside_table",
+									"data": 0,
+									"count": 2
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:dark_oak_bedside_table"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~~~",
+								"#!#",
+								"~~~"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:log2",
+									"data": 1
+								},
+								"#": {
+									"item": "minecraft:planks",
+									"data": 5
+								},
+								"!": {
+									"item": "minecraft:chest",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:dark_oak_bedside_table",
+									"data": 0,
+									"count": 2
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"~~~",
+							"#!#",
+							"~~~"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:dark_oak_bedside_table"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~~~",
+								"#!#",
+								"~~~"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:log2",
+									"data": 1
+								},
+								"#": {
+									"item": "minecraft:planks",
+									"data": 5
+								},
+								"!": {
+									"item": "minecraft:chest",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:dark_oak_bedside_table",
+									"data": 0,
+									"count": 2
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"~": {
+										"item": "minecraft:log2",
+										"data": 1
+									},
+									"#": {
+										"item": "minecraft:planks",
+										"data": 5
+									},
+									"!": {
+										"item": "minecraft:chest",
+										"data": 0
+									}
+								},
+								"key": "~",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:log2",
+									"data": 1
+								}
+							},
+							{
+								"open": {
+									"~": {
+										"item": "minecraft:log2",
+										"data": 1
+									},
+									"#": {
+										"item": "minecraft:planks",
+										"data": 5
+									},
+									"!": {
+										"item": "minecraft:chest",
+										"data": 0
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:planks",
+									"data": 5
+								}
+							},
+							{
+								"open": {
+									"~": {
+										"item": "minecraft:log2",
+										"data": 1
+									},
+									"#": {
+										"item": "minecraft:planks",
+										"data": 5
+									},
+									"!": {
+										"item": "minecraft:chest",
+										"data": 0
+									}
+								},
+								"key": "!",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:chest",
+									"data": 0
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:dark_oak_bedside_table"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~~~",
+								"#!#",
+								"~~~"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:log2",
+									"data": 1
+								},
+								"#": {
+									"item": "minecraft:planks",
+									"data": 5
+								},
+								"!": {
+									"item": "minecraft:chest",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:dark_oak_bedside_table",
+									"data": 0,
+									"count": 2
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "dbc:dark_oak_bedside_table",
+										"data": 0,
+										"count": 2
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "dbc:dark_oak_bedside_table",
+									"data": 0,
+									"count": 2
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

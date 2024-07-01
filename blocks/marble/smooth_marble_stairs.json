@@ -1,0 +1,142 @@
+//bridge-file-version: #103
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dbc:smooth_marble_stairs",
+			"properties": {
+				"dbc:facing": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "smoothmarble",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:on_player_placing": {
+				"event": "dbc:facing"
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					8,
+					16
+				]
+			},
+			"tag:stairs": {},
+			"minecraft:map_color": "#DBDBDB"
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('dbc:facing') == 0",
+				"components": {
+					"minecraft:geometry": "geometry.stairs"
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 2",
+				"components": {
+					"minecraft:on_step_on": {
+						"event": "dbc:magic_north",
+						"target": "player"
+					},
+					"minecraft:geometry": "geometry.stairs"
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 3",
+				"components": {
+					"minecraft:on_step_on": {
+						"event": "dbc:magic_south",
+						"target": "player"
+					},
+					"minecraft:geometry": "geometry.stairs_south"
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 4",
+				"components": {
+					"minecraft:on_step_on": {
+						"event": "dbc:magic_west",
+						"target": "player"
+					},
+					"minecraft:geometry": "geometry.stairs_west"
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 5",
+				"components": {
+					"minecraft:on_step_on": {
+						"event": "dbc:magic_east",
+						"target": "player"
+					},
+					"minecraft:geometry": "geometry.stairs_east"
+				}
+			}
+		],
+		"events": {
+			"dbc:facing": {
+				"set_block_property": {
+					"dbc:facing": "query.cardinal_facing_2d"
+				}
+			},
+			"dbc:magic_north": {
+				"set_block_at_pos": {
+					"block_type": "dbc:north_collision",
+					"block_offset": [
+						0,
+						1,
+						0
+					]
+				}
+			},
+			"dbc:magic_south": {
+				"set_block_at_pos": {
+					"block_type": "dbc:south_collision",
+					"block_offset": [
+						0,
+						1,
+						0
+					]
+				}
+			},
+			"dbc:magic_west": {
+				"set_block_at_pos": {
+					"block_type": "dbc:west_collision",
+					"block_offset": [
+						0,
+						1,
+						0
+					]
+				}
+			},
+			"dbc:magic_east": {
+				"set_block_at_pos": {
+					"block_type": "dbc:east_collision",
+					"block_offset": [
+						0,
+						1,
+						0
+					]
+				}
+			}
+		}
+	}
+}

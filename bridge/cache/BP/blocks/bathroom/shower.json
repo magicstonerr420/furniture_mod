@@ -1,0 +1,418 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\blocks\\bathroom\\shower.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "1452a91a_f29d_4510_a8b8_74cc8ae37ea0",
+	"file_version": 63,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "dbc:shower",
+							"properties": {
+								"dbc:facing": [
+									0,
+									1,
+									2,
+									3,
+									4,
+									5,
+									6
+								],
+								"dbc:open_close": [
+									0,
+									1
+								]
+							}
+						},
+						"components": {
+							"minecraft:destroy_time": 0.5,
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "shower",
+									"render_method": "blend",
+									"ambient_occlusion": false
+								}
+							},
+							"minecraft:on_player_placing": {
+								"event": "dbc:facing"
+							},
+							"minecraft:entity_collision": false,
+							"minecraft:pick_collision": {
+								"origin": [
+									-7,
+									0,
+									-7
+								],
+								"size": [
+									14,
+									32,
+									14
+								]
+							},
+							"minecraft:block_light_absorption": 0,
+							"minecraft:loot": "loot_tables/blocks/bathroom/shower.json"
+						},
+						"permutations": [
+							{
+								"condition": "query.block_property('dbc:facing') == 2",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										0,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 3",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										180,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 4",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										90,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 5",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										-90,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:open_close') == 0",
+								"components": {
+									"minecraft:geometry": "geometry.shower_dbc",
+									"minecraft:on_interact": {
+										"event": "dbc:open",
+										"target": "self"
+									}
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:open_close') == 1",
+								"components": {
+									"minecraft:geometry": "geometry.showero_dbc",
+									"minecraft:on_interact": {
+										"event": "dbc:close",
+										"target": "self"
+									}
+								}
+							}
+						],
+						"events": {
+							"dbc:facing": {
+								"set_block_property": {
+									"dbc:facing": "query.cardinal_facing_2d"
+								}
+							},
+							"dbc:open": {
+								"set_block_property": {
+									"dbc:open_close": 1
+								}
+							},
+							"dbc:close": {
+								"set_block_property": {
+									"dbc:open_close": 0
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:shower",
+							"properties": {
+								"dbc:facing": [
+									0,
+									1,
+									2,
+									3,
+									4,
+									5,
+									6
+								],
+								"dbc:open_close": [
+									0,
+									1
+								]
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:shower",
+								"properties": {
+									"dbc:facing": [
+										0,
+										1,
+										2,
+										3,
+										4,
+										5,
+										6
+									],
+									"dbc:open_close": [
+										0,
+										1
+									]
+								}
+							},
+							"components": {
+								"minecraft:destroy_time": 0.5,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "shower",
+										"render_method": "blend",
+										"ambient_occlusion": false
+									}
+								},
+								"minecraft:on_player_placing": {
+									"event": "dbc:facing"
+								},
+								"minecraft:entity_collision": false,
+								"minecraft:pick_collision": {
+									"origin": [
+										-7,
+										0,
+										-7
+									],
+									"size": [
+										14,
+										32,
+										14
+									]
+								},
+								"minecraft:block_light_absorption": 0,
+								"minecraft:loot": "loot_tables/blocks/bathroom/shower.json"
+							},
+							"permutations": [
+								{
+									"condition": "query.block_property('dbc:facing') == 2",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 3",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											180,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 4",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											90,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 5",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											-90,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:open_close') == 0",
+									"components": {
+										"minecraft:geometry": "geometry.shower_dbc",
+										"minecraft:on_interact": {
+											"event": "dbc:open",
+											"target": "self"
+										}
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:open_close') == 1",
+									"components": {
+										"minecraft:geometry": "geometry.showero_dbc",
+										"minecraft:on_interact": {
+											"event": "dbc:close",
+											"target": "self"
+										}
+									}
+								}
+							],
+							"events": {
+								"dbc:facing": {
+									"set_block_property": {
+										"dbc:facing": "query.cardinal_facing_2d"
+									}
+								},
+								"dbc:open": {
+									"set_block_property": {
+										"dbc:open_close": 1
+									}
+								},
+								"dbc:close": {
+									"set_block_property": {
+										"dbc:open_close": 0
+									}
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 0.5,
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "shower",
+									"render_method": "blend",
+									"ambient_occlusion": false
+								}
+							},
+							"minecraft:on_player_placing": {
+								"event": "dbc:facing"
+							},
+							"minecraft:entity_collision": false,
+							"minecraft:pick_collision": {
+								"origin": [
+									-7,
+									0,
+									-7
+								],
+								"size": [
+									14,
+									32,
+									14
+								]
+							},
+							"minecraft:block_light_absorption": 0,
+							"minecraft:loot": "loot_tables/blocks/bathroom/shower.json"
+						}
+					},
+					{
+						"key": "permutations",
+						"is_minified": true,
+						"children": [
+							{
+								"condition": "query.block_property('dbc:facing') == 2",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										0,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 3",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										180,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 4",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										90,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 5",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										-90,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:open_close') == 0",
+								"components": {
+									"minecraft:geometry": "geometry.shower_dbc",
+									"minecraft:on_interact": {
+										"event": "dbc:open",
+										"target": "self"
+									}
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:open_close') == 1",
+								"components": {
+									"minecraft:geometry": "geometry.showero_dbc",
+									"minecraft:on_interact": {
+										"event": "dbc:close",
+										"target": "self"
+									}
+								}
+							}
+						]
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {
+							"dbc:facing": {
+								"set_block_property": {
+									"dbc:facing": "query.cardinal_facing_2d"
+								}
+							},
+							"dbc:open": {
+								"set_block_property": {
+									"dbc:open_close": 1
+								}
+							},
+							"dbc:close": {
+								"set_block_property": {
+									"dbc:open_close": 0
+								}
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

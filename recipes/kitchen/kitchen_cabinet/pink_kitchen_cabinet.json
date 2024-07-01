@@ -1,0 +1,38 @@
+//bridge-file-version: #18
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:pink_kitchen_cabinet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~",
+			"#!#",
+			"~~~"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:concrete",
+				"data": 6
+			},
+			"~": {
+				"item": "minecraft:concrete",
+				"data": 0
+			},
+			"!": {
+				"item": "minecraft:chest",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:pink_kitchen_cabinet",
+				"data": 0,
+				"count": 4
+			}
+		]
+	}
+}

@@ -1,0 +1,119 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\DecoBEcraft §6[RP]\\textures\\item_texture.json",
+	"file_type": "item_texture",
+	"format_version": 1,
+	"file_uuid": "acf604d8_70d6_4964_ac74_8ee915ee7fb5",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "decobecraftRP",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.items",
+				"key": "texture_name"
+			},
+			{
+				"open": {
+					"resource_pack_name": "decobecraftRP",
+					"texture_name": "atlas.items",
+					"texture_data": {
+						"brush": {
+							"textures": [
+								"textures/items/brush"
+							]
+						},
+						"toast": {
+							"textures": [
+								"textures/items/toast"
+							]
+						},
+						"cup": {
+							"textures": [
+								"textures/items/cup",
+								"textures/items/cupc"
+							]
+						},
+						"umbrella": {
+							"textures": [
+								"textures/items/umbrella/white_umbrella"
+							]
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"key": "brush",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/brush"
+							]
+						}
+					},
+					{
+						"key": "toast",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/toast"
+							]
+						}
+					},
+					{
+						"key": "cup",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/cup",
+								"textures/items/cupc"
+							]
+						}
+					},
+					{
+						"open": {
+							"brush": {
+								"textures": [
+									"textures/items/brush"
+								]
+							},
+							"toast": {
+								"textures": [
+									"textures/items/toast"
+								]
+							},
+							"cup": {
+								"textures": [
+									"textures/items/cup",
+									"textures/items/cupc"
+								]
+							},
+							"umbrella": {
+								"textures": [
+									"textures/items/umbrella/white_umbrella"
+								]
+							}
+						},
+						"key": "umbrella",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/umbrella/white_umbrella"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/umbrella/white_umbrella"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

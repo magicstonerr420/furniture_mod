@@ -1,0 +1,898 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\blocks\\test_block.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "818355f2_f881_4503_a11f_f2aad9f4cdc3",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "dbc:test_block",
+							"properties": {
+								"minecraft:direction": {}
+							}
+						},
+						"components": {
+							"minecraft:destroy_time": 0.5,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:geometry": "geometry.chair",
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "iron_block",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:entity_collision": {
+								"origin": [
+									-6,
+									0,
+									-6
+								],
+								"size": [
+									12,
+									16,
+									12
+								]
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-6,
+									0,
+									-6
+								],
+								"size": [
+									12,
+									16,
+									12
+								]
+							},
+							"minecraft:on_player_placing": {
+								"event": "dbc:facing",
+								"target": "self"
+							},
+							"minecraft:on_interact": {
+								"event": "dbc:sit",
+								"target": "self"
+							},
+							"minecraft:on_placed": {
+								"event": "dbc:summon",
+								"target": "self"
+							}
+						},
+						"permutations": [
+							{
+								"condition": "query.block_property('minecraft:direction') == 2",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										0,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('minecraft:direction') == 3",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										180,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('minecraft:direction') == 4",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										90,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('minecraft:direction') == 5",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										-90,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('minecraft:direction') == 6",
+								"components": {
+									"minecraft:geometry": "geometry.chair_1",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "diamond_block",
+											"render_method": "alpha_test"
+										}
+									}
+								}
+							},
+							{
+								"condition": "query.block_property('minecraft:direction') == 7",
+								"components": {
+									"minecraft:geometry": "geometry.chair_2",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "gold_block",
+											"render_method": "alpha_test"
+										}
+									}
+								}
+							},
+							{
+								"condition": "query.block_property('minecraft:direction') == 8",
+								"components": {
+									"minecraft:geometry": "geometry.chair_3",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "lapis_block",
+											"render_method": "alpha_test"
+										}
+									}
+								}
+							},
+							{
+								"condition": "query.block_property('minecraft:direction') == 9",
+								"components": {
+									"minecraft:geometry": "geometry.chair_4",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "redstone_block",
+											"render_method": "alpha_test"
+										}
+									}
+								}
+							}
+						],
+						"events": {
+							"dbc:facing": {
+								"sequence": [
+									{
+										"set_block_property": {
+											"minecraft:direction": "query.cardinal_facing_2d"
+										}
+									},
+									{
+										"condition": "query.body_y_rotation >= 40 && query.body_y_rotation <= 50",
+										"set_block_property": {
+											"minecraft:direction": 8
+										}
+									},
+									{
+										"condition": "query.body_y_rotation >= 140 && query.body_y_rotation <= 150",
+										"set_block_property": {
+											"minecraft:direction": 9
+										}
+									},
+									{
+										"condition": "query.body_y_rotation >= -50 && query.body_y_rotation <= -40",
+										"set_block_property": {
+											"minecraft:direction": 7
+										}
+									},
+									{
+										"condition": "query.body_y_rotation >= -150 && query.body_y_rotation <= -140",
+										"set_block_property": {
+											"minecraft:direction": 6
+										}
+									}
+								]
+							},
+							"dbc:summon": {
+								"sequence": [
+									{
+										"condition": "query.block_property('minecraft:direction') == 2",
+										"run_command": {
+											"command": [
+												"summon dbc:sit ~ ~ ~",
+												"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~ ~ ~1"
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('minecraft:direction') == 3",
+										"run_command": {
+											"command": [
+												"summon dbc:sit ~ ~ ~",
+												"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~ ~ ~-1"
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('minecraft:direction') == 4",
+										"run_command": {
+											"command": [
+												"summon dbc:sit ~ ~ ~",
+												"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~1 ~ ~"
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('minecraft:direction') == 5",
+										"run_command": {
+											"command": [
+												"summon dbc:sit ~ ~ ~",
+												"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~-1 ~ ~"
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('minecraft:direction') == 6",
+										"run_command": {
+											"command": [
+												"summon dbc:sit ~ ~ ~",
+												"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~-1 ~ ~1"
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('minecraft:direction') == 7",
+										"run_command": {
+											"command": [
+												"summon dbc:sit ~ ~ ~",
+												"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~-1 ~ ~-1"
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('minecraft:direction') == 8",
+										"run_command": {
+											"command": [
+												"summon dbc:sit ~ ~ ~",
+												"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~1 ~ ~-1"
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('minecraft:direction') == 9",
+										"run_command": {
+											"command": [
+												"summon dbc:sit ~ ~ ~",
+												"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~1 ~ ~1"
+											]
+										}
+									}
+								]
+							},
+							"dbc:sit": {
+								"sequence": [
+									{
+										"run_command": {
+											"command": [
+												"tag @s add preparacion"
+											],
+											"target": "other"
+										}
+									},
+									{
+										"run_command": {
+											"command": [
+												"execute @e[type=dbc:sit,r=0.01] ~ ~ ~ ride @p[tag=preparacion] start_riding @s teleport_rider"
+											]
+										}
+									},
+									{
+										"run_command": {
+											"command": [
+												"tag @s remove preparacion"
+											],
+											"target": "other"
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:test_block",
+								"properties": {
+									"minecraft:direction": {}
+								}
+							},
+							"components": {
+								"minecraft:destroy_time": 0.5,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:geometry": "geometry.chair",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "iron_block",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:entity_collision": {
+									"origin": [
+										-6,
+										0,
+										-6
+									],
+									"size": [
+										12,
+										16,
+										12
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-6,
+										0,
+										-6
+									],
+									"size": [
+										12,
+										16,
+										12
+									]
+								},
+								"minecraft:on_player_placing": {
+									"event": "dbc:facing",
+									"target": "self"
+								},
+								"minecraft:on_interact": {
+									"event": "dbc:sit",
+									"target": "self"
+								},
+								"minecraft:on_placed": {
+									"event": "dbc:summon",
+									"target": "self"
+								}
+							},
+							"permutations": [
+								{
+									"condition": "query.block_property('minecraft:direction') == 2",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('minecraft:direction') == 3",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											180,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('minecraft:direction') == 4",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											90,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('minecraft:direction') == 5",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											-90,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('minecraft:direction') == 6",
+									"components": {
+										"minecraft:geometry": "geometry.chair_1",
+										"minecraft:material_instances": {
+											"*": {
+												"texture": "diamond_block",
+												"render_method": "alpha_test"
+											}
+										}
+									}
+								},
+								{
+									"condition": "query.block_property('minecraft:direction') == 7",
+									"components": {
+										"minecraft:geometry": "geometry.chair_2",
+										"minecraft:material_instances": {
+											"*": {
+												"texture": "gold_block",
+												"render_method": "alpha_test"
+											}
+										}
+									}
+								},
+								{
+									"condition": "query.block_property('minecraft:direction') == 8",
+									"components": {
+										"minecraft:geometry": "geometry.chair_3",
+										"minecraft:material_instances": {
+											"*": {
+												"texture": "lapis_block",
+												"render_method": "alpha_test"
+											}
+										}
+									}
+								},
+								{
+									"condition": "query.block_property('minecraft:direction') == 9",
+									"components": {
+										"minecraft:geometry": "geometry.chair_4",
+										"minecraft:material_instances": {
+											"*": {
+												"texture": "redstone_block",
+												"render_method": "alpha_test"
+											}
+										}
+									}
+								}
+							],
+							"events": {
+								"dbc:facing": {
+									"sequence": [
+										{
+											"set_block_property": {
+												"minecraft:direction": "query.cardinal_facing_2d"
+											}
+										},
+										{
+											"condition": "query.body_y_rotation >= 40 && query.body_y_rotation <= 50",
+											"set_block_property": {
+												"minecraft:direction": 8
+											}
+										},
+										{
+											"condition": "query.body_y_rotation >= 140 && query.body_y_rotation <= 150",
+											"set_block_property": {
+												"minecraft:direction": 9
+											}
+										},
+										{
+											"condition": "query.body_y_rotation >= -50 && query.body_y_rotation <= -40",
+											"set_block_property": {
+												"minecraft:direction": 7
+											}
+										},
+										{
+											"condition": "query.body_y_rotation >= -150 && query.body_y_rotation <= -140",
+											"set_block_property": {
+												"minecraft:direction": 6
+											}
+										}
+									]
+								},
+								"dbc:summon": {
+									"sequence": [
+										{
+											"condition": "query.block_property('minecraft:direction') == 2",
+											"run_command": {
+												"command": [
+													"summon dbc:sit ~ ~ ~",
+													"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~ ~ ~1"
+												]
+											}
+										},
+										{
+											"condition": "query.block_property('minecraft:direction') == 3",
+											"run_command": {
+												"command": [
+													"summon dbc:sit ~ ~ ~",
+													"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~ ~ ~-1"
+												]
+											}
+										},
+										{
+											"condition": "query.block_property('minecraft:direction') == 4",
+											"run_command": {
+												"command": [
+													"summon dbc:sit ~ ~ ~",
+													"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~1 ~ ~"
+												]
+											}
+										},
+										{
+											"condition": "query.block_property('minecraft:direction') == 5",
+											"run_command": {
+												"command": [
+													"summon dbc:sit ~ ~ ~",
+													"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~-1 ~ ~"
+												]
+											}
+										},
+										{
+											"condition": "query.block_property('minecraft:direction') == 6",
+											"run_command": {
+												"command": [
+													"summon dbc:sit ~ ~ ~",
+													"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~-1 ~ ~1"
+												]
+											}
+										},
+										{
+											"condition": "query.block_property('minecraft:direction') == 7",
+											"run_command": {
+												"command": [
+													"summon dbc:sit ~ ~ ~",
+													"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~-1 ~ ~-1"
+												]
+											}
+										},
+										{
+											"condition": "query.block_property('minecraft:direction') == 8",
+											"run_command": {
+												"command": [
+													"summon dbc:sit ~ ~ ~",
+													"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~1 ~ ~-1"
+												]
+											}
+										},
+										{
+											"condition": "query.block_property('minecraft:direction') == 9",
+											"run_command": {
+												"command": [
+													"summon dbc:sit ~ ~ ~",
+													"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~1 ~ ~1"
+												]
+											}
+										}
+									]
+								},
+								"dbc:sit": {
+									"sequence": [
+										{
+											"run_command": {
+												"command": [
+													"tag @s add preparacion"
+												],
+												"target": "other"
+											}
+										},
+										{
+											"run_command": {
+												"command": [
+													"execute @e[type=dbc:sit,r=0.01] ~ ~ ~ ride @p[tag=preparacion] start_riding @s teleport_rider"
+												]
+											}
+										},
+										{
+											"run_command": {
+												"command": [
+													"tag @s remove preparacion"
+												],
+												"target": "other"
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "dbc:test_block",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "dbc:test_block",
+									"properties": {
+										"minecraft:direction": {}
+									}
+								},
+								"key": "properties",
+								"is_minified": true,
+								"children": {
+									"minecraft:direction": {}
+								}
+							}
+						]
+					},
+					{
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 0.5,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:geometry": "geometry.chair",
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "iron_block",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:entity_collision": {
+								"origin": [
+									-6,
+									0,
+									-6
+								],
+								"size": [
+									12,
+									16,
+									12
+								]
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-6,
+									0,
+									-6
+								],
+								"size": [
+									12,
+									16,
+									12
+								]
+							},
+							"minecraft:on_player_placing": {
+								"event": "dbc:facing",
+								"target": "self"
+							},
+							"minecraft:on_interact": {
+								"event": "dbc:sit",
+								"target": "self"
+							},
+							"minecraft:on_placed": {
+								"event": "dbc:summon",
+								"target": "self"
+							}
+						}
+					},
+					{
+						"key": "permutations",
+						"is_minified": true,
+						"children": [
+							{
+								"condition": "query.block_property('minecraft:direction') == 2",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										0,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('minecraft:direction') == 3",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										180,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('minecraft:direction') == 4",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										90,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('minecraft:direction') == 5",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										-90,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('minecraft:direction') == 6",
+								"components": {
+									"minecraft:geometry": "geometry.chair_1",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "diamond_block",
+											"render_method": "alpha_test"
+										}
+									}
+								}
+							},
+							{
+								"condition": "query.block_property('minecraft:direction') == 7",
+								"components": {
+									"minecraft:geometry": "geometry.chair_2",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "gold_block",
+											"render_method": "alpha_test"
+										}
+									}
+								}
+							},
+							{
+								"condition": "query.block_property('minecraft:direction') == 8",
+								"components": {
+									"minecraft:geometry": "geometry.chair_3",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "lapis_block",
+											"render_method": "alpha_test"
+										}
+									}
+								}
+							},
+							{
+								"condition": "query.block_property('minecraft:direction') == 9",
+								"components": {
+									"minecraft:geometry": "geometry.chair_4",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "redstone_block",
+											"render_method": "alpha_test"
+										}
+									}
+								}
+							}
+						]
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {
+							"dbc:facing": {
+								"sequence": [
+									{
+										"set_block_property": {
+											"minecraft:direction": "query.cardinal_facing_2d"
+										}
+									},
+									{
+										"condition": "query.body_y_rotation >= 40 && query.body_y_rotation <= 50",
+										"set_block_property": {
+											"minecraft:direction": 8
+										}
+									},
+									{
+										"condition": "query.body_y_rotation >= 140 && query.body_y_rotation <= 150",
+										"set_block_property": {
+											"minecraft:direction": 9
+										}
+									},
+									{
+										"condition": "query.body_y_rotation >= -50 && query.body_y_rotation <= -40",
+										"set_block_property": {
+											"minecraft:direction": 7
+										}
+									},
+									{
+										"condition": "query.body_y_rotation >= -150 && query.body_y_rotation <= -140",
+										"set_block_property": {
+											"minecraft:direction": 6
+										}
+									}
+								]
+							},
+							"dbc:summon": {
+								"sequence": [
+									{
+										"condition": "query.block_property('minecraft:direction') == 2",
+										"run_command": {
+											"command": [
+												"summon dbc:sit ~ ~ ~",
+												"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~ ~ ~1"
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('minecraft:direction') == 3",
+										"run_command": {
+											"command": [
+												"summon dbc:sit ~ ~ ~",
+												"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~ ~ ~-1"
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('minecraft:direction') == 4",
+										"run_command": {
+											"command": [
+												"summon dbc:sit ~ ~ ~",
+												"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~1 ~ ~"
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('minecraft:direction') == 5",
+										"run_command": {
+											"command": [
+												"summon dbc:sit ~ ~ ~",
+												"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~-1 ~ ~"
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('minecraft:direction') == 6",
+										"run_command": {
+											"command": [
+												"summon dbc:sit ~ ~ ~",
+												"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~-1 ~ ~1"
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('minecraft:direction') == 7",
+										"run_command": {
+											"command": [
+												"summon dbc:sit ~ ~ ~",
+												"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~-1 ~ ~-1"
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('minecraft:direction') == 8",
+										"run_command": {
+											"command": [
+												"summon dbc:sit ~ ~ ~",
+												"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~1 ~ ~-1"
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('minecraft:direction') == 9",
+										"run_command": {
+											"command": [
+												"summon dbc:sit ~ ~ ~",
+												"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~1 ~ ~1"
+											]
+										}
+									}
+								]
+							},
+							"dbc:sit": {
+								"sequence": [
+									{
+										"run_command": {
+											"command": [
+												"tag @s add preparacion"
+											],
+											"target": "other"
+										}
+									},
+									{
+										"run_command": {
+											"command": [
+												"execute @e[type=dbc:sit,r=0.01] ~ ~ ~ ride @p[tag=preparacion] start_riding @s teleport_rider"
+											]
+										}
+									},
+									{
+										"run_command": {
+											"command": [
+												"tag @s remove preparacion"
+											],
+											"target": "other"
+										}
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

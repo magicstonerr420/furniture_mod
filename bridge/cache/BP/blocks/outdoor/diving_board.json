@@ -1,0 +1,436 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\blocks\\outdoor\\diving_board.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "169576a5_98a1_44ce_a073_891f4946e518",
+	"file_version": 60,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"properties": {
+								"dbc:facing": [
+									0,
+									1,
+									2,
+									3,
+									4,
+									5,
+									6
+								]
+							},
+							"identifier": "dbc:diving_board"
+						},
+						"components": {
+							"minecraft:destroy_time": 0.5,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "gray_kitchen_counter",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:geometry": "geometry.divingboard_dbc",
+							"minecraft:on_player_placing": {
+								"event": "dbc:facing"
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-5,
+									5,
+									-8
+								],
+								"size": [
+									10,
+									2,
+									16
+								]
+							},
+							"minecraft:entity_collision": {
+								"origin": [
+									-5,
+									5,
+									-8
+								],
+								"size": [
+									10,
+									2,
+									16
+								]
+							},
+							"minecraft:loot": "loot_tables/blocks/outdoor/diving_board.json"
+						},
+						"permutations": [
+							{
+								"condition": "query.block_property('dbc:facing') == 2",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										0,
+										0
+									],
+									"minecraft:geometry": "geometry.divingboard_dbc"
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 3",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										180,
+										0
+									],
+									"minecraft:geometry": "geometry.divingboard_dbc"
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 4",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										90,
+										0
+									],
+									"minecraft:geometry": "geometry.divingboard_dbc"
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 5",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										-90,
+										0
+									],
+									"minecraft:geometry": "geometry.divingboard_dbc"
+								}
+							}
+						],
+						"events": {
+							"dbc:facing": {
+								"set_block_property": {
+									"dbc:facing": "query.cardinal_facing_2d"
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"properties": {
+								"dbc:facing": [
+									0,
+									1,
+									2,
+									3,
+									4,
+									5,
+									6
+								]
+							},
+							"identifier": "dbc:diving_board"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"properties": {
+									"dbc:facing": [
+										0,
+										1,
+										2,
+										3,
+										4,
+										5,
+										6
+									]
+								},
+								"identifier": "dbc:diving_board"
+							},
+							"components": {
+								"minecraft:destroy_time": 0.5,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "gray_kitchen_counter",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:geometry": "geometry.divingboard_dbc",
+								"minecraft:on_player_placing": {
+									"event": "dbc:facing"
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-5,
+										5,
+										-8
+									],
+									"size": [
+										10,
+										2,
+										16
+									]
+								},
+								"minecraft:entity_collision": {
+									"origin": [
+										-5,
+										5,
+										-8
+									],
+									"size": [
+										10,
+										2,
+										16
+									]
+								},
+								"minecraft:loot": "loot_tables/blocks/outdoor/diving_board.json"
+							},
+							"permutations": [
+								{
+									"condition": "query.block_property('dbc:facing') == 2",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											0
+										],
+										"minecraft:geometry": "geometry.divingboard_dbc"
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 3",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											180,
+											0
+										],
+										"minecraft:geometry": "geometry.divingboard_dbc"
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 4",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											90,
+											0
+										],
+										"minecraft:geometry": "geometry.divingboard_dbc"
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 5",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											-90,
+											0
+										],
+										"minecraft:geometry": "geometry.divingboard_dbc"
+									}
+								}
+							],
+							"events": {
+								"dbc:facing": {
+									"set_block_property": {
+										"dbc:facing": "query.cardinal_facing_2d"
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "0.5",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"data": "0",
+								"key": "minecraft:block_light_absorption"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 0.5,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "gray_kitchen_counter",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:geometry": "geometry.divingboard_dbc",
+									"minecraft:on_player_placing": {
+										"event": "dbc:facing"
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-5,
+											5,
+											-8
+										],
+										"size": [
+											10,
+											2,
+											16
+										]
+									},
+									"minecraft:entity_collision": {
+										"origin": [
+											-5,
+											5,
+											-8
+										],
+										"size": [
+											10,
+											2,
+											16
+										]
+									},
+									"minecraft:loot": "loot_tables/blocks/outdoor/diving_board.json"
+								},
+								"key": "minecraft:material_instances",
+								"children": [
+									{
+										"open": {
+											"*": {
+												"texture": "gray_kitchen_counter",
+												"render_method": "alpha_test"
+											}
+										},
+										"key": "*",
+										"is_minified": true,
+										"children": {
+											"texture": "gray_kitchen_counter",
+											"render_method": "alpha_test"
+										}
+									}
+								]
+							},
+							{
+								"data": "geometry.divingboard_dbc",
+								"key": "minecraft:geometry"
+							},
+							{
+								"key": "minecraft:on_player_placing",
+								"is_minified": true,
+								"children": {
+									"event": "dbc:facing"
+								}
+							},
+							{
+								"key": "minecraft:pick_collision",
+								"is_minified": true,
+								"children": {
+									"origin": [
+										-5,
+										5,
+										-8
+									],
+									"size": [
+										10,
+										2,
+										16
+									]
+								}
+							},
+							{
+								"key": "minecraft:entity_collision",
+								"is_minified": true,
+								"children": {
+									"origin": [
+										-5,
+										5,
+										-8
+									],
+									"size": [
+										10,
+										2,
+										16
+									]
+								}
+							},
+							{
+								"data": "loot_tables/blocks/outdoor/diving_board.json",
+								"key": "minecraft:loot"
+							}
+						]
+					},
+					{
+						"key": "permutations",
+						"is_minified": true,
+						"children": [
+							{
+								"condition": "query.block_property('dbc:facing') == 2",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										0,
+										0
+									],
+									"minecraft:geometry": "geometry.divingboard_dbc"
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 3",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										180,
+										0
+									],
+									"minecraft:geometry": "geometry.divingboard_dbc"
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 4",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										90,
+										0
+									],
+									"minecraft:geometry": "geometry.divingboard_dbc"
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 5",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										-90,
+										0
+									],
+									"minecraft:geometry": "geometry.divingboard_dbc"
+								}
+							}
+						]
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {
+							"dbc:facing": {
+								"set_block_property": {
+									"dbc:facing": "query.cardinal_facing_2d"
+								}
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

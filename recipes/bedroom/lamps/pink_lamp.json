@@ -1,0 +1,38 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:pink_lamp"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" ~ ",
+			"~#~",
+			"!#!"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:wool",
+				"data": 6
+			},
+			"#": {
+				"item": "minecraft:stick",
+				"data": 0
+			},
+			"!": {
+				"item": "minecraft:iron_ingot",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:pink_lamp",
+				"data": 0,
+				"count": 2
+			}
+		]
+	}
+}

@@ -1,0 +1,287 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\recipes\\kitchen\\bar_stool\\pink_bar_stool.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "1e9ad029_200d_494b_aa97_3058778269fb",
+	"file_version": 17,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "dbc:pink_bar_stool"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							" ~ ",
+							" # ",
+							" # "
+						],
+						"key": {
+							"~": {
+								"item": "minecraft:carpet",
+								"data": 6
+							},
+							"#": {
+								"item": "minecraft:iron_ingot",
+								"data": 0
+							}
+						},
+						"result": [
+							{
+								"item": "dbc:pink_bar_stool",
+								"data": 0,
+								"count": 2
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:pink_bar_stool"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								" ~ ",
+								" # ",
+								" # "
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:carpet",
+									"data": 6
+								},
+								"#": {
+									"item": "minecraft:iron_ingot",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:pink_bar_stool",
+									"data": 0,
+									"count": 2
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:pink_bar_stool"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:pink_bar_stool"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								" ~ ",
+								" # ",
+								" # "
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:carpet",
+									"data": 6
+								},
+								"#": {
+									"item": "minecraft:iron_ingot",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:pink_bar_stool",
+									"data": 0,
+									"count": 2
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:pink_bar_stool"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								" ~ ",
+								" # ",
+								" # "
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:carpet",
+									"data": 6
+								},
+								"#": {
+									"item": "minecraft:iron_ingot",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:pink_bar_stool",
+									"data": 0,
+									"count": 2
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							" ~ ",
+							" # ",
+							" # "
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:pink_bar_stool"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								" ~ ",
+								" # ",
+								" # "
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:carpet",
+									"data": 6
+								},
+								"#": {
+									"item": "minecraft:iron_ingot",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:pink_bar_stool",
+									"data": 0,
+									"count": 2
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"~": {
+										"item": "minecraft:carpet",
+										"data": 6
+									},
+									"#": {
+										"item": "minecraft:iron_ingot",
+										"data": 0
+									}
+								},
+								"key": "~",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:carpet",
+									"data": 6
+								}
+							},
+							{
+								"open": {
+									"~": {
+										"item": "minecraft:carpet",
+										"data": 6
+									},
+									"#": {
+										"item": "minecraft:iron_ingot",
+										"data": 0
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:iron_ingot",
+									"data": 0
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:pink_bar_stool"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								" ~ ",
+								" # ",
+								" # "
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:carpet",
+									"data": 6
+								},
+								"#": {
+									"item": "minecraft:iron_ingot",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:pink_bar_stool",
+									"data": 0,
+									"count": 2
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "dbc:pink_bar_stool",
+										"data": 0,
+										"count": 2
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "dbc:pink_bar_stool",
+									"data": 0,
+									"count": 2
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

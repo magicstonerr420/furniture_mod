@@ -1,0 +1,46 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dbc:cup_block"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:loot": "loot_tables/blocks/kitchen/cup.json",
+			"minecraft:geometry": "geometry.cup_dbc",
+			"minecraft:entity_collision": {
+				"origin": [
+					-3,
+					0,
+					-3
+				],
+				"size": [
+					6,
+					6,
+					6
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-3,
+					0,
+					-3
+				],
+				"size": [
+					6,
+					6,
+					6
+				]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "cup_empty",
+					"render_method": "alpha_test"
+				}
+			}
+		},
+		"events": {}
+	}
+}

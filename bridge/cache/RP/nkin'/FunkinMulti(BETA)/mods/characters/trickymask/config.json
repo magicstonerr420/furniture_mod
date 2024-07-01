@@ -1,0 +1,54 @@
+{
+	"file_path": "D:\\Friday Night Funkin'\\FunkinMulti(BETA)\\mods\\characters\\trickymask\\config.json",
+	"file_type": "unknown",
+	"format_version": 1,
+	"file_uuid": "e1c4f033_68b6_4541_a4e9_2bf04d04e741",
+	"file_version": 0,
+	"cache_content": {
+		"is_minified": true,
+		"children": {
+			"clone": "bf-car",
+			"sing_duration": 4,
+			"scale": 1,
+			"scale_pixel": 0.91,
+			"pixel_offset_scale": 0.91,
+			"online_offset_scale": 0.7,
+			"voices": "custom",
+			"flip_x": false,
+			"scared_anim": {},
+			"animations_offsets": [
+				{
+					"anim": "hey",
+					"player1": [
+						-5,
+						5
+					],
+					"player2": [
+						-40,
+						5
+					]
+				}
+			],
+			"common_stage_offset": [
+				0,
+				0,
+				0,
+				0
+			],
+			"pixel_stage_offset": [
+				0,
+				0,
+				0,
+				0
+			],
+			"local_multiplayer_offset": [
+				0,
+				0
+			],
+			"online_offset": [
+				0,
+				0
+			]
+		}
+	}
+}

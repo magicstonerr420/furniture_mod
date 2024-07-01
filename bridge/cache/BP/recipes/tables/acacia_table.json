@@ -1,0 +1,116 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\recipes\\tables\\acacia_table.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "ce7c30f3_79a6_40a6_8ee9_3aef36dbde79",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "dbc:acacia_table"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"###",
+							" # "
+						],
+						"key": {
+							"#": {
+								"item": "minecraft:planks",
+								"data": 4
+							}
+						},
+						"result": [
+							{
+								"item": "dbc:small_table_acacia",
+								"data": 0,
+								"count": 4
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:acacia_table"
+						}
+					},
+					{
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"###",
+							" # "
+						]
+					},
+					{
+						"key": "key",
+						"is_minified": true,
+						"children": {
+							"#": {
+								"item": "minecraft:planks",
+								"data": 4
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:acacia_table"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:planks",
+									"data": 4
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:small_table_acacia",
+									"data": 0,
+									"count": 4
+								}
+							]
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": [
+							{
+								"item": "dbc:small_table_acacia",
+								"data": 0,
+								"count": 4
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

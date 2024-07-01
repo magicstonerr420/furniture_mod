@@ -1,0 +1,280 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\recipes\\living_room\\tvf\\orange_tvf.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "83f7578c_02fb_41a6_b16d_60f48f11ccad",
+	"file_version": 15,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "dbc:orange_tvf"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"~~~",
+							"# #"
+						],
+						"key": {
+							"~": {
+								"item": "minecraft:concrete",
+								"data": 1
+							},
+							"#": {
+								"item": "minecraft:concrete",
+								"data": 0
+							}
+						},
+						"result": [
+							{
+								"item": "dbc:orange_concrete_tv_furniture",
+								"data": 0,
+								"count": 2
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:orange_tvf"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~~~",
+								"# #"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:concrete",
+									"data": 1
+								},
+								"#": {
+									"item": "minecraft:concrete",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:orange_concrete_tv_furniture",
+									"data": 0,
+									"count": 2
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:orange_tvf"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:orange_tvf"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~~~",
+								"# #"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:concrete",
+									"data": 1
+								},
+								"#": {
+									"item": "minecraft:concrete",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:orange_concrete_tv_furniture",
+									"data": 0,
+									"count": 2
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:orange_tvf"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~~~",
+								"# #"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:concrete",
+									"data": 1
+								},
+								"#": {
+									"item": "minecraft:concrete",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:orange_concrete_tv_furniture",
+									"data": 0,
+									"count": 2
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"~~~",
+							"# #"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:orange_tvf"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~~~",
+								"# #"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:concrete",
+									"data": 1
+								},
+								"#": {
+									"item": "minecraft:concrete",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:orange_concrete_tv_furniture",
+									"data": 0,
+									"count": 2
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"~": {
+										"item": "minecraft:concrete",
+										"data": 1
+									},
+									"#": {
+										"item": "minecraft:concrete",
+										"data": 0
+									}
+								},
+								"key": "~",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:concrete",
+									"data": 1
+								}
+							},
+							{
+								"open": {
+									"~": {
+										"item": "minecraft:concrete",
+										"data": 1
+									},
+									"#": {
+										"item": "minecraft:concrete",
+										"data": 0
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:concrete",
+									"data": 0
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:orange_tvf"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~~~",
+								"# #"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:concrete",
+									"data": 1
+								},
+								"#": {
+									"item": "minecraft:concrete",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:orange_concrete_tv_furniture",
+									"data": 0,
+									"count": 2
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "dbc:orange_concrete_tv_furniture",
+										"data": 0,
+										"count": 2
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "dbc:orange_concrete_tv_furniture",
+									"data": 0,
+									"count": 2
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

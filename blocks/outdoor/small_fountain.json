@@ -1,0 +1,83 @@
+//bridge-file-version: #20
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dbc:small_fountain",
+			"properties": {
+				"dbc:water": [
+					0,
+					1
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:pick_collision": {
+				"origin": [
+					-7.9,
+					0,
+					-7.5
+				],
+				"size": [
+					15.5,
+					14.3,
+					15
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-7.9,
+					0,
+					-7.5
+				],
+				"size": [
+					15.5,
+					14.3,
+					15
+				]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "white_kitchen_sink",
+					"render_method": "alpha_test"
+				}
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('dbc:water') == 0",
+				"components": {
+					"minecraft:on_interact": {
+						"event": "dbc:add",
+						"target": "self"
+					},
+					"minecraft:geometry": "geometry.sf_dbc"
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:water') == 1",
+				"components": {
+					"minecraft:on_interact": {
+						"event": "dbc:remove",
+						"target": "self"
+					},
+					"minecraft:geometry": "geometry.sf_on_dbc"
+				}
+			}
+		],
+		"events": {
+			"dbc:add": {
+				"set_block_property": {
+					"dbc:water": 1
+				}
+			},
+			"dbc:remove": {
+				"set_block_property": {
+					"dbc:water": 0
+				}
+			}
+		}
+	}
+}

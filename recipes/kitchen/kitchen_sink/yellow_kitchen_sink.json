@@ -1,0 +1,38 @@
+//bridge-file-version: #18
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:yellow_kitchen_sink"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~",
+			"#!#",
+			"###"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:concrete",
+				"data": 4
+			},
+			"#": {
+				"item": "minecraft:concrete",
+				"data": 0
+			},
+			"!": {
+				"item": "minecraft:bucket",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:yellow_kitchen_sink",
+				"data": 0,
+				"count": 2
+			}
+		]
+	}
+}

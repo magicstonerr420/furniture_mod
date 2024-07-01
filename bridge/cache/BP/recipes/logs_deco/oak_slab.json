@@ -1,0 +1,218 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\recipes\\logs_deco\\oak_slab.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "c0878c46_f9f0_47fe_8a02_dc63b5dfdc5f",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "dbc:log_oak_slab"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"~~~"
+						],
+						"key": {
+							"~": {
+								"item": "minecraft:log",
+								"data": 0
+							}
+						},
+						"result": [
+							{
+								"item": "dbc:log_oak_slab",
+								"data": 0,
+								"count": 6
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:log_oak_slab"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~~~"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:log",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:log_oak_slab",
+									"data": 0,
+									"count": 6
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:log_oak_slab"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:log_oak_slab"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~~~"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:log",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:log_oak_slab",
+									"data": 0,
+									"count": 6
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:log_oak_slab"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~~~"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:log",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:log_oak_slab",
+									"data": 0,
+									"count": 6
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"~~~"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:log_oak_slab"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~~~"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:log",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:log_oak_slab",
+									"data": 0,
+									"count": 6
+								}
+							]
+						},
+						"key": "key",
+						"is_minified": true,
+						"children": {
+							"~": {
+								"item": "minecraft:log",
+								"data": 0
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:log_oak_slab"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~~~"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:log",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:log_oak_slab",
+									"data": 0,
+									"count": 6
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "dbc:log_oak_slab",
+										"data": 0,
+										"count": 6
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "dbc:log_oak_slab",
+									"data": 0,
+									"count": 6
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

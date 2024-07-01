@@ -1,0 +1,152 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\loot_tables\\blocks\\double_slabs\\jungle_slab.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "ec6ae16a_a5ff_45e6_a721_2569ac9a8fd3",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"name": "dbc:log_jungle_slab",
+									"weight": 1,
+									"functions": [
+										{
+											"function": "set_count",
+											"count": 2
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "dbc:log_jungle_slab",
+										"weight": 1,
+										"functions": [
+											{
+												"function": "set_count",
+												"count": 2
+											}
+										]
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "dbc:log_jungle_slab",
+											"weight": 1,
+											"functions": [
+												{
+													"function": "set_count",
+													"count": 2
+												}
+											]
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "dbc:log_jungle_slab",
+												"weight": 1,
+												"functions": [
+													{
+														"function": "set_count",
+														"count": 2
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"open": {
+													"type": "item",
+													"name": "dbc:log_jungle_slab",
+													"weight": 1,
+													"functions": [
+														{
+															"function": "set_count",
+															"count": 2
+														}
+													]
+												},
+												"data": "dbc:log_jungle_slab",
+												"key": "name"
+											},
+											{
+												"data": "1",
+												"key": "weight"
+											},
+											{
+												"open": {
+													"type": "item",
+													"name": "dbc:log_jungle_slab",
+													"weight": 1,
+													"functions": [
+														{
+															"function": "set_count",
+															"count": 2
+														}
+													]
+												},
+												"key": "functions",
+												"children": [
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": 2
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"function": "set_count",
+															"count": 2
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

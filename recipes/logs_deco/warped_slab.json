@@ -1,0 +1,27 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:warped_slab"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:warped_stem"
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:warped_stem_slab",
+				"data": 0,
+				"count": 6
+			}
+		]
+	}
+}

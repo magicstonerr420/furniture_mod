@@ -1,0 +1,137 @@
+//bridge-file-version: #71
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dbc:smooth_marble_slab",
+			"properties": {
+				"slab:interact": [
+					0,
+					1,
+					2
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:map_color": "#DBDBDB",
+			"minecraft:on_player_placing": {
+				"event": "up",
+				"target": "self",
+				"condition": "query.target_x_rotation <= 0"
+			},
+			"tag:stone": {}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('slab:interact') == 0",
+				"components": {
+					"minecraft:geometry": "geometry.slabdown_dbc",
+					"minecraft:on_interact": {
+						"event": "block",
+						"target": "self",
+						"condition": "query.get_equipped_item_name('main_hand') == 'smooth_marble_slab'"
+					},
+					"minecraft:entity_collision": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:pick_collision": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "smoothmarble",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('slab:interact') == 1",
+				"components": {
+					"minecraft:geometry": "geometry.slabup_dbc",
+					"minecraft:on_interact": {
+						"event": "block",
+						"target": "self",
+						"condition": "query.get_equipped_item_name('main_hand') == 'smooth_marble_slab'"
+					},
+					"minecraft:entity_collision": {
+						"origin": [
+							-8,
+							8,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:pick_collision": {
+						"origin": [
+							-8,
+							8,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "smoothmarble",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('slab:interact') == 2",
+				"components": {
+					"minecraft:unit_cube": {},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "smoothmarble",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:loot": "loot_tables/blocks/marble/smooth_slab_double.json"
+				}
+			}
+		],
+		"events": {
+			"block": {
+				"set_block_property": {
+					"slab:interact": 2
+				},
+				"decrement_stack": {}
+			},
+			"up": {
+				"set_block_property": {
+					"slab:interact": 1
+				}
+			}
+		}
+	}
+}

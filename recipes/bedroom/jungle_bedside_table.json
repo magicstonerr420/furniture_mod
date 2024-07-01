@@ -1,0 +1,38 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:jungle_bedside_table"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~",
+			"#!#",
+			"~~~"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:log",
+				"data": 3
+			},
+			"#": {
+				"item": "minecraft:planks",
+				"data": 3
+			},
+			"!": {
+				"item": "minecraft:chest",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:jungle_bedside_table",
+				"data": 0,
+				"count": 2
+			}
+		]
+	}
+}
